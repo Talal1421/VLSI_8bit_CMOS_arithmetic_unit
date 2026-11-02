@@ -1,4 +1,4 @@
-# 8-bit CMOS Arithmetic Unit
+# 8-bit CMOS Arithmetic Unit - Dec 2023
 
 ![Logisim-evolution](https://img.shields.io/badge/Logisim--evolution-Digital_Logic-267A38?style=flat-square)
 ![Magic](https://img.shields.io/badge/Magic-VLSI_Layout-7D4698?style=flat-square)
