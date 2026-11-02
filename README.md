@@ -5,14 +5,11 @@
 ![IRSIM](https://img.shields.io/badge/IRSIM-Switch_Level_Simulation-2366A5?style=flat-square)
 ![CMOS](https://img.shields.io/badge/Technology-SCMOS-455A64?style=flat-square)
 
-A VLSI course project implementing an arithmetic unit with two 8-bit inputs, a 2-bit selector, and a 16-bit output. The work spans digital logic design in Logisim, hierarchical CMOS layout in Magic, and switch-level simulation in IRSIM. Four arithmetic paths combine multiplication, subtraction, and addition with constant multiplication, using full adders, CMOS gates, and multiplexers.
+**Talal Aloushan · December 2023 · CEN415 - Introduction to VLSI Design**  
 
-**Talal Aloushan · December 2023**  
-**CEN415 — Introduction to VLSI Design · King Saud University**  
-Computer Engineering Department, College of Computer and Information Sciences  
-Supervised by **Dr. Ayed Al-Qahtani**
+A VLSI course project implementing an arithmetic unit with two 8-bit inputs, a 2-bit selector, and a 16-bit output. The work spans digital logic design in Logisim, hierarchical CMOS layout in Magic, and switch-level simulation in IRSIM. Four arithmetic paths combine multiplication(parallel CSA & CPA), subtraction, and addition with constant multiplication, using full adders, CMOS gates, and multiplexers.
 
-**Project team:** Talal Aloushan, Abdulrahman Almalek, Fahad Aljabr, and Bader Alsabti.
+
 
 ## Problem
 
@@ -35,7 +32,7 @@ Inputs: `A[7:0]`, `B[7:0]`, `S[1:0]`, VDD and GND. Outputs: `Y[15:0]` and a poss
 
 ## Results
 
-The report documents these Logisim examples, alongside Magic layouts and IRSIM waveform captures.
+
 
 | Operation | Example | Expected result |
 |---|---|---:|
@@ -53,7 +50,6 @@ The report documents these Logisim examples, alongside Magic layouts and IRSIM w
 
 ![Final-design IRSIM waveform](assets/verification.png)
 
-Original report, pp. 4 and 22. These are the original screenshots; no new simulation results are claimed.
 
 </details>
 
@@ -81,7 +77,7 @@ Shifted partial products are accumulated through the combinational adder network
 |:---:|:---:|
 | <img src="assets/logisim-shift-add.png" alt="Original shift-and-add Logisim circuit" width="460"> | <img src="assets/layout-multiplier.png" alt="Shift-and-add multiplier layout shown in the report" width="460"> |
 
-The report shows the same layout image for both multipliers, and their archived `.mag` files are identical. Both names are required by the final layout.
+
 
 </details>
 
@@ -105,7 +101,7 @@ A ripple-carry adder forms `T = A + B`; constant multiplication follows `5T = (T
 |:---:|:---:|
 | <img src="assets/logisim-add-times-five.png" alt="Original addition and constant-multiplication Logisim circuit" width="460"> | <img src="assets/layout-add-times-five.png" alt="Original addition and multiplication-by-five Magic layout" width="460"> |
 
-Operation figures are extracted individually from the original report, pp. 5–8 and 19–21.
+
 
 </details>
 
@@ -117,17 +113,8 @@ Operation figures are extracted individually from the original report, pp. 5–8
 | <img src="gates_layout/not.JPG" alt="Original inverter layout" width="260"> | <img src="gates_layout/nand.JPG" alt="Original NAND layout" width="260"> | <img src="gates_layout/nor.JPG" alt="Original NOR layout" width="260"> |
 | **AND** | **OR** | **XOR** |
 | <img src="gates_layout/and.JPG" alt="Original AND layout" width="260"> | <img src="gates_layout/or.JPG" alt="Original OR layout" width="260"> | <img src="gates_layout/xor.JPG" alt="Original XOR layout" width="260"> |
-
-</details>
-
-<details open>
-<summary><strong>Reference stick diagrams</strong></summary>
-
-| Inverter | NAND | NOR |
-|:---:|:---:|:---:|
-| <img src="assets/stick-inverter.png" alt="Published CMOS inverter stick diagram" width="260"> | <img src="assets/stick-nand.png" alt="Published two-input NAND stick diagram" width="260"> | <img src="assets/stick-nor.png" alt="Published two-input NOR stick diagram" width="260"> |
-
-Reference figures cropped from slides 71–72 of [Jie-Hong Roland Jiang's NTU lecture, *Introduction to Electronic Design Automation* (Spring 2014)](https://cc.ee.ntu.edu.tw/~jhjiang/instruction/courses/spring14-eda/lec01.pdf#page=36). These are published teaching figures, separate from the project's layouts.
+| **4:1 MUX** | | |
+| <img src="assets/layout-mux.png" alt="Original 4-to-1 multiplexer Magic layout" width="260"> | | |
 
 </details>
 
@@ -137,11 +124,9 @@ Reference figures cropped from slides 71–72 of [Jie-Hong Roland Jiang's NTU le
 |---|---|
 | [`Logisim/`](Logisim/) | Integrated `VLSIPROJ.circ`, CSA/CPA library, and separate `csa.circ` schematic |
 | [`mainp/`](mainp/) | Magic layouts, extraction files, IRSIM netlists and test commands; top level: `Final.mag` |
-| [`gates_layout/`](gates_layout/) | Original gate layout images |
+| [`gates_layout/`](gates_layout/) | gate layout images |
 | [`docs/VLSI451Report.pdf`](docs/VLSI451Report.pdf) · [Word source](docs/VLSI451Report.docx) | Project report and results |
 | [`docs/assignment.pdf`](docs/assignment.pdf) | Original problem statement |
 | [`docs/Magic-irsim-tutorial.pdf`](docs/Magic-irsim-tutorial.pdf) | Magic and IRSIM tutorial |
 | [`docs/Preparing-Project-Environment.pdf`](docs/Preparing-Project-Environment.pdf) | Project environment guide |
 | [`assets/`](assets/) | Individual README figures |
-
-The integrated Logisim file still references the unavailable `ShiftnAdd.circ`. Circuit sources and reports are preserved unchanged; detailed simulation instructions are in the report and guides.
