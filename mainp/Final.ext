@@ -1,0 +1,715 @@
+timestamp 1701879000
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use FourToOneMUX FourToOneMUX_15 1 0 10060 0 1 -8835
+use FourToOneMUX FourToOneMUX_16 1 0 10048 0 1 -9411
+use FourToOneMUX FourToOneMUX_13 1 0 10093 0 1 -7739
+use FourToOneMUX FourToOneMUX_14 1 0 10076 0 1 -8255
+use FourToOneMUX FourToOneMUX_12 1 0 10106 0 1 -7207
+use FourToOneMUX FourToOneMUX_10 1 0 10144 0 1 -6075
+use FourToOneMUX FourToOneMUX_11 1 0 10115 0 1 -6654
+use FourToOneMUX FourToOneMUX_9 1 0 10164 0 1 -5499
+use FourToOneMUX FourToOneMUX_7 1 0 10220 0 1 -4387
+use FourToOneMUX FourToOneMUX_8 1 0 10196 0 1 -4947
+use FourToOneMUX FourToOneMUX_6 1 0 10204 0 1 -3843
+use FourToOneMUX FourToOneMUX_4 1 0 10168 0 1 -2775
+use FourToOneMUX FourToOneMUX_5 1 0 10184 0 1 -3307
+use FourToOneMUX FourToOneMUX_3 1 0 10144 0 1 -2247
+use FourToOneMUX FourToOneMUX_1 1 0 10108 0 1 -1123
+use FourToOneMUX FourToOneMUX_2 1 0 10132 0 1 -1699
+use FourToOneMUX FourToOneMUX_0 1 0 10104 0 1 -604
+use addmtpby5 addmtpby5_0 1 0 5908 0 1 533
+use sub8 sub8_0 1 0 3456 0 1 96
+use shiftaddmultiply shiftaddmultiply_0 1 0 5505 0 1 -7922
+use csacpamultiplier csacpamultiplier_0 1 0 592 0 1 -5517
+node "m2_10060_n9530#" 0 2736 10060 -9530 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10072_n8954#" 0 2736 10072 -8954 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10088_n8374#" 0 2736 10088 -8374 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10104_n7858#" 0 2736 10104 -7858 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10120_n7326#" 0 2736 10120 -7326 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10128_n6773#" 0 2736 10128 -6773 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10156_n6194#" 0 2736 10156 -6194 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10176_n5618#" 0 2736 10176 -5618 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10208_n5066#" 0 2736 10208 -5066 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 80 0 0
+node "m2_10146_n5034#" 0 1976 10146 -5034 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 60 0 0
+node "m1_10064_n9641#" 0 5640 10064 -9641 v 0 0 0 0 0 0 0 0 0 0 0 0 120 68 16 16 0 0
+node "Cout" 0 2256 10524 -9393 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "m1_10080_n9065#" 0 5640 10080 -9065 v 0 0 0 0 0 0 0 0 0 0 0 0 120 68 16 16 0 0
+node "y15" 0 1504 10536 -8817 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "m1_10092_n8485#" 0 5640 10092 -8485 v 0 0 0 0 0 0 0 0 0 0 0 0 120 68 16 16 0 0
+node "y14" 0 2256 10552 -8237 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "m1_10112_n7969#" 0 5640 10112 -7969 v 0 0 0 0 0 0 0 0 0 0 0 0 120 68 16 16 0 0
+node "y13" 0 3008 10568 -7721 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "m1_10124_n7437#" 0 5640 10124 -7437 v 0 0 0 0 0 0 0 0 0 0 0 0 120 68 16 16 0 0
+node "y12" 0 2256 10584 -7189 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y11" 0 2256 10592 -6636 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y10" 0 1504 10620 -6057 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "y9" 0 1504 10640 -5481 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "y8" 0 1504 10672 -4929 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "y7" 0 1504 10696 -4369 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "y6" 0 2256 10680 -3825 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y5" 0 2256 10660 -3289 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y4" 0 2256 10644 -2757 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y3" 0 2256 10620 -2229 m1 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "y2" 0 1880 10610 -1681 m1 0 0 0 0 0 0 0 0 0 0 0 0 40 28 0 0 0 0
+node "y1" 0 1504 10584 -1105 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "s1" 212 3.24638e+06 10300 -9600 m1 0 0 0 0 0 0 0 0 0 0 0 0 69072 34544 0 0 0 0
+node "y0" 0 1504 10580 -586 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "s0" 136 1.99936e+06 9960 -9861 m1 0 0 0 0 0 0 0 0 0 0 0 0 37556 18786 12600 6436 0 0
+node "m1_8928_n1964#" 34 492092 8928 -1964 m1 0 0 0 0 0 0 0 0 0 0 0 0 8452 4242 5056 2544 0 0
+node "m1_8400_140#" 46 643268 8400 140 m1 0 0 0 0 0 0 0 0 0 0 0 0 10252 5150 8592 4320 0 0
+node "m1_7992_n2979#" 54 773924 7992 -2979 v 0 0 0 0 0 0 0 0 0 0 0 0 12508 6270 9856 4944 0 0
+node "m1_7392_140#" 66 932052 7392 140 v 0 0 0 0 0 0 0 0 0 0 0 0 14844 7446 12432 6240 0 0
+node "m1_6904_n4047#" 74 1.05162e+06 6904 -4047 v 0 0 0 0 0 0 0 0 0 0 0 0 16780 8406 13904 6968 0 0
+node "m1_6400_n4591#" 85 1.19725e+06 6400 -4591 v 0 0 0 0 0 0 0 0 0 0 0 0 18876 9462 16416 8232 0 0
+node "m1_5892_n5151#" 95 1.34186e+06 5892 -5151 v 0 0 0 0 0 0 0 0 0 0 0 0 21196 10614 18256 9144 0 0
+node "m1_5420_n5703#" 105 1.4846e+06 5420 -5703 v 0 0 0 0 0 0 0 0 0 0 0 0 23308 11678 20576 10312 0 0
+node "m1_4344_n332#" 181 2.54118e+06 4344 -332 m1 0 0 0 0 0 0 0 0 0 0 0 0 40336 20184 35040 17664 0 0
+node "m1_4328_n332#" 180 2.52553e+06 4328 -332 m1 0 0 0 0 0 0 0 0 0 0 0 0 40336 20184 33944 17116 0 0
+node "m1_4344_105#" 3 33660 4344 105 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1764 890 0 0
+node "m1_4872_n6279#" 114 1.62293e+06 4872 -6279 v 0 0 0 0 0 0 0 0 0 0 0 0 25708 12870 21904 10968 0 0
+node "m1_3468_136#" 61 768936 3468 136 v 0 0 0 0 0 0 0 0 0 0 0 0 5384 2708 27408 13728 0 0
+node "m1_3044_n1786#" 71 908824 3044 -1786 v 0 0 0 0 0 0 0 0 0 0 0 0 7720 3868 28944 14488 0 0
+node "m1_4024_n691#" 51 630432 4024 -691 v 0 0 0 0 0 0 0 0 0 0 0 0 3472 1744 24832 12432 0 0
+node "m1_2456_172#" 82 1.07262e+06 2456 172 v 0 0 0 0 0 0 0 0 0 0 0 0 10280 5156 31248 15648 0 0
+node "m1_1976_n2862#" 91 1.19982e+06 1976 -2862 v 0 0 0 0 0 0 0 0 0 0 0 0 12152 6084 33264 16648 0 0
+node "m1_1452_n3394#" 102 1.34684e+06 1452 -3394 v 0 0 0 0 0 0 0 0 0 0 0 0 14200 7116 35952 18000 0 0
+node "m1_952_n3930#" 111 1.48238e+06 952 -3930 v 0 0 0 0 0 0 0 0 0 0 0 0 16424 8220 37536 18784 0 0
+node "m1_4904_248#" 123 1.75808e+06 4904 248 m1 0 0 0 0 0 0 0 0 0 0 0 0 28488 14260 22108 11062 0 0
+node "m1_4328_325#" 2 27504 4328 325 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1424 720 0 0
+node "gnd" 0 752 4344 376 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "vdd" 0 752 4328 376 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_9356_n1404#" 28 414380 9356 -1404 m1 0 0 0 0 0 0 0 0 0 0 0 0 7620 3826 3024 1528 0 0
+node "m1_9820_n821#" 19 273720 9820 -821 m1 0 0 0 0 0 0 0 0 0 0 0 0 5384 2708 1152 592 0 0
+node "b0" 84 1.04631e+06 3520 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 6124 3078 40224 20128 0 0
+node "b1" 84 1.03683e+06 3040 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5932 2982 40232 20132 0 0
+node "b2" 84 1.03722e+06 2548 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5976 3004 40176 20104 0 0
+node "b3" 83 1.03248e+06 2016 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5888 2960 40176 20104 0 0
+node "b4" 83 1.03093e+06 1464 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5868 2950 40176 20104 0 0
+node "b5" 83 1.01886e+06 956 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5624 2828 40176 20104 0 0
+node "m1_460_n5034#" 128 1.73459e+06 460 -5034 v 0 0 0 0 0 0 0 0 0 0 0 0 21192 10612 39000 19516 0 0
+node "m1_416_n4474#" 121 1.61555e+06 416 -4474 v 0 0 0 0 0 0 0 0 0 0 0 0 18504 9268 39432 19740 0 0
+node "b6" 83 1.01881e+06 468 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5636 2834 40176 20104 0 0
+node "b7" 82 1.01275e+06 -16 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 5520 2776 40176 20104 0 0
+node "a7" 83 1.02438e+06 176 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 5664 2848 40160 20088 0 0
+node "a6" 83 1.0295e+06 652 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 5760 2896 40160 20088 0 0
+node "a5" 83 1.03462e+06 1140 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 5856 2944 40160 20088 0 0
+node "a4" 84 1.03974e+06 1656 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 5952 2992 40160 20088 0 0
+node "a3" 84 1.04486e+06 2216 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 6048 3040 40160 20088 0 0
+node "a2" 84 1.04923e+06 2740 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 6128 3080 40160 20088 0 0
+node "a1" 84 1.05435e+06 3224 272 m1 0 0 0 0 0 0 0 0 0 0 0 0 6224 3128 40160 20088 0 0
+node "a0" 85 1.0591e+06 3700 273 m1 0 0 0 0 0 0 0 0 0 0 0 0 6312 3172 40160 20088 0 0
+cap "m1_460_n5034#" "m1_5892_n5151#" 720
+cap "b0" "b5" 1440
+cap "a4" "b4" 1440
+cap "m1_5892_n5151#" "m1_4344_n332#" 720
+cap "a3" "b5" 1440
+cap "a6" "b3" 1440
+cap "b5" "b2" 1440
+cap "m1_8400_140#" "m1_4344_n332#" 720
+cap "s0" "m1_8928_n1964#" 720
+cap "s1" "m1_4344_n332#" 12960
+cap "b7" "b1" 1440
+cap "a0" "b6" 1440
+cap "a2" "b3" 1440
+cap "a7" "b1" 1440
+cap "m1_5892_n5151#" "m1_1976_n2862#" 720
+cap "m1_5892_n5151#" "m1_2456_172#" 720
+cap "m1_4344_n332#" "m1_7392_140#" 720
+cap "m1_8400_140#" "m1_2456_172#" 720
+cap "m1_8928_n1964#" "m1_3468_136#" 720
+cap "m1_9820_n821#" "s0" 720
+cap "m1_7392_140#" "m1_1976_n2862#" 720
+cap "b6" "b5" 1440
+cap "b0" "b1" 1440
+cap "a5" "a0" 1440
+cap "m1_5420_n5703#" "m1_4024_n691#" 720
+cap "m1_2456_172#" "m1_7392_140#" 720
+cap "a4" "b7" 1440
+cap "a1" "b3" 1440
+cap "a3" "b1" 1440
+cap "a4" "a7" 1440
+cap "b1" "b2" 1440
+cap "m1_5892_n5151#" "s0" 720
+cap "m1_8400_140#" "s0" 720
+cap "m1_5420_n5703#" "m1_4328_n332#" 720
+cap "a5" "b5" 1440
+cap "m1_416_n4474#" "m1_5892_n5151#" 720
+cap "b7" "b4" 1440
+cap "m1_5420_n5703#" "m1_952_n3930#" 720
+cap "a7" "b4" 1440
+cap "a4" "b0" 1440
+cap "s0" "m1_7392_140#" 720
+cap "m1_5892_n5151#" "m1_3468_136#" 720
+cap "a6" "a0" 1440
+cap "m1_8400_140#" "m1_3468_136#" 720
+cap "a3" "a4" 1440
+cap "a2" "a0" 1440
+cap "b6" "b1" 1440
+cap "a4" "b2" 1440
+cap "m1_8928_n1964#" "m1_4024_n691#" 720
+cap "m1_1452_n3394#" "m1_4872_n6279#" 720
+cap "b0" "b4" 1440
+cap "m1_7392_140#" "m1_3468_136#" 720
+cap "s0" "m1_1452_n3394#" 720
+cap "a6" "b5" 1440
+cap "m1_6904_n4047#" "m1_1452_n3394#" 720
+cap "a3" "b4" 1440
+cap "b4" "b2" 1440
+cap "a2" "b5" 1440
+cap "a5" "b1" 1440
+cap "m1_9820_n821#" "m1_4024_n691#" 720
+cap "m1_4328_n332#" "m1_8928_n1964#" 720
+cap "a0" "a1" 1440
+cap "m1_6400_n4591#" "m1_1452_n3394#" 720
+cap "b7" "a7" 1440
+cap "a4" "b6" 1440
+cap "m1_4904_248#" "m1_1452_n3394#" 720
+cap "m1_5892_n5151#" "m1_4024_n691#" 720
+cap "m1_460_n5034#" "m1_4872_n6279#" 720
+cap "m1_9820_n821#" "m1_4328_n332#" 720
+cap "m1_8400_140#" "m1_4024_n691#" 720
+cap "b6" "b4" 1440
+cap "m1_460_n5034#" "s0" 720
+cap "b7" "b0" 1440
+cap "a1" "b5" 1440
+cap "b0" "a7" 1440
+cap "m1_5420_n5703#" "m1_3044_n1786#" 720
+cap "a5" "a4" 1440
+cap "a6" "b1" 1440
+cap "a0" "b3" 1440
+cap "m1_4024_n691#" "m1_7392_140#" 720
+cap "m1_4344_n332#" "m1_4872_n6279#" 720
+cap "a3" "b7" 1440
+cap "m1_5892_n5151#" "m1_4328_n332#" 720
+cap "b7" "b2" 1440
+cap "m1_416_n4474#" "m1_460_n5034#" 720
+cap "a7" "b2" 1440
+cap "a2" "b1" 1440
+cap "a3" "a7" 1440
+cap "m1_952_n3930#" "m1_5892_n5151#" 720
+cap "m1_8400_140#" "m1_4328_n332#" 720
+cap "m1_6904_n4047#" "m1_4344_n332#" 720
+cap "m1_4872_n6279#" "m1_1976_n2862#" 720
+cap "m1_4328_n332#" "s1" 12960
+cap "a5" "b4" 1440
+cap "m1_460_n5034#" "m1_4904_248#" 720
+cap "s0" "m1_1976_n2862#" 720
+cap "m1_2456_172#" "m1_4872_n6279#" 720
+cap "m1_6904_n4047#" "m1_1976_n2862#" 720
+cap "m1_4328_n332#" "m1_7392_140#" 720
+cap "m1_2456_172#" "s0" 720
+cap "m1_6400_n4591#" "m1_4344_n332#" 720
+cap "b5" "b3" 1440
+cap "b0" "b2" 1440
+cap "a3" "b0" 1440
+cap "m1_6904_n4047#" "m1_2456_172#" 720
+cap "a6" "a4" 1440
+cap "m1_4904_248#" "m1_4344_n332#" 720
+cap "b7" "b6" 1440
+cap "a1" "b1" 1440
+cap "a7" "b6" 1440
+cap "a2" "a4" 1440
+cap "m1_6400_n4591#" "m1_1976_n2862#" 720
+cap "a3" "b2" 1440
+cap "m1_8928_n1964#" "m1_3044_n1786#" 720
+cap "m1_4904_248#" "m1_1976_n2862#" 720
+cap "m1_6400_n4591#" "m1_2456_172#" 720
+cap "s0" "m1_4872_n6279#" 720
+cap "a6" "b4" 1440
+cap "m1_4904_248#" "m1_2456_172#" 720
+cap "m1_4344_n332#" "m1_7992_n2979#" 720
+cap "m1_6904_n4047#" "s0" 720
+cap "a2" "b4" 1440
+cap "a5" "b7" 1440
+cap "b0" "b6" 1440
+cap "m1_416_n4474#" "m1_4872_n6279#" 720
+cap "a5" "a7" 1440
+cap "m1_7992_n2979#" "m1_1976_n2862#" 720
+cap "m1_416_n4474#" "s0" 720
+cap "m1_3468_136#" "m1_4872_n6279#" 720
+cap "a4" "a1" 1440
+cap "b1" "b3" 1440
+cap "m1_2456_172#" "m1_7992_n2979#" 720
+cap "b6" "b2" 1440
+cap "a3" "b6" 1440
+cap "m1_6400_n4591#" "s0" 720
+cap "s0" "m1_3468_136#" 720
+cap "m1_4904_248#" "m1_4872_n6279#" 720
+cap "m1_6904_n4047#" "m1_3468_136#" 720
+cap "m1_4904_248#" "s0" 720
+cap "m1_5892_n5151#" "m1_3044_n1786#" 720
+cap "a5" "b0" 1440
+cap "m1_6400_n4591#" "m1_416_n4474#" 720
+cap "m1_8400_140#" "m1_3044_n1786#" 720
+cap "a1" "b4" 1440
+cap "m1_416_n4474#" "m1_4904_248#" 720
+cap "m1_6400_n4591#" "m1_3468_136#" 720
+cap "a6" "b7" 1440
+cap "a0" "b5" 1440
+cap "a5" "a3" 1440
+cap "a5" "b2" 1440
+cap "a6" "a7" 1440
+cap "m1_4904_248#" "m1_3468_136#" 720
+cap "s0" "m1_7992_n2979#" 720
+cap "m1_3044_n1786#" "m1_7392_140#" 720
+cap "a2" "b7" 1440
+cap "a4" "b3" 1440
+cap "m1_4328_n332#" "m1_4344_n332#" 13680
+cap "a2" "a7" 1440
+cap "m1_9356_n1404#" "m1_4344_n332#" 720
+cap "a6" "b0" 1440
+cap "m1_7992_n2979#" "m1_3468_136#" 720
+cap "b4" "b3" 1440
+cap "m1_4024_n691#" "m1_4872_n6279#" 720
+cap "a2" "b0" 1440
+cap "s0" "m1_4024_n691#" 720
+cap "a5" "b6" 1440
+cap "a6" "a3" 1440
+cap "a6" "b2" 1440
+cap "m1_6904_n4047#" "m1_4024_n691#" 720
+cap "a1" "b7" 1440
+cap "a0" "b1" 1440
+cap "a1" "a7" 1440
+cap "a2" "a3" 1440
+cap "a2" "b2" 1440
+cap "m1_4328_n332#" "m1_4872_n6279#" 720
+cap "m1_6400_n4591#" "m1_4024_n691#" 720
+cap "m1_952_n3930#" "m1_4872_n6279#" 720
+cap "m1_5420_n5703#" "m1_1452_n3394#" 720
+cap "m1_952_n3930#" "s0" 720
+cap "m1_4904_248#" "m1_4024_n691#" 720
+cap "m1_6904_n4047#" "m1_4328_n332#" 720
+cap "m1_6904_n4047#" "m1_952_n3930#" 720
+cap "a1" "b0" 1440
+cap "b5" "b1" 1440
+cap "m1_9356_n1404#" "s0" 720
+cap "a6" "b6" 1440
+cap "b7" "b3" 1440
+cap "a4" "a0" 1440
+cap "a3" "a1" 1440
+cap "m1_6400_n4591#" "m1_4328_n332#" 720
+cap "a7" "b3" 1440
+cap "a1" "b2" 1440
+cap "a2" "b6" 1440
+cap "m1_6400_n4591#" "m1_952_n3930#" 720
+cap "m1_4024_n691#" "m1_7992_n2979#" 720
+cap "m1_4904_248#" "m1_4328_n332#" 720
+cap "m1_952_n3930#" "m1_4904_248#" 720
+cap "m1_9356_n1404#" "m1_3468_136#" 720
+cap "a0" "b4" 1440
+cap "a5" "a6" 1440
+cap "b0" "b3" 1440
+cap "m1_5420_n5703#" "m1_460_n5034#" 720
+cap "a4" "b5" 1440
+cap "m1_4328_n332#" "m1_7992_n2979#" 720
+cap "a5" "a2" 1440
+cap "a1" "b6" 1440
+cap "a3" "b3" 1440
+cap "b3" "b2" 1440
+cap "m1_5420_n5703#" "m1_4344_n332#" 720
+cap "b4" "b5" 1440
+cap "m1_4024_n691#" "m1_4344_105#" 720
+cap "m1_5420_n5703#" "m1_1976_n2862#" 720
+cap "m1_3044_n1786#" "m1_4872_n6279#" 720
+cap "m1_5420_n5703#" "m1_2456_172#" 720
+cap "s0" "m1_3044_n1786#" 720
+cap "a5" "a1" 1440
+cap "m1_6904_n4047#" "m1_3044_n1786#" 720
+cap "a6" "a2" 1440
+cap "a0" "b7" 1440
+cap "b6" "b3" 1440
+cap "m1_5892_n5151#" "m1_1452_n3394#" 720
+cap "m1_9356_n1404#" "m1_4024_n691#" 720
+cap "a4" "b1" 1440
+cap "a0" "a7" 1440
+cap "m1_6400_n4591#" "m1_3044_n1786#" 720
+cap "m1_4904_248#" "m1_3044_n1786#" 720
+cap "m1_4344_n332#" "m1_8928_n1964#" 720
+cap "m1_5420_n5703#" "s0" 720
+cap "m1_7392_140#" "m1_1452_n3394#" 720
+cap "b4" "b1" 1440
+cap "m1_9356_n1404#" "m1_4328_n332#" 720
+cap "b7" "b5" 1440
+cap "a0" "b0" 1440
+cap "a7" "b5" 1440
+cap "a5" "b3" 1440
+cap "a6" "a1" 1440
+cap "m1_416_n4474#" "m1_5420_n5703#" 720
+cap "a3" "a0" 1440
+cap "a2" "a1" 1440
+cap "a0" "b2" 1440
+cap "m1_3044_n1786#" "m1_7992_n2979#" 720
+cap "m1_5420_n5703#" "m1_3468_136#" 720
+cap "m1_9820_n821#" "m1_4344_n332#" 720
+cap "FourToOneMUX_16/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_16/m1_200_n36#" 900
+cap "FourToOneMUX_16/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_16/m1_196_n115#" 720
+cap "s0" "FourToOneMUX_16/m1_n12_n51#" 720
+cap "FourToOneMUX_15/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_15/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_15/m1_196_n115#" 720
+cap "s0" "FourToOneMUX_15/m1_n12_n51#" 720
+cap "FourToOneMUX_14/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_14/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_14/m1_196_n115#" 720
+cap "FourToOneMUX_14/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_13/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_13/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_13/m1_196_n115#" 720
+cap "FourToOneMUX_13/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_12/m1_196_n115#" "FourToOneMUX_12/TwoToOneMUX_1/m1_n60_n86#" 720
+cap "FourToOneMUX_12/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_12/m1_200_n36#" 900
+cap "s0" "FourToOneMUX_12/m1_n12_n51#" 720
+cap "s1" "FourToOneMUX_11/m1_200_n36#" 450
+cap "s1" "FourToOneMUX_11/m1_200_n36#" 450
+cap "FourToOneMUX_11/m1_n12_n51#" "FourToOneMUX_11/m1_n4_n179#" 720
+cap "FourToOneMUX_11/m1_196_n115#" "FourToOneMUX_11/TwoToOneMUX_1/m1_n60_n86#" 360
+cap "s1" "FourToOneMUX_11/m1_196_n115#" 360
+cap "s1" "FourToOneMUX_10/m1_200_n36#" 900
+cap "FourToOneMUX_10/m1_196_n115#" "s1" 720
+cap "FourToOneMUX_10/m1_n12_n51#" "FourToOneMUX_10/m1_n4_n179#" 720
+cap "s1" "FourToOneMUX_9/m1_200_n36#" 900
+cap "FourToOneMUX_9/m1_196_n115#" "s1" 720
+cap "FourToOneMUX_9/m1_n12_n51#" "s0" 720
+cap "s1" "FourToOneMUX_8/m1_200_n36#" 900
+cap "FourToOneMUX_8/m1_196_n115#" "FourToOneMUX_8/TwoToOneMUX_1/m1_n60_n86#" 720
+cap "FourToOneMUX_8/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_7/m1_196_n115#" "s1" 720
+cap "FourToOneMUX_7/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_7/m1_n4_n179#" "FourToOneMUX_7/m1_n12_n51#" 720
+cap "FourToOneMUX_6/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_6/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_6/m1_196_n115#" 720
+cap "FourToOneMUX_6/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_5/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_5/m1_196_n115#" 720
+cap "FourToOneMUX_5/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_5/m1_200_n36#" 900
+cap "FourToOneMUX_5/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_4/m1_200_n36#" "s1" 900
+cap "s1" "FourToOneMUX_4/m1_196_n115#" 720
+cap "FourToOneMUX_4/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_3/m1_200_n36#" "s1" 900
+cap "FourToOneMUX_3/m1_196_n115#" "FourToOneMUX_3/TwoToOneMUX_1/m1_n60_n86#" 720
+cap "s0" "FourToOneMUX_3/m1_n12_n51#" 720
+cap "FourToOneMUX_2/m1_196_n115#" "s1" 720
+cap "s1" "FourToOneMUX_2/m1_200_n36#" 900
+cap "FourToOneMUX_2/m1_n12_n51#" "s0" 720
+cap "FourToOneMUX_1/m1_252_n76#" "FourToOneMUX_1/m1_200_n36#" 900
+cap "FourToOneMUX_1/m1_252_n76#" "FourToOneMUX_1/m1_196_n115#" 720
+cap "s0" "FourToOneMUX_1/m1_n12_n51#" 720
+cap "FourToOneMUX_0/m1_200_n36#" "FourToOneMUX_0/TwoToOneMUX_1/m1_n60_n86#" 900
+cap "FourToOneMUX_0/m1_196_n115#" "FourToOneMUX_0/TwoToOneMUX_1/m1_n60_n86#" 720
+cap "s0" "FourToOneMUX_0/m1_n12_n51#" 720
+cap "m1_416_n4474#" "sub8_0/m1_n3252_n36#" 720
+cap "m1_416_n4474#" "sub8_0/m2_n3073_8#" 720
+cap "m1_460_n5034#" "sub8_0/m1_n3252_n36#" 720
+cap "m1_460_n5034#" "sub8_0/m2_n3073_8#" 720
+cap "m1_952_n3930#" "sub8_0/m1_n2772_n28#" 720
+cap "m1_952_n3930#" "sub8_0/m2_n2596_8#" 720
+cap "sub8_0/m1_n2296_n20#" "m1_1452_n3394#" 720
+cap "sub8_0/m2_n2106_8#" "m1_1452_n3394#" 720
+cap "sub8_0/m1_n1776_n8#" "m1_1976_n2862#" 720
+cap "m1_1976_n2862#" "sub8_0/m2_n1593_8#" 720
+cap "m1_2456_172#" "sub8_0/m1_n1016_8#" 720
+cap "m1_2456_172#" "sub8_0/m1_n1220_n32#" 720
+cap "sub8_0/m2_n506_8#" "m1_3044_n1786#" 720
+cap "sub8_0/m1_n688_n24#" "m1_3044_n1786#" 720
+cap "sub8_0/m1_n200_n12#" "m1_3468_136#" 720
+cap "sub8_0/m1_n24_8#" "m1_3468_136#" 720
+cap "sub8_0/m1_n200_n12#" "m1_4344_105#" 720
+cap "m1_4328_n332#" "m1_4344_n332#" 720
+cap "addmtpby5_0/multiplyby5_0/m2_n3560_8#" "m1_4872_n6279#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n3736_n20#" "m1_4904_248#" 720
+cap "addmtpby5_0/multiplyby5_0/m2_n3560_8#" "m1_4904_248#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n3736_n20#" "m1_4872_n6279#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n3252_n36#" "m1_5420_n5703#" 720
+cap "addmtpby5_0/multiplyby5_0/m2_n3073_8#" "m1_5420_n5703#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n2772_n28#" "m1_5892_n5151#" 720
+cap "addmtpby5_0/multiplyby5_0/m2_n2596_8#" "m1_5892_n5151#" 720
+cap "m1_6400_n4591#" "addmtpby5_0/multiplyby5_0/m2_n2106_8#" 720
+cap "m1_6400_n4591#" "addmtpby5_0/multiplyby5_0/m1_n2296_n20#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n1776_n8#" "m1_6904_n4047#" 720
+cap "m1_6904_n4047#" "addmtpby5_0/multiplyby5_0/m2_n1593_8#" 720
+cap "m1_7392_140#" "addmtpby5_0/multiplyby5_0/m1_n1220_n32#" 180
+cap "addmtpby5_0/multiplyby5_0/m1_n1016_8#" "m1_7392_140#" 180
+cap "addmtpby5_0/multiplyby5_0/m1_n1220_n32#" "m1_7392_140#" 540
+cap "addmtpby5_0/multiplyby5_0/m1_n1016_8#" "m1_7392_140#" 540
+cap "addmtpby5_0/multiplyby5_0/m1_n688_n24#" "m1_7992_n2979#" 720
+cap "addmtpby5_0/multiplyby5_0/m2_n506_8#" "m1_7992_n2979#" 720
+cap "m1_8400_140#" "addmtpby5_0/multiplyby5_0/m1_n24_8#" 720
+cap "m1_8400_140#" "addmtpby5_0/multiplyby5_0/m1_n200_n12#" 720
+cap "sub8_0/m2_n2560_76#" "sub8_0/m1_n3252_n36#" 720
+cap "sub8_0/m1_n2772_n28#" "sub8_0/m2_n2072_76#" 720
+cap "sub8_0/m1_n2296_n20#" "sub8_0/m2_n1560_76#" 720
+cap "m1_2456_172#" "sub8_0/m1_n1776_n8#" 720
+cap "sub8_0/m2_n472_76#" "sub8_0/m1_n1220_n32#" 720
+cap "m1_3468_136#" "sub8_0/m1_n688_n24#" 720
+cap "m1_4024_n691#" "sub8_0/m1_n200_n12#" 720
+cap "m1_5420_n5703#" "addmtpby5_0/multiplyby5_0/m1_n3736_n20#" 720
+cap "addmtpby5_0/multiplyby5_0/m1_n3252_n36#" "addmtpby5_0/s08" 180
+cap "m1_5892_n5151#" "addmtpby5_0/multiplyby5_0/m1_n3252_n36#" 540
+cap "addmtpby5_0/multiplyby5_0/m1_n2772_n28#" "addmtpby5_0/s07" 720
+cap "m1_6904_n4047#" "addmtpby5_0/multiplyby5_0/m1_n2296_n20#" 720
+cap "addmtpby5_0/s05" "addmtpby5_0/multiplyby5_0/m1_n1776_n8#" 720
+cap "addmtpby5_0/s04" "addmtpby5_0/multiplyby5_0/m1_n1220_n32#" 720
+cap "addmtpby5_0/s03" "addmtpby5_0/multiplyby5_0/m1_n688_n24#" 720
+cap "addmtpby5_0/s02" "addmtpby5_0/multiplyby5_0/m1_n200_n12#" 720
+cap "sub8_0/FullAdder_7/EXC_0/m1_0_36#" "a7" 720
+cap "a7" "sub8_0/FullAdder_7/m1_108_80#" 720
+cap "sub8_0/FullAdder_6/EXC_0/m1_60_40#" "sub8_0/FullAdder_6/m1_108_80#" 720
+cap "sub8_0/FullAdder_6/EXC_0/m1_60_40#" "sub8_0/FullAdder_6/EXC_0/m1_0_36#" 720
+cap "sub8_0/FullAdder_5/EXC_0/m1_0_36#" "sub8_0/FullAdder_5/EXC_0/m1_60_40#" 720
+cap "sub8_0/FullAdder_5/EXC_0/m1_60_40#" "sub8_0/FullAdder_5/m1_108_80#" 720
+cap "sub8_0/FullAdder_4/EXC_0/m1_0_36#" "a4" 720
+cap "a4" "sub8_0/FullAdder_4/m1_108_80#" 720
+cap "a3" "sub8_0/FullAdder_3/EXC_0/m1_0_36#" 720
+cap "a3" "sub8_0/FullAdder_3/m1_108_80#" 720
+cap "sub8_0/FullAdder_2/m1_108_80#" "sub8_0/FullAdder_2/EXC_0/m1_60_40#" 720
+cap "sub8_0/FullAdder_2/EXC_0/m1_0_36#" "sub8_0/FullAdder_2/EXC_0/m1_60_40#" 720
+cap "sub8_0/FullAdder_1/EXC_0/m1_60_40#" "sub8_0/FullAdder_1/EXC_0/m1_0_36#" 720
+cap "sub8_0/FullAdder_1/m1_108_80#" "sub8_0/FullAdder_1/EXC_0/m1_60_40#" 720
+cap "sub8_0/FullAdder_0/EXC_0/m1_60_40#" "sub8_0/FullAdder_0/m1_108_80#" 720
+cap "sub8_0/FullAdder_0/EXC_0/m1_60_40#" "sub8_0/FullAdder_0/EXC_0/m1_0_36#" 720
+cap "sub8_0/FullAdder_7/EXC_0/xor_0/a_2_88#" "a7" 720
+cap "b6" "sub8_0/m2_n3004_228#" 180
+cap "b6" "sub8_0/m2_n3004_228#" 540
+cap "a6" "sub8_0/FullAdder_6/EXC_0/xor_0/a_2_88#" 720
+cap "b5" "sub8_0/m2_n2528_228#" 720
+cap "sub8_0/FullAdder_5/EXC_0/xor_0/a_2_88#" "a5" 720
+cap "sub8_0/m2_n2040_232#" "b4" 720
+cap "a4" "sub8_0/FullAdder_4/EXC_0/xor_0/a_2_88#" 720
+cap "b3" "sub8_0/m2_n1524_232#" 720
+cap "sub8_0/FullAdder_3/EXC_0/xor_0/a_2_88#" "a3" 720
+cap "b2" "sub8_0/m2_n964_232#" 720
+cap "a2" "sub8_0/FullAdder_2/EXC_0/xor_0/a_2_88#" 720
+cap "b1" "sub8_0/m2_n440_232#" 720
+cap "sub8_0/FullAdder_1/EXC_0/xor_0/a_2_88#" "a1" 720
+cap "b0" "sub8_0/m2_44_232#" 720
+cap "sub8_0/FullAdder_0/EXC_0/xor_0/a_2_88#" "a0" 720
+cap "addmtpby5_0/vdd00" "b7" 720
+cap "addmtpby5_0/add8_0/FullAdder_7/EXC_0/m1_0_36#" "addmtpby5_0/add8_0/FullAdder_7/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/FullAdder_7/m1_108_80#" "addmtpby5_0/add8_0/FullAdder_7/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/FullAdder_7/EXC_0/xor_0/a_2_88#" "addmtpby5_0/add8_0/FullAdder_7/EXC_0/m1_60_40#" 720
+cap "b6" "addmtpby5_0/add8_0/m2_n3004_228#" 180
+cap "addmtpby5_0/add8_0/m2_n3004_228#" "b6" 540
+cap "addmtpby5_0/add8_0/FullAdder_6/EXC_0/m1_60_40#" "addmtpby5_0/add8_0/FullAdder_6/EXC_0/xor_0/a_2_88#" 720
+cap "addmtpby5_0/add8_0/FullAdder_6/EXC_0/m1_60_40#" "addmtpby5_0/add8_0/FullAdder_6/EXC_0/m1_0_36#" 720
+cap "addmtpby5_0/add8_0/FullAdder_6/m1_108_80#" "addmtpby5_0/add8_0/FullAdder_6/EXC_0/m1_60_40#" 720
+cap "b5" "addmtpby5_0/add8_0/m2_n2528_228#" 720
+cap "addmtpby5_0/add8_0/FullAdder_5/EXC_0/m1_0_36#" "addmtpby5_0/add8_0/FullAdder_5/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/FullAdder_5/m1_108_80#" "addmtpby5_0/add8_0/FullAdder_5/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/FullAdder_5/EXC_0/xor_0/a_2_88#" "addmtpby5_0/add8_0/FullAdder_5/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/m2_n2040_232#" "b4" 180
+cap "b4" "addmtpby5_0/add8_0/m2_n2040_232#" 540
+cap "a4" "addmtpby5_0/add8_0/FullAdder_4/m1_108_80#" 720
+cap "a4" "addmtpby5_0/add8_0/FullAdder_4/EXC_0/m1_0_36#" 720
+cap "a4" "addmtpby5_0/add8_0/FullAdder_4/EXC_0/xor_0/a_2_88#" 720
+cap "addmtpby5_0/add8_0/m2_n1524_232#" "b3" 720
+cap "addmtpby5_0/add8_0/FullAdder_3/EXC_0/m1_60_40#" "addmtpby5_0/add8_0/FullAdder_3/EXC_0/xor_0/a_2_88#" 720
+cap "addmtpby5_0/add8_0/FullAdder_3/m1_108_80#" "addmtpby5_0/add8_0/FullAdder_3/EXC_0/m1_60_40#" 720
+cap "addmtpby5_0/add8_0/FullAdder_3/EXC_0/m1_60_40#" "addmtpby5_0/add8_0/FullAdder_3/EXC_0/m1_0_36#" 720
+cap "b2" "addmtpby5_0/add8_0/m2_n964_232#" 720
+cap "addmtpby5_0/i2" "addmtpby5_0/add8_0/FullAdder_2/EXC_0/xor_0/a_2_88#" 720
+cap "addmtpby5_0/add8_0/FullAdder_2/EXC_0/m1_0_36#" "addmtpby5_0/i2" 720
+cap "addmtpby5_0/i2" "addmtpby5_0/add8_0/FullAdder_2/m1_108_80#" 720
+cap "b1" "addmtpby5_0/add8_0/m2_n440_232#" 720
+cap "addmtpby5_0/i1" "addmtpby5_0/add8_0/FullAdder_1/m1_108_80#" 720
+cap "addmtpby5_0/i1" "addmtpby5_0/add8_0/FullAdder_1/EXC_0/m1_0_36#" 720
+cap "addmtpby5_0/i1" "addmtpby5_0/add8_0/FullAdder_1/EXC_0/xor_0/a_2_88#" 720
+cap "addmtpby5_0/add8_0/m2_44_232#" "b0" 720
+cap "addmtpby5_0/add8_0/FullAdder_0/EXC_0/xor_0/a_2_88#" "addmtpby5_0/add8_0/m1_244_181#" 720
+cap "addmtpby5_0/add8_0/FullAdder_0/EXC_0/m1_0_36#" "addmtpby5_0/add8_0/m1_244_181#" 720
+cap "addmtpby5_0/add8_0/FullAdder_0/m1_108_80#" "addmtpby5_0/add8_0/m1_244_181#" 720
+merge "FourToOneMUX_1/m1_475_18#" "y1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/add8_0/FullAdder_4/m1_n12_n72#" "sub8_0/not_4/a_8_28#" -33276 0 0 0 0 0 0 0 0 0 0 0 0 -708 -343 -16 -16 0 0
+merge "sub8_0/not_4/a_8_28#" "b4"
+merge "addmtpby5_0/add8_0/FullAdder_2/m1_n12_n72#" "sub8_0/not_2/a_8_28#" -23876 0 0 0 0 0 0 0 0 0 0 0 0 -508 -270 -16 -16 0 0
+merge "sub8_0/not_2/a_8_28#" "b2"
+merge "addmtpby5_0/s03" "FourToOneMUX_3/m1_n4_n204#" -10780 0 0 0 0 0 0 0 0 0 0 0 0 -100 -66 -320 -172 0 0
+merge "FourToOneMUX_3/m1_n4_n204#" "m1_8400_140#"
+merge "FourToOneMUX_14/m1_n4_n204#" "FourToOneMUX_14/m1_23_n87#" -5532 0 0 0 0 0 0 0 0 0 0 0 0 -108 -66 -24 -28 0 0
+merge "FourToOneMUX_14/m1_23_n87#" "m2_10088_n8374#"
+merge "m2_10088_n8374#" "FourToOneMUX_14/WONOTTwoToOneMUX_0/m2_n24_n111#"
+merge "FourToOneMUX_14/WONOTTwoToOneMUX_0/m2_n24_n111#" "m1_10092_n8485#"
+merge "FourToOneMUX_2/m1_475_18#" "y2" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "addmtpby5_0/gnd00" "gnd" -36026 0 0 0 0 0 0 0 0 0 0 0 0 -376 -220 -998 -783 0 0
+merge "gnd" "sub8_0/FullAdder_0/EXC_1/not_1/a_8_8#"
+merge "sub8_0/FullAdder_0/EXC_1/not_1/a_8_8#" "m1_4344_105#"
+merge "m1_4344_105#" "FourToOneMUX_0/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_0/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_1/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_1/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_2/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_2/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_3/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_3/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_4/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_4/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_5/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_5/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_6/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_6/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_7/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_7/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_8/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_8/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_9/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_9/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_10/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_10/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_11/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_11/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_12/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_12/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_13/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_13/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_14/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_14/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_15/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_15/TwoToOneMUX_1/or_0/not_0/a_8_8#" "FourToOneMUX_16/TwoToOneMUX_1/or_0/not_0/a_8_8#"
+merge "FourToOneMUX_16/TwoToOneMUX_1/or_0/not_0/a_8_8#" "m1_4344_n332#"
+merge "FourToOneMUX_8/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_8/m1_23_n87#" -912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "FourToOneMUX_8/m1_23_n87#" "m2_10208_n5066#"
+merge "m2_10208_n5066#" "m2_10146_n5034#"
+merge "FourToOneMUX_0/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_1/m1_252_n76#" -422013 0 0 0 0 0 0 0 0 0 0 0 0 -8979 -4571 0 0 0 0
+merge "FourToOneMUX_1/m1_252_n76#" "FourToOneMUX_2/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_2/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_3/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_3/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_4/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_4/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_5/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_5/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_6/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_6/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_7/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_7/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_8/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_8/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_9/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_9/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_10/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_10/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_11/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_11/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_12/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_12/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_13/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_13/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_14/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_14/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_15/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_15/TwoToOneMUX_1/m1_n60_n86#" "FourToOneMUX_16/TwoToOneMUX_1/m1_n60_n86#"
+merge "FourToOneMUX_16/TwoToOneMUX_1/m1_n60_n86#" "s1"
+merge "addmtpby5_0/add8_0/FullAdder_3/m1_n12_n72#" "sub8_0/not_3/a_8_28#" -28952 0 0 0 0 0 0 0 0 0 0 0 0 -616 -324 -16 -16 0 0
+merge "sub8_0/not_3/a_8_28#" "b3"
+merge "sub8_0/m2_n1560_76#" "FourToOneMUX_4/m1_23_n87#" -23364 0 0 0 0 0 0 0 0 0 0 0 0 -468 -242 -72 -56 0 0
+merge "FourToOneMUX_4/m1_23_n87#" "m1_1976_n2862#"
+merge "FourToOneMUX_9/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_9/m1_23_n87#" -3648 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -120 0 0
+merge "FourToOneMUX_9/m1_23_n87#" "m2_10176_n5618#"
+merge "FourToOneMUX_3/m1_475_18#" "y3" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/vdd00" "sub8_0/FullAdder_0/or_0/not_0/a_8_92#" -36102 0 0 0 0 0 0 0 0 0 0 0 0 -376 -220 -970 -757 0 0
+merge "sub8_0/FullAdder_0/or_0/not_0/a_8_92#" "m1_4328_325#"
+merge "m1_4328_325#" "vdd"
+merge "vdd" "FourToOneMUX_0/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_0/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_1/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_1/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_2/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_2/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_3/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_3/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_4/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_4/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_5/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_5/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_6/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_6/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_7/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_7/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_8/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_8/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_9/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_9/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_10/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_10/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_11/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_11/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_12/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_12/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_13/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_13/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_14/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_14/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_15/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_15/TwoToOneMUX_1/or_0/not_0/a_8_92#" "FourToOneMUX_16/TwoToOneMUX_1/or_0/not_0/a_8_92#"
+merge "FourToOneMUX_16/TwoToOneMUX_1/or_0/not_0/a_8_92#" "m1_4328_n332#"
+merge "FourToOneMUX_12/m1_475_18#" "y12" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "sub8_0/m2_n3040_76#" "FourToOneMUX_7/m1_23_n87#" -10924 0 0 0 0 0 0 0 0 0 0 0 0 -192 -100 -116 -82 0 0
+merge "FourToOneMUX_7/m1_23_n87#" "m1_416_n4474#"
+merge "FourToOneMUX_4/m1_475_18#" "y4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/add8_0/m1_244_181#" "sub8_0/FullAdder_0/EXC_0/m1_60_40#" -12784 0 0 0 0 0 0 0 0 0 0 0 0 -272 -227 0 0 0 0
+merge "sub8_0/FullAdder_0/EXC_0/m1_60_40#" "a0"
+merge "sub8_0/FullAdder_0/m1_276_n52#" "FourToOneMUX_0/m1_23_n87#" -4788 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -252 -150 0 0
+merge "FourToOneMUX_0/m1_23_n87#" "m1_4024_n691#"
+merge "FourToOneMUX_16/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_16/m1_23_n87#" -10416 0 0 0 0 0 0 0 0 0 0 0 0 -144 -88 -208 -136 0 0
+merge "FourToOneMUX_16/m1_23_n87#" "m2_10060_n9530#"
+merge "m2_10060_n9530#" "FourToOneMUX_16/m1_n4_n204#"
+merge "FourToOneMUX_16/m1_n4_n204#" "m1_10064_n9641#"
+merge "addmtpby5_0/s01" "FourToOneMUX_1/m1_n4_n204#" -14476 0 0 0 0 0 0 0 0 0 0 0 0 -308 -166 -16 -16 0 0
+merge "FourToOneMUX_1/m1_n4_n204#" "m1_9356_n1404#"
+merge "addmtpby5_0/s02" "FourToOneMUX_2/m1_n4_n204#" -1664 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -32 -24 0 0
+merge "FourToOneMUX_2/m1_n4_n204#" "m1_8928_n1964#"
+merge "FourToOneMUX_5/m1_475_18#" "y5" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/i6" "sub8_0/FullAdder_6/EXC_0/m1_60_40#" -27448 0 0 0 0 0 0 0 0 0 0 0 0 -584 -304 0 0 0 0
+merge "sub8_0/FullAdder_6/EXC_0/m1_60_40#" "a6"
+merge "FourToOneMUX_10/m1_475_18#" "y10" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "FourToOneMUX_12/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_12/m1_23_n87#" -10416 0 0 0 0 0 0 0 0 0 0 0 0 -144 -88 -208 -136 0 0
+merge "FourToOneMUX_12/m1_23_n87#" "m2_10120_n7326#"
+merge "m2_10120_n7326#" "FourToOneMUX_12/m1_n4_n204#"
+merge "FourToOneMUX_12/m1_n4_n204#" "m1_10124_n7437#"
+merge "FourToOneMUX_6/m1_475_18#" "y6" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "FourToOneMUX_0/m1_n4_n179#" "FourToOneMUX_1/m1_n4_n179#" -44270 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2282 -1339 0 0
+merge "FourToOneMUX_1/m1_n4_n179#" "FourToOneMUX_2/m1_n4_n179#"
+merge "FourToOneMUX_2/m1_n4_n179#" "FourToOneMUX_3/m1_n4_n179#"
+merge "FourToOneMUX_3/m1_n4_n179#" "FourToOneMUX_4/m1_n4_n179#"
+merge "FourToOneMUX_4/m1_n4_n179#" "FourToOneMUX_5/m1_n4_n179#"
+merge "FourToOneMUX_5/m1_n4_n179#" "FourToOneMUX_6/m1_n4_n179#"
+merge "FourToOneMUX_6/m1_n4_n179#" "FourToOneMUX_7/m1_n4_n179#"
+merge "FourToOneMUX_7/m1_n4_n179#" "FourToOneMUX_8/m1_n4_n179#"
+merge "FourToOneMUX_8/m1_n4_n179#" "FourToOneMUX_9/m1_n4_n179#"
+merge "FourToOneMUX_9/m1_n4_n179#" "FourToOneMUX_10/m1_n4_n179#"
+merge "FourToOneMUX_10/m1_n4_n179#" "FourToOneMUX_11/m1_n4_n179#"
+merge "FourToOneMUX_11/m1_n4_n179#" "FourToOneMUX_12/m1_n4_n179#"
+merge "FourToOneMUX_12/m1_n4_n179#" "FourToOneMUX_13/m1_n4_n179#"
+merge "FourToOneMUX_13/m1_n4_n179#" "FourToOneMUX_14/m1_n4_n179#"
+merge "FourToOneMUX_14/m1_n4_n179#" "FourToOneMUX_15/m1_n4_n179#"
+merge "FourToOneMUX_15/m1_n4_n179#" "FourToOneMUX_16/m1_n4_n179#"
+merge "FourToOneMUX_16/m1_n4_n179#" "s0"
+merge "addmtpby5_0/s05" "FourToOneMUX_5/m1_n4_n204#" -16940 0 0 0 0 0 0 0 0 0 0 0 0 -320 -172 -116 -74 0 0
+merge "FourToOneMUX_5/m1_n4_n204#" "m1_7392_140#"
+merge "FourToOneMUX_11/m1_475_18#" "y11" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "sub8_0/FullAdder_3/m1_276_n52#" "FourToOneMUX_3/m1_23_n87#" -32916 0 0 0 0 0 0 0 0 0 0 0 0 -668 -338 -96 -64 0 0
+merge "FourToOneMUX_3/m1_23_n87#" "m1_2456_172#"
+merge "FourToOneMUX_9/m1_475_18#" "y9" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/i1" "sub8_0/FullAdder_1/EXC_0/m1_60_40#" -13160 0 0 0 0 0 0 0 0 0 0 0 0 -280 -156 0 0 0 0
+merge "sub8_0/FullAdder_1/EXC_0/m1_60_40#" "a1"
+merge "sub8_0/m2_n2560_76#" "FourToOneMUX_6/m1_23_n87#" -12904 0 0 0 0 0 0 0 0 0 0 0 0 -260 -134 -20 -26 0 0
+merge "FourToOneMUX_6/m1_23_n87#" "m1_952_n3930#"
+merge "FourToOneMUX_7/m1_475_18#" "y7" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "sub8_0/m2_n2072_76#" "FourToOneMUX_5/m1_23_n87#" -10740 0 0 0 0 0 0 0 0 0 0 0 0 -180 -102 -136 -92 0 0
+merge "FourToOneMUX_5/m1_23_n87#" "m1_1452_n3394#"
+merge "sub8_0/FullAdder_1/m1_276_n52#" "FourToOneMUX_1/m1_23_n87#" -7300 0 0 0 0 0 0 0 0 0 0 0 0 -68 -42 -232 -136 0 0
+merge "FourToOneMUX_1/m1_23_n87#" "m1_3468_136#"
+merge "addmtpby5_0/s00" "FourToOneMUX_0/m1_n4_n204#" -18988 0 0 0 0 0 0 0 0 0 0 0 0 -404 -214 -16 -16 0 0
+merge "FourToOneMUX_0/m1_n4_n204#" "m1_9820_n821#"
+merge "FourToOneMUX_8/m1_475_18#" "y8" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "FourToOneMUX_13/m1_475_18#" "y13" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "FourToOneMUX_14/m1_475_18#" "y14" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/add8_0/FullAdder_5/m1_n12_n72#" "sub8_0/not_5/a_8_28#" -24581 0 0 0 0 0 0 0 0 0 0 0 0 -523 -281 -16 -16 0 0
+merge "sub8_0/not_5/a_8_28#" "b5"
+merge "FourToOneMUX_13/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_13/m1_23_n87#" -9960 0 0 0 0 0 0 0 0 0 0 0 0 -144 -88 -184 -116 0 0
+merge "FourToOneMUX_13/m1_23_n87#" "m2_10104_n7858#"
+merge "m2_10104_n7858#" "FourToOneMUX_13/m1_n4_n204#"
+merge "FourToOneMUX_13/m1_n4_n204#" "m1_10112_n7969#"
+merge "FourToOneMUX_15/m1_475_18#" "y15" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/j1" "sub8_0/not_1/a_8_28#" -22488 0 0 0 0 0 0 0 0 0 0 0 0 -472 -248 -16 -16 0 0
+merge "sub8_0/not_1/a_8_28#" "b1"
+merge "addmtpby5_0/s09" "FourToOneMUX_9/m1_n4_n204#" -25024 0 0 0 0 0 0 0 0 0 0 0 0 -416 -224 -320 -180 0 0
+merge "FourToOneMUX_9/m1_n4_n204#" "m1_5420_n5703#"
+merge "addmtpby5_0/i7" "sub8_0/FullAdder_7/EXC_0/m1_60_40#" -28576 0 0 0 0 0 0 0 0 0 0 0 0 -608 -324 0 0 0 0
+merge "sub8_0/FullAdder_7/EXC_0/m1_60_40#" "a7"
+merge "FourToOneMUX_10/m1_23_n87#" "FourToOneMUX_10/WONOTTwoToOneMUX_0/m2_n24_n111#" -608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "FourToOneMUX_10/WONOTTwoToOneMUX_0/m2_n24_n111#" "m2_10156_n6194#"
+merge "FourToOneMUX_16/m1_475_18#" "Cout" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addmtpby5_0/j0" "sub8_0/not_0/a_8_28#" -22488 0 0 0 0 0 0 0 0 0 0 0 0 -472 -248 -16 -16 0 0
+merge "sub8_0/not_0/a_8_28#" "b0"
+merge "addmtpby5_0/s07" "FourToOneMUX_7/m1_n4_n204#" -23472 0 0 0 0 0 0 0 0 0 0 0 0 -404 -226 -268 -154 0 0
+merge "FourToOneMUX_7/m1_n4_n204#" "m1_6400_n4591#"
+merge "addmtpby5_0/i2" "sub8_0/FullAdder_2/EXC_0/m1_60_40#" -13160 0 0 0 0 0 0 0 0 0 0 0 0 -280 -156 0 0 0 0
+merge "sub8_0/FullAdder_2/EXC_0/m1_60_40#" "a2"
+merge "sub8_0/m2_n472_76#" "FourToOneMUX_2/m1_23_n87#" -12980 0 0 0 0 0 0 0 0 0 0 0 0 -260 -134 -24 -28 0 0
+merge "FourToOneMUX_2/m1_23_n87#" "m1_3044_n1786#"
+merge "addmtpby5_0/s06" "FourToOneMUX_6/m1_n4_n204#" -25712 0 0 0 0 0 0 0 0 0 0 0 0 -484 -258 -172 -98 0 0
+merge "FourToOneMUX_6/m1_n4_n204#" "m1_6904_n4047#"
+merge "addmtpby5_0/s010" "FourToOneMUX_10/m1_n4_n204#" -24742 0 0 0 0 0 0 0 0 0 0 0 0 -505 -281 -73 -65 0 0
+merge "FourToOneMUX_10/m1_n4_n204#" "m1_4872_n6279#"
+merge "addmtpby5_0/i3" "sub8_0/FullAdder_3/EXC_0/m1_60_40#" -28576 0 0 0 0 0 0 0 0 0 0 0 0 -608 -324 0 0 0 0
+merge "sub8_0/FullAdder_3/EXC_0/m1_60_40#" "a3"
+merge "addmtpby5_0/i4" "sub8_0/FullAdder_4/EXC_0/m1_60_40#" -29892 0 0 0 0 0 0 0 0 0 0 0 0 -636 -352 0 0 0 0
+merge "sub8_0/FullAdder_4/EXC_0/m1_60_40#" "a4"
+merge "addmtpby5_0/i5" "sub8_0/FullAdder_5/EXC_0/m1_60_40#" -27448 0 0 0 0 0 0 0 0 0 0 0 0 -584 -304 0 0 0 0
+merge "sub8_0/FullAdder_5/EXC_0/m1_60_40#" "a5"
+merge "addmtpby5_0/s04" "FourToOneMUX_4/m1_n4_n204#" -20306 0 0 0 0 0 0 0 0 0 0 0 0 -409 -221 -45 -47 0 0
+merge "FourToOneMUX_4/m1_n4_n204#" "m1_7992_n2979#"
+merge "addmtpby5_0/s08" "FourToOneMUX_8/m1_n4_n204#" -24876 0 0 0 0 0 0 0 0 0 0 0 0 -484 -258 -124 -74 0 0
+merge "FourToOneMUX_8/m1_n4_n204#" "m1_5892_n5151#"
+merge "FourToOneMUX_15/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_15/m1_23_n87#" -10416 0 0 0 0 0 0 0 0 0 0 0 0 -144 -88 -208 -136 0 0
+merge "FourToOneMUX_15/m1_23_n87#" "m2_10072_n8954#"
+merge "m2_10072_n8954#" "FourToOneMUX_15/m1_n4_n204#"
+merge "FourToOneMUX_15/m1_n4_n204#" "m1_10080_n9065#"
+merge "FourToOneMUX_11/WONOTTwoToOneMUX_0/m2_n24_n111#" "FourToOneMUX_11/m1_23_n87#" -608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "FourToOneMUX_11/m1_23_n87#" "m2_10128_n6773#"
+merge "sub8_0/FullAdder_7/m1_391_56#" "m1_460_n5034#" -12032 0 0 0 0 0 0 0 0 0 0 0 0 -256 -140 0 0 0 0
+merge "addmtpby5_0/s011" "FourToOneMUX_11/m1_n4_n204#" -38540 0 0 0 0 0 0 0 0 0 0 0 0 -820 -430 0 0 0 0
+merge "FourToOneMUX_11/m1_n4_n204#" "m1_4904_248#"
+merge "addmtpby5_0/add8_0/FullAdder_7/m1_n12_n72#" "sub8_0/not_7/a_8_28#" -28012 0 0 0 0 0 0 0 0 0 0 0 0 -596 -310 -16 -16 0 0
+merge "sub8_0/not_7/a_8_28#" "b7"
+merge "addmtpby5_0/add8_0/FullAdder_6/m1_n12_n72#" "sub8_0/not_6/a_8_28#" -40608 0 0 0 0 0 0 0 0 0 0 0 0 -864 -460 -16 -16 0 0
+merge "sub8_0/not_6/a_8_28#" "b6"
+merge "FourToOneMUX_0/m1_475_18#" "y0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

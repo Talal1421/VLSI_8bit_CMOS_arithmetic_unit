@@ -1,0 +1,173 @@
+timestamp 1701854628
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use multiplyby5 multiplyby5_0 1 0 2476 0 1 -469
+use add8 add8_0 1 0 3413 0 1 35
+node "s02" 0 608 2964 -392 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s03" 0 608 2488 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s04" 0 608 2004 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s05" 0 608 1476 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s06" 0 608 916 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s07" 0 608 404 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s08" 0 608 -84 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s09" 0 380 -561 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0
+node "s010" 0 608 -1048 -393 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "m2_n952_n449#" 1 6384 -952 -449 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 336 176 0 0
+node "j4" 0 760 1473 140 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 0 0
+node "j6" 0 532 473 140 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0
+node "j0" 0 684 3520 156 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0
+node "j2" 0 608 2562 156 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "j7" 0 456 -4 156 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "j3" 0 608 2036 160 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "j5" 0 456 962 164 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0
+node "j1" 0 608 3046 180 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0
+node "s011" 0 1504 -1008 -285 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "s00" 14 176720 2720 -288 m1 0 0 0 0 0 0 0 0 0 0 0 0 1632 832 5328 2680 0 0
+node "s01" 14 170256 2248 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 1412 730 5580 2814 0 0
+node "m1_1764_n293#" 18 234096 1764 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 2704 1376 5760 2912 0 0
+node "m1_1236_n293#" 25 318352 1236 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 3140 1594 9148 4606 0 0
+node "m1_676_n293#" 18 242076 676 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 2932 1490 5616 2840 0 0
+node "m1_164_n293#" 19 246088 164 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 2508 1278 6892 3478 0 0
+node "m1_n328_n293#" 18 229032 -328 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 2648 1348 5616 2840 0 0
+node "i0" 0 752 3664 216 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "i1" 0 1504 3184 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "i2" 0 1504 2700 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "i3" 0 1504 2176 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "i4" 0 1504 1616 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "i5" 0 1128 1100 213 m1 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "i6" 0 1504 612 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "m1_n804_n293#" 17 228856 -804 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 2772 1410 5300 2682 0 0
+node "i7" 0 1504 136 211 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "m1_n1292_n293#" 22 295152 -1292 -293 m1 0 0 0 0 0 0 0 0 0 0 0 0 3408 1728 7184 3608 0 0
+node "gnd00" 22 286988 -1564 -456 m1 0 0 0 0 0 0 0 0 0 0 0 0 3168 1592 7300 3666 0 0
+node "vdd00" 21 281440 -1580 -456 m1 0 0 0 0 0 0 0 0 0 0 0 0 3168 1592 7040 3536 0 0
+cap "m1_164_n293#" "m1_1236_n293#" 720
+cap "m1_n804_n293#" "m1_164_n293#" 720
+cap "s00" "s01" 1440
+cap "m1_1764_n293#" "m1_1236_n293#" 720
+cap "s01" "m1_1764_n293#" 1440
+cap "vdd00" "gnd00" 1440
+cap "m1_676_n293#" "m1_1236_n293#" 2160
+cap "m1_n1292_n293#" "m1_n804_n293#" 1440
+cap "m1_164_n293#" "m1_676_n293#" 1440
+cap "m1_n328_n293#" "m1_1236_n293#" 720
+cap "m1_n804_n293#" "m1_n328_n293#" 720
+cap "m1_n328_n293#" "m1_164_n293#" 720
+cap "multiplyby5_0/FullAdder_8/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_8/EXC_0/xor_0/a_2_88#" 720
+cap "multiplyby5_0/FullAdder_8/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_8/EXC_0/m1_0_36#" 720
+cap "multiplyby5_0/FullAdder_8/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_8/m1_108_80#" 720
+cap "m1_n804_n293#" "multiplyby5_0/FullAdder_7/EXC_0/m1_0_36#" 720
+cap "multiplyby5_0/FullAdder_7/EXC_0/xor_0/a_2_88#" "m1_n804_n293#" 720
+cap "m1_n804_n293#" "multiplyby5_0/FullAdder_7/m1_108_80#" 720
+cap "m1_n1292_n293#" "multiplyby5_0/m2_n3004_228#" 720
+cap "multiplyby5_0/FullAdder_6/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_6/EXC_0/m1_0_36#" 720
+cap "multiplyby5_0/FullAdder_6/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_6/EXC_0/xor_0/a_2_88#" 720
+cap "multiplyby5_0/FullAdder_6/m1_108_80#" "multiplyby5_0/FullAdder_6/EXC_0/m1_60_40#" 720
+cap "multiplyby5_0/m2_n2528_228#" "m1_n804_n293#" 720
+cap "m1_164_n293#" "multiplyby5_0/FullAdder_5/EXC_0/xor_0/a_2_88#" 720
+cap "m1_164_n293#" "multiplyby5_0/FullAdder_5/m1_108_80#" 720
+cap "m1_164_n293#" "multiplyby5_0/FullAdder_5/EXC_0/m1_0_36#" 720
+cap "m1_n328_n293#" "multiplyby5_0/m2_n2040_232#" 720
+cap "m1_676_n293#" "multiplyby5_0/FullAdder_4/m1_108_80#" 720
+cap "multiplyby5_0/FullAdder_4/EXC_0/m1_0_36#" "m1_676_n293#" 720
+cap "m1_676_n293#" "multiplyby5_0/FullAdder_4/EXC_0/xor_0/a_2_88#" 720
+cap "m1_164_n293#" "multiplyby5_0/m2_n1524_232#" 720
+cap "m1_1236_n293#" "multiplyby5_0/FullAdder_3/EXC_0/m1_0_36#" 720
+cap "m1_1236_n293#" "multiplyby5_0/FullAdder_3/EXC_0/xor_0/a_2_88#" 720
+cap "multiplyby5_0/FullAdder_3/m1_108_80#" "m1_1236_n293#" 720
+cap "m1_676_n293#" "multiplyby5_0/m2_n964_232#" 720
+cap "m1_1764_n293#" "multiplyby5_0/FullAdder_2/m1_108_80#" 720
+cap "multiplyby5_0/FullAdder_2/EXC_0/m1_0_36#" "m1_1764_n293#" 720
+cap "multiplyby5_0/FullAdder_2/EXC_0/xor_0/a_2_88#" "m1_1764_n293#" 720
+cap "m1_1236_n293#" "multiplyby5_0/m2_n440_232#" 720
+cap "s01" "multiplyby5_0/FullAdder_1/EXC_0/xor_0/a_2_88#" 720
+cap "multiplyby5_0/FullAdder_1/EXC_0/m1_0_36#" "s01" 720
+cap "multiplyby5_0/FullAdder_1/m1_108_80#" "s01" 720
+cap "multiplyby5_0/m2_44_232#" "m1_1764_n293#" 720
+cap "multiplyby5_0/FullAdder_0/EXC_0/xor_0/a_2_88#" "multiplyby5_0/m1_244_181#" 720
+cap "multiplyby5_0/m1_244_181#" "multiplyby5_0/FullAdder_0/EXC_0/m1_0_36#" 720
+cap "multiplyby5_0/m1_244_181#" "multiplyby5_0/FullAdder_0/m1_108_80#" 720
+cap "m1_n804_n293#" "add8_0/m2_n3073_8#" 720
+cap "add8_0/m1_n3252_n36#" "m1_n804_n293#" 720
+cap "add8_0/m1_n3252_n36#" "m1_n1292_n293#" 720
+cap "add8_0/m2_n3073_8#" "m1_n1292_n293#" 720
+cap "add8_0/m1_n2772_n28#" "m1_n328_n293#" 720
+cap "add8_0/m2_n2596_8#" "m1_n328_n293#" 720
+cap "m1_164_n293#" "add8_0/m1_n2296_n20#" 720
+cap "m1_164_n293#" "add8_0/m2_n2106_8#" 720
+cap "add8_0/m1_n1776_n8#" "m1_676_n293#" 720
+cap "add8_0/m2_n1593_8#" "m1_676_n293#" 720
+cap "add8_0/m1_n1220_n32#" "m1_1236_n293#" 720
+cap "m1_1236_n293#" "add8_0/m1_n1016_8#" 720
+cap "m1_1764_n293#" "add8_0/m1_n688_n24#" 720
+cap "add8_0/m2_n506_8#" "m1_1764_n293#" 720
+cap "s01" "add8_0/m1_n200_n12#" 720
+cap "s01" "add8_0/m1_n24_8#" 720
+cap "m1_n328_n293#" "add8_0/m1_n3252_n36#" 720
+cap "add8_0/m1_n2772_n28#" "m1_164_n293#" 720
+cap "m1_676_n293#" "add8_0/m1_n2296_n20#" 720
+cap "add8_0/m1_n1776_n8#" "m1_1236_n293#" 720
+cap "m1_1764_n293#" "add8_0/m1_n1220_n32#" 720
+cap "add8_0/m2_14_76#" "add8_0/m1_n688_n24#" 720
+cap "add8_0/m1_n200_n12#" "s00" 720
+merge "add8_0/FullAdder_6/EXC_0/m1_60_40#" "i6" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "multiplyby5_0/FullAdder_7/m1_276_n52#" "s09" -532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
+merge "multiplyby5_0/FullAdder_8/m1_276_n52#" "s010" -760 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0
+merge "multiplyby5_0/FullAdder_6/m1_276_n52#" "s08" -760 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0
+merge "add8_0/FullAdder_1/EXC_0/m1_60_40#" "i1" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "multiplyby5_0/FullAdder_4/m1_276_n52#" "s06" -912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -40 0 0
+merge "multiplyby5_0/FullAdder_5/m1_276_n52#" "s07" -836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -38 0 0
+merge "multiplyby5_0/FullAdder_7/m1_n12_n72#" "multiplyby5_0/m2_n3560_8#" -6840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 -196 0 0
+merge "multiplyby5_0/m2_n3560_8#" "m2_n952_n449#"
+merge "add8_0/FullAdder_7/and_0/nand_0/a_4_12#" "multiplyby5_0/FullAdder_8/m1_n12_n72#" -380 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -34 0 0
+merge "multiplyby5_0/FullAdder_8/m1_n12_n72#" "multiplyby5_0/FullAdder_8/and_0/nand_0/a_4_12#"
+merge "multiplyby5_0/FullAdder_8/and_0/nand_0/a_4_12#" "gnd00"
+merge "add8_0/FullAdder_7/m1_391_56#" "multiplyby5_0/FullAdder_8/EXC_0/m1_60_40#" -84956 0 0 0 0 0 0 0 0 0 0 0 0 -1772 -922 -120 -76 0 0
+merge "multiplyby5_0/FullAdder_8/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_6/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_6/m1_n12_n72#" "m1_n1292_n293#"
+merge "multiplyby5_0/FullAdder_3/m1_276_n52#" "s05" -988 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52 -42 0 0
+merge "add8_0/m2_489_77#" "multiplyby5_0/m1_244_181#" -3224 0 0 0 0 0 0 0 0 0 0 0 0 -12 -17 -140 -82 0 0
+merge "multiplyby5_0/m1_244_181#" "s00"
+merge "add8_0/FullAdder_6/m1_276_n52#" "multiplyby5_0/FullAdder_6/EXC_0/m1_60_40#" -62924 0 0 0 0 0 0 0 0 0 0 0 0 -1224 -753 -316 -182 0 0
+merge "multiplyby5_0/FullAdder_6/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_4/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_4/m1_n12_n72#" "m1_n328_n293#"
+merge "multiplyby5_0/FullAdder_2/m1_276_n52#" "s04" -836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -38 0 0
+merge "add8_0/FullAdder_7/m1_276_n52#" "multiplyby5_0/FullAdder_7/EXC_0/m1_60_40#" -51240 0 0 0 0 0 0 0 0 0 0 0 0 -1032 -548 -192 -128 0 0
+merge "multiplyby5_0/FullAdder_7/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_5/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_5/m1_n12_n72#" "m1_n804_n293#"
+merge "add8_0/FullAdder_5/m1_276_n52#" "multiplyby5_0/FullAdder_5/EXC_0/m1_60_40#" -66380 0 0 0 0 0 0 0 0 0 0 0 0 -1228 -729 -504 -326 0 0
+merge "multiplyby5_0/FullAdder_5/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_3/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_3/m1_n12_n72#" "m1_164_n293#"
+merge "add8_0/FullAdder_7/EXC_0/m1_60_40#" "i7" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "add8_0/m2_14_76#" "multiplyby5_0/FullAdder_1/EXC_0/m1_60_40#" -21512 0 0 0 0 0 0 0 0 0 0 0 0 -296 -172 -408 -216 0 0
+merge "multiplyby5_0/FullAdder_1/EXC_0/m1_60_40#" "s01"
+merge "add8_0/FullAdder_3/m1_276_n52#" "multiplyby5_0/FullAdder_3/EXC_0/m1_60_40#" -71804 0 0 0 0 0 0 0 0 0 0 0 0 -1476 -774 -176 -120 0 0
+merge "multiplyby5_0/FullAdder_3/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_1/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_1/m1_n12_n72#" "m1_1236_n293#"
+merge "add8_0/FullAdder_4/m1_276_n52#" "multiplyby5_0/FullAdder_4/EXC_0/m1_60_40#" -54580 0 0 0 0 0 0 0 0 0 0 0 0 -1040 -548 -324 -208 0 0
+merge "multiplyby5_0/FullAdder_4/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_2/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_2/m1_n12_n72#" "m1_676_n293#"
+merge "add8_0/FullAdder_2/m1_276_n52#" "multiplyby5_0/FullAdder_2/EXC_0/m1_60_40#" -61976 0 0 0 0 0 0 0 0 0 0 0 0 -1144 -604 -464 -256 0 0
+merge "multiplyby5_0/FullAdder_2/EXC_0/m1_60_40#" "multiplyby5_0/FullAdder_0/m1_n12_n72#"
+merge "multiplyby5_0/FullAdder_0/m1_n12_n72#" "m1_1764_n293#"
+merge "add8_0/FullAdder_2/EXC_0/m1_60_40#" "i2" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "multiplyby5_0/m2_489_77#" "s02" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "add8_0/FullAdder_7/EXC_0/not_0/a_8_92#" "multiplyby5_0/FullAdder_8/EXC_0/not_0/a_8_92#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "multiplyby5_0/FullAdder_8/EXC_0/not_0/a_8_92#" "vdd00"
+merge "add8_0/FullAdder_0/m1_n12_n72#" "j0" -684 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0
+merge "add8_0/FullAdder_0/EXC_0/m1_60_40#" "i0" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "add8_0/FullAdder_1/m1_n12_n72#" "j1" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "add8_0/FullAdder_3/EXC_0/m1_60_40#" "i3" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "add8_0/FullAdder_2/m1_n12_n72#" "j2" -608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0
+merge "multiplyby5_0/m2_14_76#" "s03" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "add8_0/FullAdder_3/m1_n12_n72#" "j3" -608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0
+merge "add8_0/FullAdder_4/m1_n12_n72#" "j4" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "add8_0/FullAdder_7/m1_n12_n72#" "j7" -304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "multiplyby5_0/FullAdder_8/m1_391_56#" "s011" -2444 0 0 0 0 0 0 0 0 0 0 0 0 -52 -42 0 0 0 0
+merge "add8_0/FullAdder_4/EXC_0/m1_60_40#" "i4" -2679 0 0 0 0 0 0 0 0 0 0 0 0 -57 -55 0 0 0 0
+merge "add8_0/FullAdder_5/EXC_0/m1_60_40#" "i5" -1974 0 0 0 0 0 0 0 0 0 0 0 0 -42 -38 0 0 0 0
+merge "add8_0/FullAdder_5/m1_n12_n72#" "j5" -152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
+merge "add8_0/FullAdder_6/m1_n12_n72#" "j6" -228 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0

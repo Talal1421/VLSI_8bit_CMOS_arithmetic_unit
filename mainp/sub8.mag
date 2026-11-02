@@ -1,0 +1,196 @@
+magic
+tech scmos
+timestamp 1701772835
+<< metal1 >>
+rect -2518 184 -2512 188
+rect -2027 184 -2016 188
+rect -1514 184 -1508 188
+rect -953 184 -952 188
+rect -427 184 -424 188
+rect -3436 108 -3413 112
+rect -2956 108 -2936 112
+rect -3252 64 -3240 68
+rect -2772 64 -2763 68
+rect -3252 -32 -3248 64
+rect -2772 -24 -2768 64
+rect -2516 -32 -2512 184
+rect -2468 120 -2447 124
+rect -2296 64 -2275 68
+rect -2296 -16 -2292 64
+rect -2020 0 -2016 184
+rect -1960 112 -1934 116
+rect -1776 68 -1762 72
+rect -1776 -4 -1772 68
+rect -1512 -16 -1508 184
+rect -1400 116 -1373 120
+rect -876 116 -847 120
+rect -688 68 -675 72
+rect -2296 -20 -1508 -16
+rect -1220 64 -1201 68
+rect -1220 -28 -1216 64
+rect -1016 20 -932 24
+rect -1016 12 -1012 20
+rect -688 -20 -684 68
+rect -428 -28 -424 184
+rect 292 177 296 237
+rect -388 112 -363 116
+rect 92 112 112 116
+rect -200 68 -191 72
+rect -200 -8 -196 68
+rect -20 8 92 12
+rect 96 8 124 12
+rect 532 -8 536 189
+rect -200 -12 536 -8
+rect -1220 -32 -424 -28
+rect -3252 -36 -2512 -32
+<< metal2 >>
+rect -3436 236 -3399 240
+rect -3004 236 -2923 240
+rect -2528 236 -2434 240
+rect -2040 236 -1922 240
+rect -1524 236 -1361 240
+rect -964 236 -835 240
+rect -440 236 -351 240
+rect 44 237 124 241
+rect -3436 164 -3432 236
+rect -3004 228 -3000 236
+rect -2956 164 -2952 236
+rect -2528 228 -2524 236
+rect -2468 164 -2464 236
+rect -2040 232 -2036 236
+rect -1960 164 -1956 236
+rect -1524 232 -1520 236
+rect -1523 228 -1520 232
+rect -1400 164 -1396 236
+rect -964 232 -960 236
+rect -962 228 -960 232
+rect -3040 76 -3038 80
+rect -2560 76 -2559 80
+rect -2072 76 -2070 80
+rect -1560 76 -1557 80
+rect -3436 24 -3432 68
+rect -2956 24 -2952 68
+rect -2468 24 -2464 68
+rect -1960 24 -1956 68
+rect -1400 24 -1396 68
+rect -3436 20 -3399 24
+rect -3072 20 -2923 24
+rect -2592 20 -2434 24
+rect -2100 20 -1922 24
+rect -1584 20 -1361 24
+rect -3072 12 -3068 20
+rect -2592 12 -2588 20
+rect -2100 12 -2096 20
+rect -1584 12 -1580 20
+rect -3073 8 -3068 12
+rect -2596 8 -2588 12
+rect -2106 8 -2096 12
+rect -1593 8 -1580 12
+rect -1032 8 -1016 12
+rect -952 -4 -948 184
+rect -876 164 -872 236
+rect -440 232 -436 236
+rect -388 164 -384 236
+rect 44 232 48 237
+rect -472 76 -471 80
+rect -876 24 -872 68
+rect -388 24 -384 68
+rect -928 20 -835 24
+rect -492 20 -351 24
+rect -492 12 -488 20
+rect -506 8 -488 12
+rect -2020 -24 -2016 -4
+rect -1772 -8 -948 -4
+rect 56 -20 60 184
+rect 92 164 96 237
+rect 92 12 96 68
+rect 124 12 128 21
+rect -684 -24 60 -20
+rect -2768 -28 -2016 -24
+<< m2contact >>
+rect 292 237 296 241
+rect -952 184 -948 188
+rect 56 184 60 188
+rect -3413 108 -3409 112
+rect -2936 108 -2932 112
+rect -2772 -28 -2768 -24
+rect -2447 120 -2443 124
+rect -1934 112 -1930 116
+rect -2020 -4 -2016 0
+rect -1776 -8 -1772 -4
+rect -1373 116 -1369 120
+rect -847 116 -843 120
+rect -932 20 -928 24
+rect -1016 8 -1012 12
+rect -688 -24 -684 -20
+rect 292 173 296 177
+rect -363 112 -359 116
+rect 112 112 116 116
+rect -24 8 -20 12
+rect 92 8 96 12
+rect 124 8 128 12
+use FullAdder  FullAdder_0
+timestamp 1665587791
+transform 1 0 124 0 1 129
+box -12 -128 408 112
+use FullAdder  FullAdder_1
+timestamp 1665587791
+transform 1 0 -351 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_2
+timestamp 1665587791
+transform 1 0 -835 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_3
+timestamp 1665587791
+transform 1 0 -1361 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_4
+timestamp 1665587791
+transform 1 0 -1922 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_5
+timestamp 1665587791
+transform 1 0 -2435 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_6
+timestamp 1665587791
+transform 1 0 -2924 0 1 128
+box -12 -128 408 112
+use FullAdder  FullAdder_7
+timestamp 1665587791
+transform 1 0 -3401 0 1 128
+box -12 -128 408 112
+use not  not_0
+timestamp 1663614877
+transform 1 0 64 0 1 64
+box 8 0 40 104
+use not  not_1
+timestamp 1663614877
+transform 1 0 -416 0 1 64
+box 8 0 40 104
+use not  not_2
+timestamp 1663614877
+transform 1 0 -904 0 1 64
+box 8 0 40 104
+use not  not_3
+timestamp 1663614877
+transform 1 0 -1428 0 1 64
+box 8 0 40 104
+use not  not_4
+timestamp 1663614877
+transform 1 0 -1988 0 1 64
+box 8 0 40 104
+use not  not_5
+timestamp 1663614877
+transform 1 0 -2496 0 1 64
+box 8 0 40 104
+use not  not_6
+timestamp 1663614877
+transform 1 0 -2984 0 1 64
+box 8 0 40 104
+use not  not_7
+timestamp 1663614877
+transform 1 0 -3464 0 1 64
+box 8 0 40 104
+<< end >>

@@ -1,0 +1,240 @@
+| units: 100 tech: scmos format: MIT
+p WONOTTwoToOneMUX_0/or_0/m1_40_44# m1_52_179# m1_196_n115# 2 4 178 -84 s=48,32 d=56,36
+n WONOTTwoToOneMUX_0/or_0/m1_40_44# m1_40_51# m1_196_n115# 2 4 178 -168 s=48,32 d=56,36
+p WONOTTwoToOneMUX_0/m1_60_20# m1_52_179# WONOTTwoToOneMUX_0/or_0/nor_0/a_14_88# 2 4 134 -88 s=48,32 d=26,17
+p WONOTTwoToOneMUX_0/m1_64_n28# WONOTTwoToOneMUX_0/or_0/nor_0/a_14_88# WONOTTwoToOneMUX_0/or_0/m1_40_44# 2 4 149 -88 s=26,17 d=44,30
+n WONOTTwoToOneMUX_0/m1_60_20# WONOTTwoToOneMUX_0/or_0/m1_40_44# m1_40_51# 2 4 134 -164 s=48,32 d=26,17
+n WONOTTwoToOneMUX_0/m1_64_n28# m1_40_51# WONOTTwoToOneMUX_0/or_0/m1_40_44# 2 4 149 -164 s=26,17 d=44,30
+p WONOTTwoToOneMUX_0/and_0/m1_36_28# m1_52_179# WONOTTwoToOneMUX_0/m1_60_20# 2 4 83 -27 s=48,32 d=56,36
+n WONOTTwoToOneMUX_0/and_0/m1_36_28# m1_40_51# WONOTTwoToOneMUX_0/m1_60_20# 2 4 83 -111 s=48,32 d=56,36
+p m1_n12_n51# m1_52_179# WONOTTwoToOneMUX_0/and_0/m1_36_28# 2 4 39 -31 s=32,24 d=20,14
+n m1_n12_n51# m1_40_51# WONOTTwoToOneMUX_0/and_0/nand_0/a_14_12# 2 4 39 -107 s=32,24 d=20,14
+p m1_31_n81# WONOTTwoToOneMUX_0/and_0/m1_36_28# m1_52_179# 2 4 51 -31 s=20,14 d=56,36
+n m1_31_n81# WONOTTwoToOneMUX_0/and_0/nand_0/a_14_12# WONOTTwoToOneMUX_0/and_0/m1_36_28# 2 4 51 -107 s=20,14 d=56,36
+p WONOTTwoToOneMUX_0/and_1/m1_36_28# m1_52_179# WONOTTwoToOneMUX_0/m1_64_n28# 2 4 83 -138 s=48,32 d=56,36
+n WONOTTwoToOneMUX_0/and_1/m1_36_28# m1_40_51# WONOTTwoToOneMUX_0/m1_64_n28# 2 4 83 -222 s=48,32 d=56,36
+p m1_n4_n179# m1_52_179# WONOTTwoToOneMUX_0/and_1/m1_36_28# 2 4 39 -142 s=32,24 d=20,14
+n m1_n4_n179# m1_40_51# WONOTTwoToOneMUX_0/and_1/nand_0/a_14_12# 2 4 39 -218 s=32,24 d=20,14
+p m1_n4_n204# WONOTTwoToOneMUX_0/and_1/m1_36_28# m1_52_179# 2 4 51 -142 s=20,14 d=56,36
+n m1_n4_n204# WONOTTwoToOneMUX_0/and_1/nand_0/a_14_12# WONOTTwoToOneMUX_0/and_1/m1_36_28# 2 4 51 -218 s=20,14 d=56,36
+p TwoToOneMUX_0/or_0/m1_40_44# m1_52_179# m1_224_115# 2 4 207 146 s=48,32 d=56,36
+n TwoToOneMUX_0/or_0/m1_40_44# m1_40_51# m1_224_115# 2 4 207 62 s=48,32 d=56,36
+p TwoToOneMUX_0/m1_60_20# m1_52_179# TwoToOneMUX_0/or_0/nor_0/a_14_88# 2 4 163 142 s=48,32 d=26,17
+p TwoToOneMUX_0/m1_64_n28# TwoToOneMUX_0/or_0/nor_0/a_14_88# TwoToOneMUX_0/or_0/m1_40_44# 2 4 178 142 s=26,17 d=44,30
+n TwoToOneMUX_0/m1_60_20# TwoToOneMUX_0/or_0/m1_40_44# m1_40_51# 2 4 163 66 s=48,32 d=26,17
+n TwoToOneMUX_0/m1_64_n28# m1_40_51# TwoToOneMUX_0/or_0/m1_40_44# 2 4 178 66 s=26,17 d=44,30
+p m1_n4_n179# m1_52_179# m1_n12_n51# 2 4 24 156 s=48,32 d=56,36
+n m1_n4_n179# m1_40_51# m1_n12_n51# 2 4 24 72 s=48,32 d=56,36
+p TwoToOneMUX_0/and_0/m1_36_28# m1_52_179# TwoToOneMUX_0/m1_60_20# 2 4 112 203 s=48,32 d=56,36
+n TwoToOneMUX_0/and_0/m1_36_28# m1_40_51# TwoToOneMUX_0/m1_60_20# 2 4 112 119 s=48,32 d=56,36
+p m1_52_179# m1_52_179# TwoToOneMUX_0/and_0/m1_36_28# 2 4 68 199 s=32,24 d=20,14
+n m1_52_179# m1_40_51# TwoToOneMUX_0/and_0/nand_0/a_14_12# 2 4 68 123 s=32,24 d=20,14
+p m1_n12_n51# TwoToOneMUX_0/and_0/m1_36_28# m1_52_179# 2 4 80 199 s=20,14 d=56,36
+n m1_n12_n51# TwoToOneMUX_0/and_0/nand_0/a_14_12# TwoToOneMUX_0/and_0/m1_36_28# 2 4 80 123 s=20,14 d=56,36
+p TwoToOneMUX_0/and_1/m1_36_28# m1_52_179# TwoToOneMUX_0/m1_64_n28# 2 4 112 92 s=48,32 d=56,36
+n TwoToOneMUX_0/and_1/m1_36_28# m1_40_51# TwoToOneMUX_0/m1_64_n28# 2 4 112 8 s=48,32 d=56,36
+p m1_40_51# m1_52_179# TwoToOneMUX_0/and_1/m1_36_28# 2 4 68 88 s=32,24 d=20,14
+n m1_40_51# m1_40_51# TwoToOneMUX_0/and_1/nand_0/a_14_12# 2 4 68 12 s=32,24 d=20,14
+p m1_n4_n179# TwoToOneMUX_0/and_1/m1_36_28# m1_52_179# 2 4 80 88 s=20,14 d=56,36
+n m1_n4_n179# TwoToOneMUX_0/and_1/nand_0/a_14_12# TwoToOneMUX_0/and_1/m1_36_28# 2 4 80 12 s=20,14 d=56,36
+p TwoToOneMUX_1/or_0/m1_40_44# m1_52_179# m1_475_18# 2 4 454 49 s=48,32 d=56,36
+n TwoToOneMUX_1/or_0/m1_40_44# m1_40_51# m1_475_18# 2 4 454 -35 s=48,32 d=56,36
+p TwoToOneMUX_1/m1_60_20# m1_52_179# TwoToOneMUX_1/or_0/nor_0/a_14_88# 2 4 410 45 s=48,32 d=26,17
+p TwoToOneMUX_1/m1_64_n28# TwoToOneMUX_1/or_0/nor_0/a_14_88# TwoToOneMUX_1/or_0/m1_40_44# 2 4 425 45 s=26,17 d=44,30
+n TwoToOneMUX_1/m1_60_20# TwoToOneMUX_1/or_0/m1_40_44# m1_40_51# 2 4 410 -31 s=48,32 d=26,17
+n TwoToOneMUX_1/m1_64_n28# m1_40_51# TwoToOneMUX_1/or_0/m1_40_44# 2 4 425 -31 s=26,17 d=44,30
+p m1_252_n76# m1_52_179# TwoToOneMUX_1/m1_n24_32# 2 4 271 59 s=48,32 d=56,36
+n m1_252_n76# m1_40_51# TwoToOneMUX_1/m1_n24_32# 2 4 271 -25 s=48,32 d=56,36
+p TwoToOneMUX_1/and_0/m1_36_28# m1_52_179# TwoToOneMUX_1/m1_60_20# 2 4 359 106 s=48,32 d=56,36
+n TwoToOneMUX_1/and_0/m1_36_28# m1_40_51# TwoToOneMUX_1/m1_60_20# 2 4 359 22 s=48,32 d=56,36
+p m1_224_115# m1_52_179# TwoToOneMUX_1/and_0/m1_36_28# 2 4 315 102 s=32,24 d=20,14
+n m1_224_115# m1_40_51# TwoToOneMUX_1/and_0/nand_0/a_14_12# 2 4 315 26 s=32,24 d=20,14
+p TwoToOneMUX_1/m1_n24_32# TwoToOneMUX_1/and_0/m1_36_28# m1_52_179# 2 4 327 102 s=20,14 d=56,36
+n TwoToOneMUX_1/m1_n24_32# TwoToOneMUX_1/and_0/nand_0/a_14_12# TwoToOneMUX_1/and_0/m1_36_28# 2 4 327 26 s=20,14 d=56,36
+p TwoToOneMUX_1/and_1/m1_36_28# m1_52_179# TwoToOneMUX_1/m1_64_n28# 2 4 359 -5 s=48,32 d=56,36
+n TwoToOneMUX_1/and_1/m1_36_28# m1_40_51# TwoToOneMUX_1/m1_64_n28# 2 4 359 -89 s=48,32 d=56,36
+p m1_196_n115# m1_52_179# TwoToOneMUX_1/and_1/m1_36_28# 2 4 315 -9 s=32,24 d=20,14
+n m1_196_n115# m1_40_51# TwoToOneMUX_1/and_1/nand_0/a_14_12# 2 4 315 -85 s=32,24 d=20,14
+p m1_252_n76# TwoToOneMUX_1/and_1/m1_36_28# m1_52_179# 2 4 327 -9 s=20,14 d=56,36
+n m1_252_n76# TwoToOneMUX_1/and_1/nand_0/a_14_12# TwoToOneMUX_1/and_1/m1_36_28# 2 4 327 -85 s=20,14 d=56,36
+R TwoToOneMUX_1/and_1/nand_0/a_14_12# 67
+C TwoToOneMUX_1/and_1/m1_36_28#0 43.6
+R TwoToOneMUX_1/and_1/m1_36_28# 1484
+= TwoToOneMUX_1/and_1/m1_36_28# TwoToOneMUX_1/and_1/not_0/a_8_28#
+= TwoToOneMUX_1/and_1/m1_36_28# TwoToOneMUX_1/and_1/nand_0/a_14_88#
+C TwoToOneMUX_1/m1_64_n28#0 42.4
+R TwoToOneMUX_1/m1_64_n28# 1389
+= TwoToOneMUX_1/m1_64_n28# TwoToOneMUX_1/or_0/nor_0/a_20_56#
+= TwoToOneMUX_1/m1_64_n28# TwoToOneMUX_1/and_1/not_0/a_22_8#
+C m1_52_179#0 283.4
+R m1_52_179# 9056
+= m1_52_179# TwoToOneMUX_0/m1_n8_68#
+= m1_52_179# TwoToOneMUX_0/and_0/nand_0/a_4_80#
+= m1_52_179# TwoToOneMUX_0/m1_n20_53#
+= m1_52_179# TwoToOneMUX_0/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_0/and_0/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_0/and_0/nand_0/a_4_88#
+= m1_52_179# TwoToOneMUX_0/m1_80_n11#
+= m1_52_179# TwoToOneMUX_0/or_0/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_0/or_0/nor_0/a_0_88#
+= m1_52_179# TwoToOneMUX_0/m1_108_43#
+= m1_52_179# TwoToOneMUX_0/and_1/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_0/and_1/nand_0/a_4_88#
+= m1_52_179# m1_236_19#
+= m1_52_179# WONOTTwoToOneMUX_0/m1_80_n11#
+= m1_52_179# WONOTTwoToOneMUX_0/and_0/not_0/a_8_92#
+= m1_52_179# WONOTTwoToOneMUX_0/and_0/nand_0/a_4_88#
+= m1_52_179# WONOTTwoToOneMUX_0/or_0/not_0/a_8_92#
+= m1_52_179# WONOTTwoToOneMUX_0/or_0/nor_0/a_0_88#
+= m1_52_179# WONOTTwoToOneMUX_0/m1_108_43#
+= m1_52_179# WONOTTwoToOneMUX_0/and_1/not_0/a_8_92#
+= m1_52_179# WONOTTwoToOneMUX_0/and_1/nand_0/a_4_88#
+= m1_52_179# TwoToOneMUX_1/m1_n20_53#
+= m1_52_179# TwoToOneMUX_1/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_1/and_0/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_1/and_0/nand_0/a_4_88#
+= m1_52_179# TwoToOneMUX_1/m1_80_n11#
+= m1_52_179# TwoToOneMUX_1/or_0/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_1/or_0/nor_0/a_0_88#
+= m1_52_179# TwoToOneMUX_1/m1_108_43#
+= m1_52_179# TwoToOneMUX_1/and_1/not_0/a_8_92#
+= m1_52_179# TwoToOneMUX_1/and_1/nand_0/a_4_88#
+R TwoToOneMUX_1/and_0/nand_0/a_14_12# 67
+C TwoToOneMUX_1/and_0/m1_36_28#0 43.6
+R TwoToOneMUX_1/and_0/m1_36_28# 1484
+= TwoToOneMUX_1/and_0/m1_36_28# TwoToOneMUX_1/and_0/not_0/a_8_28#
+= TwoToOneMUX_1/and_0/m1_36_28# TwoToOneMUX_1/and_0/nand_0/a_14_88#
+C TwoToOneMUX_1/m1_n24_32#0 44.0
+R TwoToOneMUX_1/m1_n24_32# 1305
+= TwoToOneMUX_1/m1_n24_32# TwoToOneMUX_1/and_0/nand_0/a_24_10#
+= TwoToOneMUX_1/m1_n24_32# TwoToOneMUX_1/not_0/a_22_8#
+C m1_252_n76#0 73.9
+R m1_252_n76# 2293
+= m1_252_n76# TwoToOneMUX_1/m1_n60_n86#
+= m1_252_n76# TwoToOneMUX_1/and_1/nand_0/a_24_10#
+= m1_252_n76# TwoToOneMUX_1/not_0/a_8_28#
+C m1_40_51#0 215.8
+R m1_40_51# 3737
+= m1_40_51# TwoToOneMUX_0/m1_n8_n60#
+= m1_40_51# TwoToOneMUX_0/and_1/nand_0/a_4_80#
+= m1_40_51# TwoToOneMUX_0/m2_72_n111#
+= m1_40_51# TwoToOneMUX_0/and_0/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_0/and_0/nand_0/a_4_12#
+= m1_40_51# TwoToOneMUX_0/m1_n12_n48#
+= m1_40_51# TwoToOneMUX_0/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_0/and_1/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_0/and_1/nand_0/a_4_12#
+= m1_40_51# TwoToOneMUX_0/or_0/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_0/or_0/nor_0/a_14_12#
+= m1_40_51# m1_200_n36#
+= m1_40_51# WONOTTwoToOneMUX_0/m2_72_n111#
+= m1_40_51# WONOTTwoToOneMUX_0/and_0/not_0/a_8_8#
+= m1_40_51# WONOTTwoToOneMUX_0/and_0/nand_0/a_4_12#
+= m1_40_51# WONOTTwoToOneMUX_0/or_0/not_0/a_8_8#
+= m1_40_51# WONOTTwoToOneMUX_0/or_0/nor_0/a_14_12#
+= m1_40_51# WONOTTwoToOneMUX_0/m2_n24_n111#
+= m1_40_51# WONOTTwoToOneMUX_0/and_1/not_0/a_8_8#
+= m1_40_51# WONOTTwoToOneMUX_0/and_1/nand_0/a_4_12#
+= m1_40_51# TwoToOneMUX_1/m2_72_n111#
+= m1_40_51# TwoToOneMUX_1/and_0/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_1/and_0/nand_0/a_4_12#
+= m1_40_51# TwoToOneMUX_1/m1_n12_n48#
+= m1_40_51# TwoToOneMUX_1/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_1/and_1/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_1/and_1/nand_0/a_4_12#
+= m1_40_51# TwoToOneMUX_1/or_0/not_0/a_8_8#
+= m1_40_51# TwoToOneMUX_1/or_0/nor_0/a_14_12#
+R TwoToOneMUX_1/or_0/nor_0/a_14_88# 194
+C TwoToOneMUX_1/m1_60_20#0 40.1
+R TwoToOneMUX_1/m1_60_20# 1400
+= TwoToOneMUX_1/m1_60_20# TwoToOneMUX_1/and_0/not_0/a_22_8#
+= TwoToOneMUX_1/m1_60_20# TwoToOneMUX_1/or_0/nor_0/a_4_72#
+C m1_475_18#0 15.6
+R m1_475_18# 303
+= m1_475_18# TwoToOneMUX_1/m1_159_4#
+= m1_475_18# TwoToOneMUX_1/or_0/not_0/a_22_8#
+C TwoToOneMUX_1/or_0/m1_40_44#0 52.3
+R TwoToOneMUX_1/or_0/m1_40_44# 1628
+= TwoToOneMUX_1/or_0/m1_40_44# TwoToOneMUX_1/or_0/nor_0/a_0_12#
+= TwoToOneMUX_1/or_0/m1_40_44# TwoToOneMUX_1/or_0/not_0/a_8_28#
+R TwoToOneMUX_0/and_1/nand_0/a_14_12# 67
+C TwoToOneMUX_0/and_1/m1_36_28#0 43.6
+R TwoToOneMUX_0/and_1/m1_36_28# 1484
+= TwoToOneMUX_0/and_1/m1_36_28# TwoToOneMUX_0/and_1/not_0/a_8_28#
+= TwoToOneMUX_0/and_1/m1_36_28# TwoToOneMUX_0/and_1/nand_0/a_14_88#
+C TwoToOneMUX_0/m1_64_n28#0 42.4
+R TwoToOneMUX_0/m1_64_n28# 1389
+= TwoToOneMUX_0/m1_64_n28# TwoToOneMUX_0/or_0/nor_0/a_20_56#
+= TwoToOneMUX_0/m1_64_n28# TwoToOneMUX_0/and_1/not_0/a_22_8#
+R TwoToOneMUX_0/and_0/nand_0/a_14_12# 67
+C TwoToOneMUX_0/and_0/m1_36_28#0 43.6
+R TwoToOneMUX_0/and_0/m1_36_28# 1484
+= TwoToOneMUX_0/and_0/m1_36_28# TwoToOneMUX_0/and_0/not_0/a_8_28#
+= TwoToOneMUX_0/and_0/m1_36_28# TwoToOneMUX_0/and_0/nand_0/a_14_88#
+C m1_n12_n51#0 109.4
+R m1_n12_n51# 2407
+= m1_n12_n51# WONOTTwoToOneMUX_0/m1_n8_68#
+= m1_n12_n51# WONOTTwoToOneMUX_0/and_0/nand_0/a_4_80#
+= m1_n12_n51# TwoToOneMUX_0/m1_n24_32#
+= m1_n12_n51# TwoToOneMUX_0/and_0/nand_0/a_24_10#
+= m1_n12_n51# TwoToOneMUX_0/not_0/a_22_8#
+C m1_n4_n179#0 128.1
+R m1_n4_n179# 3393
+= m1_n4_n179# WONOTTwoToOneMUX_0/m1_n8_n60#
+= m1_n4_n179# WONOTTwoToOneMUX_0/and_1/nand_0/a_4_80#
+= m1_n4_n179# TwoToOneMUX_0/m1_n60_n86#
+= m1_n4_n179# TwoToOneMUX_0/and_1/nand_0/a_24_10#
+= m1_n4_n179# TwoToOneMUX_0/not_0/a_8_28#
+R TwoToOneMUX_0/or_0/nor_0/a_14_88# 194
+C TwoToOneMUX_0/m1_60_20#0 40.1
+R TwoToOneMUX_0/m1_60_20# 1400
+= TwoToOneMUX_0/m1_60_20# TwoToOneMUX_0/and_0/not_0/a_22_8#
+= TwoToOneMUX_0/m1_60_20# TwoToOneMUX_0/or_0/nor_0/a_4_72#
+C m1_224_115#0 43.6
+R m1_224_115# 1354
+= m1_224_115# TwoToOneMUX_1/m1_n8_68#
+= m1_224_115# TwoToOneMUX_1/and_0/nand_0/a_4_80#
+= m1_224_115# TwoToOneMUX_0/m1_159_4#
+= m1_224_115# TwoToOneMUX_0/or_0/not_0/a_22_8#
+C TwoToOneMUX_0/or_0/m1_40_44#0 52.3
+R TwoToOneMUX_0/or_0/m1_40_44# 1628
+= TwoToOneMUX_0/or_0/m1_40_44# TwoToOneMUX_0/or_0/nor_0/a_0_12#
+= TwoToOneMUX_0/or_0/m1_40_44# TwoToOneMUX_0/or_0/not_0/a_8_28#
+R WONOTTwoToOneMUX_0/and_1/nand_0/a_14_12# 67
+C WONOTTwoToOneMUX_0/and_1/m1_36_28#0 43.6
+R WONOTTwoToOneMUX_0/and_1/m1_36_28# 1484
+= WONOTTwoToOneMUX_0/and_1/m1_36_28# WONOTTwoToOneMUX_0/and_1/not_0/a_8_28#
+= WONOTTwoToOneMUX_0/and_1/m1_36_28# WONOTTwoToOneMUX_0/and_1/nand_0/a_14_88#
+C m1_n4_n204#0 32.2
+R m1_n4_n204# 1003
+= m1_n4_n204# WONOTTwoToOneMUX_0/m1_n8_n76#
+= m1_n4_n204# WONOTTwoToOneMUX_0/and_1/nand_0/a_24_10#
+C WONOTTwoToOneMUX_0/m1_64_n28#0 48.5
+R WONOTTwoToOneMUX_0/m1_64_n28# 1389
+= WONOTTwoToOneMUX_0/m1_64_n28# WONOTTwoToOneMUX_0/or_0/nor_0/a_20_56#
+= WONOTTwoToOneMUX_0/m1_64_n28# WONOTTwoToOneMUX_0/and_1/not_0/a_22_8#
+R WONOTTwoToOneMUX_0/and_0/nand_0/a_14_12# 67
+C WONOTTwoToOneMUX_0/and_0/m1_36_28#0 43.6
+R WONOTTwoToOneMUX_0/and_0/m1_36_28# 1484
+= WONOTTwoToOneMUX_0/and_0/m1_36_28# WONOTTwoToOneMUX_0/and_0/not_0/a_8_28#
+= WONOTTwoToOneMUX_0/and_0/m1_36_28# WONOTTwoToOneMUX_0/and_0/nand_0/a_14_88#
+C m1_31_n81#0 30.5
+R m1_31_n81# 1003
+= m1_31_n81# m1_23_n87#
+= m1_31_n81# WONOTTwoToOneMUX_0/m1_n8_32#
+= m1_31_n81# WONOTTwoToOneMUX_0/and_0/nand_0/a_24_10#
+C WONOTTwoToOneMUX_0/m1_60_20#0 40.1
+R WONOTTwoToOneMUX_0/m1_60_20# 1400
+= WONOTTwoToOneMUX_0/m1_60_20# WONOTTwoToOneMUX_0/or_0/nor_0/a_4_72#
+= WONOTTwoToOneMUX_0/m1_60_20# WONOTTwoToOneMUX_0/and_0/not_0/a_22_8#
+R WONOTTwoToOneMUX_0/or_0/nor_0/a_14_88# 194
+C m1_196_n115#0 48.7
+R m1_196_n115# 1354
+= m1_196_n115# TwoToOneMUX_1/m1_n8_n60#
+= m1_196_n115# TwoToOneMUX_1/and_1/nand_0/a_4_80#
+= m1_196_n115# WONOTTwoToOneMUX_0/m1_159_4#
+= m1_196_n115# WONOTTwoToOneMUX_0/or_0/not_0/a_22_8#
+C WONOTTwoToOneMUX_0/or_0/m1_40_44#0 52.3
+R WONOTTwoToOneMUX_0/or_0/m1_40_44# 1628
+= WONOTTwoToOneMUX_0/or_0/m1_40_44# WONOTTwoToOneMUX_0/or_0/nor_0/a_0_12#
+= WONOTTwoToOneMUX_0/or_0/m1_40_44# WONOTTwoToOneMUX_0/or_0/not_0/a_8_28#

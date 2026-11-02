@@ -1,0 +1,14 @@
+timestamp 1701878732
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use add8 add8_7 1 0 190 0 1 -2018
+use add8 add8_6 1 0 660 0 1 -1718
+use add8 add8_5 1 0 1054 0 1 -1428
+use add8 add8_4 1 0 1475 0 1 -1143
+use add8 add8_3 1 0 1907 0 1 -853
+use add8 add8_2 1 0 2411 0 1 -563
+use add8 add8_1 1 0 2914 0 1 -273
+use add8 add8_0 1 0 3412 0 1 36

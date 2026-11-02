@@ -1,0 +1,1345 @@
+| units: 100 tech: scmos format: MIT
+p not_0/a_8_28# m2_44_232# m1_92_112# 2 4 84 156 s=48,32 d=56,36
+n not_0/a_8_28# m1_n24_8# m1_92_112# 2 4 84 72 s=48,32 d=56,36
+p not_1/a_8_28# m2_44_232# m1_n388_112# 2 4 -396 156 s=48,32 d=56,36
+n not_1/a_8_28# m1_n24_8# m1_n388_112# 2 4 -396 72 s=48,32 d=56,36
+p not_2/a_8_28# m2_44_232# m1_n876_116# 2 4 -884 156 s=48,32 d=56,36
+n not_2/a_8_28# m1_n24_8# m1_n876_116# 2 4 -884 72 s=48,32 d=56,36
+p not_3/a_8_28# m2_44_232# m1_n1400_116# 2 4 -1408 156 s=48,32 d=56,36
+n not_3/a_8_28# m1_n24_8# m1_n1400_116# 2 4 -1408 72 s=48,32 d=56,36
+p not_4/a_8_28# m2_44_232# m1_n1960_112# 2 4 -1968 156 s=48,32 d=56,36
+n not_4/a_8_28# m1_n24_8# m1_n1960_112# 2 4 -1968 72 s=48,32 d=56,36
+p not_5/a_8_28# m2_44_232# m1_n2468_120# 2 4 -2476 156 s=48,32 d=56,36
+n not_5/a_8_28# m1_n24_8# m1_n2468_120# 2 4 -2476 72 s=48,32 d=56,36
+p not_6/a_8_28# m2_44_232# m1_n2956_108# 2 4 -2964 156 s=48,32 d=56,36
+n not_6/a_8_28# m1_n24_8# m1_n2956_108# 2 4 -2964 72 s=48,32 d=56,36
+p not_7/a_8_28# m2_44_232# m1_n3436_108# 2 4 -3444 156 s=48,32 d=56,36
+n not_7/a_8_28# m1_n24_8# m1_n3436_108# 2 4 -3444 72 s=48,32 d=56,36
+p FullAdder_0/or_0/m1_40_44# m2_44_232# m1_n200_n12# 2 4 503 221 s=48,32 d=56,36
+n FullAdder_0/or_0/m1_40_44# m1_n24_8# m1_n200_n12# 2 4 503 137 s=48,32 d=56,36
+p FullAdder_0/m1_240_80# m2_44_232# FullAdder_0/or_0/nor_0/a_14_88# 2 4 459 217 s=48,32 d=26,17
+p FullAdder_0/m1_60_n52# FullAdder_0/or_0/nor_0/a_14_88# FullAdder_0/or_0/m1_40_44# 2 4 474 217 s=26,17 d=44,30
+n FullAdder_0/m1_240_80# FullAdder_0/or_0/m1_40_44# m1_n24_8# 2 4 459 141 s=48,32 d=26,17
+n FullAdder_0/m1_60_n52# m1_n24_8# FullAdder_0/or_0/m1_40_44# 2 4 474 141 s=26,17 d=44,30
+p FullAdder_0/and_0/m1_36_28# m2_44_232# FullAdder_0/m1_60_n52# 2 4 176 113 s=48,32 d=56,36
+n FullAdder_0/and_0/m1_36_28# m1_n24_8# FullAdder_0/m1_60_n52# 2 4 176 29 s=48,32 d=56,36
+p FullAdder_0/m1_0_n40# m2_44_232# FullAdder_0/and_0/m1_36_28# 2 4 132 109 s=32,24 d=20,14
+n FullAdder_0/m1_0_n40# m1_n24_8# FullAdder_0/and_0/nand_0/a_14_12# 2 4 132 33 s=32,24 d=20,14
+p m1_92_112# FullAdder_0/and_0/m1_36_28# m2_44_232# 2 4 144 109 s=20,14 d=56,36
+n m1_92_112# FullAdder_0/and_0/nand_0/a_14_12# FullAdder_0/and_0/m1_36_28# 2 4 144 33 s=20,14 d=56,36
+p FullAdder_0/and_1/m1_36_28# m2_44_232# FullAdder_0/m1_240_80# 2 4 356 229 s=48,32 d=56,36
+n FullAdder_0/and_1/m1_36_28# m1_n24_8# FullAdder_0/m1_240_80# 2 4 356 145 s=48,32 d=56,36
+p FullAdder_0/m1_108_80# m2_44_232# FullAdder_0/and_1/m1_36_28# 2 4 312 225 s=32,24 d=20,14
+n FullAdder_0/m1_108_80# m1_n24_8# FullAdder_0/and_1/nand_0/a_14_12# 2 4 312 149 s=32,24 d=20,14
+p m2_44_232# FullAdder_0/and_1/m1_36_28# m2_44_232# 2 4 324 225 s=20,14 d=56,36
+n m2_44_232# FullAdder_0/and_1/nand_0/a_14_12# FullAdder_0/and_1/m1_36_28# 2 4 324 149 s=20,14 d=56,36
+p FullAdder_0/EXC_0/m1_n12_72# m2_44_232# FullAdder_0/EXC_0/xor_0/a_18_88# 2 4 208 225 s=28,18 d=28,18
+n FullAdder_0/EXC_0/m1_n12_72# FullAdder_0/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 208 149 s=28,18 d=28,18
+p m1_92_112# FullAdder_0/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 192 225 s=24,16 d=28,18
+p FullAdder_0/m1_0_n40# FullAdder_0/EXC_0/xor_0/a_18_88# FullAdder_0/m1_108_80# 2 4 224 225 s=28,18 d=40,28
+n m1_92_112# FullAdder_0/m1_108_80# FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 192 149 s=24,16 d=28,18
+n FullAdder_0/m1_0_n40# m1_n24_8# FullAdder_0/EXC_0/xor_0/a_n36_12# 2 4 224 149 s=28,18 d=76,46
+p FullAdder_0/EXC_0/m1_0_36# FullAdder_0/m1_108_80# FullAdder_0/EXC_0/xor_0/a_n12_88# 2 4 179 225 s=88,52 d=24,16
+n FullAdder_0/EXC_0/m1_0_36# FullAdder_0/EXC_0/xor_0/a_n36_12# FullAdder_0/m1_108_80# 2 4 179 149 s=88,52 d=24,16
+p m1_92_112# m2_44_232# FullAdder_0/EXC_0/m1_n12_72# 2 4 136 229 s=48,32 d=56,36
+n m1_92_112# m1_n24_8# FullAdder_0/EXC_0/m1_n12_72# 2 4 136 145 s=48,32 d=56,36
+p FullAdder_0/m1_0_n40# m2_44_232# FullAdder_0/EXC_0/m1_0_36# 2 4 265 229 s=48,32 d=56,36
+n FullAdder_0/m1_0_n40# m1_n24_8# FullAdder_0/EXC_0/m1_0_36# 2 4 265 145 s=48,32 d=56,36
+p FullAdder_0/EXC_1/m1_n12_72# m2_44_232# FullAdder_0/EXC_1/xor_0/a_18_88# 2 4 376 97 s=28,18 d=28,18
+n FullAdder_0/EXC_1/m1_n12_72# FullAdder_0/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 376 21 s=28,18 d=28,18
+p m2_44_232# FullAdder_0/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 360 97 s=24,16 d=28,18
+p FullAdder_0/m1_108_80# FullAdder_0/EXC_1/xor_0/a_18_88# FullAdder_0/m1_276_n52# 2 4 392 97 s=28,18 d=40,28
+n m2_44_232# FullAdder_0/m1_276_n52# FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 360 21 s=24,16 d=28,18
+n FullAdder_0/m1_108_80# m1_n24_8# FullAdder_0/EXC_1/xor_0/a_n36_12# 2 4 392 21 s=28,18 d=76,46
+p FullAdder_0/EXC_1/m1_0_36# FullAdder_0/m1_276_n52# FullAdder_0/EXC_1/xor_0/a_n12_88# 2 4 347 97 s=88,52 d=24,16
+n FullAdder_0/EXC_1/m1_0_36# FullAdder_0/EXC_1/xor_0/a_n36_12# FullAdder_0/m1_276_n52# 2 4 347 21 s=88,52 d=24,16
+p m2_44_232# m2_44_232# FullAdder_0/EXC_1/m1_n12_72# 2 4 304 101 s=48,32 d=56,36
+n m2_44_232# m1_n24_8# FullAdder_0/EXC_1/m1_n12_72# 2 4 304 17 s=48,32 d=56,36
+p FullAdder_0/m1_108_80# m2_44_232# FullAdder_0/EXC_1/m1_0_36# 2 4 433 101 s=48,32 d=56,36
+n FullAdder_0/m1_108_80# m1_n24_8# FullAdder_0/EXC_1/m1_0_36# 2 4 433 17 s=48,32 d=56,36
+p FullAdder_1/or_0/m1_40_44# m2_44_232# m1_n688_n24# 2 4 28 220 s=48,32 d=56,36
+n FullAdder_1/or_0/m1_40_44# m1_n24_8# m1_n688_n24# 2 4 28 136 s=48,32 d=56,36
+p FullAdder_1/m1_240_80# m2_44_232# FullAdder_1/or_0/nor_0/a_14_88# 2 4 -16 216 s=48,32 d=26,17
+p FullAdder_1/m1_60_n52# FullAdder_1/or_0/nor_0/a_14_88# FullAdder_1/or_0/m1_40_44# 2 4 -1 216 s=26,17 d=44,30
+n FullAdder_1/m1_240_80# FullAdder_1/or_0/m1_40_44# m1_n24_8# 2 4 -16 140 s=48,32 d=26,17
+n FullAdder_1/m1_60_n52# m1_n24_8# FullAdder_1/or_0/m1_40_44# 2 4 -1 140 s=26,17 d=44,30
+p FullAdder_1/and_0/m1_36_28# m2_44_232# FullAdder_1/m1_60_n52# 2 4 -299 112 s=48,32 d=56,36
+n FullAdder_1/and_0/m1_36_28# m1_n24_8# FullAdder_1/m1_60_n52# 2 4 -299 28 s=48,32 d=56,36
+p FullAdder_1/m1_0_n40# m2_44_232# FullAdder_1/and_0/m1_36_28# 2 4 -343 108 s=32,24 d=20,14
+n FullAdder_1/m1_0_n40# m1_n24_8# FullAdder_1/and_0/nand_0/a_14_12# 2 4 -343 32 s=32,24 d=20,14
+p m1_n388_112# FullAdder_1/and_0/m1_36_28# m2_44_232# 2 4 -331 108 s=20,14 d=56,36
+n m1_n388_112# FullAdder_1/and_0/nand_0/a_14_12# FullAdder_1/and_0/m1_36_28# 2 4 -331 32 s=20,14 d=56,36
+p FullAdder_1/and_1/m1_36_28# m2_44_232# FullAdder_1/m1_240_80# 2 4 -119 228 s=48,32 d=56,36
+n FullAdder_1/and_1/m1_36_28# m1_n24_8# FullAdder_1/m1_240_80# 2 4 -119 144 s=48,32 d=56,36
+p FullAdder_1/m1_108_80# m2_44_232# FullAdder_1/and_1/m1_36_28# 2 4 -163 224 s=32,24 d=20,14
+n FullAdder_1/m1_108_80# m1_n24_8# FullAdder_1/and_1/nand_0/a_14_12# 2 4 -163 148 s=32,24 d=20,14
+p m1_n200_n12# FullAdder_1/and_1/m1_36_28# m2_44_232# 2 4 -151 224 s=20,14 d=56,36
+n m1_n200_n12# FullAdder_1/and_1/nand_0/a_14_12# FullAdder_1/and_1/m1_36_28# 2 4 -151 148 s=20,14 d=56,36
+p FullAdder_1/EXC_0/m1_n12_72# m2_44_232# FullAdder_1/EXC_0/xor_0/a_18_88# 2 4 -267 224 s=28,18 d=28,18
+n FullAdder_1/EXC_0/m1_n12_72# FullAdder_1/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -267 148 s=28,18 d=28,18
+p m1_n388_112# FullAdder_1/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -283 224 s=24,16 d=28,18
+p FullAdder_1/m1_0_n40# FullAdder_1/EXC_0/xor_0/a_18_88# FullAdder_1/m1_108_80# 2 4 -251 224 s=28,18 d=40,28
+n m1_n388_112# FullAdder_1/m1_108_80# FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 -283 148 s=24,16 d=28,18
+n FullAdder_1/m1_0_n40# m1_n24_8# FullAdder_1/EXC_0/xor_0/a_n36_12# 2 4 -251 148 s=28,18 d=76,46
+p FullAdder_1/EXC_0/m1_0_36# FullAdder_1/m1_108_80# FullAdder_1/EXC_0/xor_0/a_n12_88# 2 4 -296 224 s=88,52 d=24,16
+n FullAdder_1/EXC_0/m1_0_36# FullAdder_1/EXC_0/xor_0/a_n36_12# FullAdder_1/m1_108_80# 2 4 -296 148 s=88,52 d=24,16
+p m1_n388_112# m2_44_232# FullAdder_1/EXC_0/m1_n12_72# 2 4 -339 228 s=48,32 d=56,36
+n m1_n388_112# m1_n24_8# FullAdder_1/EXC_0/m1_n12_72# 2 4 -339 144 s=48,32 d=56,36
+p FullAdder_1/m1_0_n40# m2_44_232# FullAdder_1/EXC_0/m1_0_36# 2 4 -210 228 s=48,32 d=56,36
+n FullAdder_1/m1_0_n40# m1_n24_8# FullAdder_1/EXC_0/m1_0_36# 2 4 -210 144 s=48,32 d=56,36
+p FullAdder_1/EXC_1/m1_n12_72# m2_44_232# FullAdder_1/EXC_1/xor_0/a_18_88# 2 4 -99 96 s=28,18 d=28,18
+n FullAdder_1/EXC_1/m1_n12_72# FullAdder_1/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -99 20 s=28,18 d=28,18
+p m1_n200_n12# FullAdder_1/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -115 96 s=24,16 d=28,18
+p FullAdder_1/m1_108_80# FullAdder_1/EXC_1/xor_0/a_18_88# FullAdder_1/m1_276_n52# 2 4 -83 96 s=28,18 d=40,28
+n m1_n200_n12# FullAdder_1/m1_276_n52# FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 -115 20 s=24,16 d=28,18
+n FullAdder_1/m1_108_80# m1_n24_8# FullAdder_1/EXC_1/xor_0/a_n36_12# 2 4 -83 20 s=28,18 d=76,46
+p FullAdder_1/EXC_1/m1_0_36# FullAdder_1/m1_276_n52# FullAdder_1/EXC_1/xor_0/a_n12_88# 2 4 -128 96 s=88,52 d=24,16
+n FullAdder_1/EXC_1/m1_0_36# FullAdder_1/EXC_1/xor_0/a_n36_12# FullAdder_1/m1_276_n52# 2 4 -128 20 s=88,52 d=24,16
+p m1_n200_n12# m2_44_232# FullAdder_1/EXC_1/m1_n12_72# 2 4 -171 100 s=48,32 d=56,36
+n m1_n200_n12# m1_n24_8# FullAdder_1/EXC_1/m1_n12_72# 2 4 -171 16 s=48,32 d=56,36
+p FullAdder_1/m1_108_80# m2_44_232# FullAdder_1/EXC_1/m1_0_36# 2 4 -42 100 s=48,32 d=56,36
+n FullAdder_1/m1_108_80# m1_n24_8# FullAdder_1/EXC_1/m1_0_36# 2 4 -42 16 s=48,32 d=56,36
+p FullAdder_2/or_0/m1_40_44# m2_44_232# m1_n1220_n32# 2 4 -456 220 s=48,32 d=56,36
+n FullAdder_2/or_0/m1_40_44# m1_n24_8# m1_n1220_n32# 2 4 -456 136 s=48,32 d=56,36
+p FullAdder_2/m1_240_80# m2_44_232# FullAdder_2/or_0/nor_0/a_14_88# 2 4 -500 216 s=48,32 d=26,17
+p FullAdder_2/m1_60_n52# FullAdder_2/or_0/nor_0/a_14_88# FullAdder_2/or_0/m1_40_44# 2 4 -485 216 s=26,17 d=44,30
+n FullAdder_2/m1_240_80# FullAdder_2/or_0/m1_40_44# m1_n24_8# 2 4 -500 140 s=48,32 d=26,17
+n FullAdder_2/m1_60_n52# m1_n24_8# FullAdder_2/or_0/m1_40_44# 2 4 -485 140 s=26,17 d=44,30
+p FullAdder_2/and_0/m1_36_28# m2_44_232# FullAdder_2/m1_60_n52# 2 4 -783 112 s=48,32 d=56,36
+n FullAdder_2/and_0/m1_36_28# m1_n24_8# FullAdder_2/m1_60_n52# 2 4 -783 28 s=48,32 d=56,36
+p FullAdder_2/m1_0_n40# m2_44_232# FullAdder_2/and_0/m1_36_28# 2 4 -827 108 s=32,24 d=20,14
+n FullAdder_2/m1_0_n40# m1_n24_8# FullAdder_2/and_0/nand_0/a_14_12# 2 4 -827 32 s=32,24 d=20,14
+p m1_n876_116# FullAdder_2/and_0/m1_36_28# m2_44_232# 2 4 -815 108 s=20,14 d=56,36
+n m1_n876_116# FullAdder_2/and_0/nand_0/a_14_12# FullAdder_2/and_0/m1_36_28# 2 4 -815 32 s=20,14 d=56,36
+p FullAdder_2/and_1/m1_36_28# m2_44_232# FullAdder_2/m1_240_80# 2 4 -603 228 s=48,32 d=56,36
+n FullAdder_2/and_1/m1_36_28# m1_n24_8# FullAdder_2/m1_240_80# 2 4 -603 144 s=48,32 d=56,36
+p FullAdder_2/m1_108_80# m2_44_232# FullAdder_2/and_1/m1_36_28# 2 4 -647 224 s=32,24 d=20,14
+n FullAdder_2/m1_108_80# m1_n24_8# FullAdder_2/and_1/nand_0/a_14_12# 2 4 -647 148 s=32,24 d=20,14
+p m1_n688_n24# FullAdder_2/and_1/m1_36_28# m2_44_232# 2 4 -635 224 s=20,14 d=56,36
+n m1_n688_n24# FullAdder_2/and_1/nand_0/a_14_12# FullAdder_2/and_1/m1_36_28# 2 4 -635 148 s=20,14 d=56,36
+p FullAdder_2/EXC_0/m1_n12_72# m2_44_232# FullAdder_2/EXC_0/xor_0/a_18_88# 2 4 -751 224 s=28,18 d=28,18
+n FullAdder_2/EXC_0/m1_n12_72# FullAdder_2/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -751 148 s=28,18 d=28,18
+p m1_n876_116# FullAdder_2/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -767 224 s=24,16 d=28,18
+p FullAdder_2/m1_0_n40# FullAdder_2/EXC_0/xor_0/a_18_88# FullAdder_2/m1_108_80# 2 4 -735 224 s=28,18 d=40,28
+n m1_n876_116# FullAdder_2/m1_108_80# FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 -767 148 s=24,16 d=28,18
+n FullAdder_2/m1_0_n40# m1_n24_8# FullAdder_2/EXC_0/xor_0/a_n36_12# 2 4 -735 148 s=28,18 d=76,46
+p FullAdder_2/EXC_0/m1_0_36# FullAdder_2/m1_108_80# FullAdder_2/EXC_0/xor_0/a_n12_88# 2 4 -780 224 s=88,52 d=24,16
+n FullAdder_2/EXC_0/m1_0_36# FullAdder_2/EXC_0/xor_0/a_n36_12# FullAdder_2/m1_108_80# 2 4 -780 148 s=88,52 d=24,16
+p m1_n876_116# m2_44_232# FullAdder_2/EXC_0/m1_n12_72# 2 4 -823 228 s=48,32 d=56,36
+n m1_n876_116# m1_n24_8# FullAdder_2/EXC_0/m1_n12_72# 2 4 -823 144 s=48,32 d=56,36
+p FullAdder_2/m1_0_n40# m2_44_232# FullAdder_2/EXC_0/m1_0_36# 2 4 -694 228 s=48,32 d=56,36
+n FullAdder_2/m1_0_n40# m1_n24_8# FullAdder_2/EXC_0/m1_0_36# 2 4 -694 144 s=48,32 d=56,36
+p FullAdder_2/EXC_1/m1_n12_72# m2_44_232# FullAdder_2/EXC_1/xor_0/a_18_88# 2 4 -583 96 s=28,18 d=28,18
+n FullAdder_2/EXC_1/m1_n12_72# FullAdder_2/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -583 20 s=28,18 d=28,18
+p m1_n688_n24# FullAdder_2/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -599 96 s=24,16 d=28,18
+p FullAdder_2/m1_108_80# FullAdder_2/EXC_1/xor_0/a_18_88# m2_n472_76# 2 4 -567 96 s=28,18 d=40,28
+n m1_n688_n24# m2_n472_76# FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 -599 20 s=24,16 d=28,18
+n FullAdder_2/m1_108_80# m1_n24_8# FullAdder_2/EXC_1/xor_0/a_n36_12# 2 4 -567 20 s=28,18 d=76,46
+p FullAdder_2/EXC_1/m1_0_36# m2_n472_76# FullAdder_2/EXC_1/xor_0/a_n12_88# 2 4 -612 96 s=88,52 d=24,16
+n FullAdder_2/EXC_1/m1_0_36# FullAdder_2/EXC_1/xor_0/a_n36_12# m2_n472_76# 2 4 -612 20 s=88,52 d=24,16
+p m1_n688_n24# m2_44_232# FullAdder_2/EXC_1/m1_n12_72# 2 4 -655 100 s=48,32 d=56,36
+n m1_n688_n24# m1_n24_8# FullAdder_2/EXC_1/m1_n12_72# 2 4 -655 16 s=48,32 d=56,36
+p FullAdder_2/m1_108_80# m2_44_232# FullAdder_2/EXC_1/m1_0_36# 2 4 -526 100 s=48,32 d=56,36
+n FullAdder_2/m1_108_80# m1_n24_8# FullAdder_2/EXC_1/m1_0_36# 2 4 -526 16 s=48,32 d=56,36
+p FullAdder_3/or_0/m1_40_44# m2_44_232# m1_n1776_n8# 2 4 -982 220 s=48,32 d=56,36
+n FullAdder_3/or_0/m1_40_44# m1_n24_8# m1_n1776_n8# 2 4 -982 136 s=48,32 d=56,36
+p FullAdder_3/m1_240_80# m2_44_232# FullAdder_3/or_0/nor_0/a_14_88# 2 4 -1026 216 s=48,32 d=26,17
+p FullAdder_3/m1_60_n52# FullAdder_3/or_0/nor_0/a_14_88# FullAdder_3/or_0/m1_40_44# 2 4 -1011 216 s=26,17 d=44,30
+n FullAdder_3/m1_240_80# FullAdder_3/or_0/m1_40_44# m1_n24_8# 2 4 -1026 140 s=48,32 d=26,17
+n FullAdder_3/m1_60_n52# m1_n24_8# FullAdder_3/or_0/m1_40_44# 2 4 -1011 140 s=26,17 d=44,30
+p FullAdder_3/and_0/m1_36_28# m2_44_232# FullAdder_3/m1_60_n52# 2 4 -1309 112 s=48,32 d=56,36
+n FullAdder_3/and_0/m1_36_28# m1_n24_8# FullAdder_3/m1_60_n52# 2 4 -1309 28 s=48,32 d=56,36
+p FullAdder_3/m1_0_n40# m2_44_232# FullAdder_3/and_0/m1_36_28# 2 4 -1353 108 s=32,24 d=20,14
+n FullAdder_3/m1_0_n40# m1_n24_8# FullAdder_3/and_0/nand_0/a_14_12# 2 4 -1353 32 s=32,24 d=20,14
+p m1_n1400_116# FullAdder_3/and_0/m1_36_28# m2_44_232# 2 4 -1341 108 s=20,14 d=56,36
+n m1_n1400_116# FullAdder_3/and_0/nand_0/a_14_12# FullAdder_3/and_0/m1_36_28# 2 4 -1341 32 s=20,14 d=56,36
+p FullAdder_3/and_1/m1_36_28# m2_44_232# FullAdder_3/m1_240_80# 2 4 -1129 228 s=48,32 d=56,36
+n FullAdder_3/and_1/m1_36_28# m1_n24_8# FullAdder_3/m1_240_80# 2 4 -1129 144 s=48,32 d=56,36
+p FullAdder_3/m1_108_80# m2_44_232# FullAdder_3/and_1/m1_36_28# 2 4 -1173 224 s=32,24 d=20,14
+n FullAdder_3/m1_108_80# m1_n24_8# FullAdder_3/and_1/nand_0/a_14_12# 2 4 -1173 148 s=32,24 d=20,14
+p m1_n1220_n32# FullAdder_3/and_1/m1_36_28# m2_44_232# 2 4 -1161 224 s=20,14 d=56,36
+n m1_n1220_n32# FullAdder_3/and_1/nand_0/a_14_12# FullAdder_3/and_1/m1_36_28# 2 4 -1161 148 s=20,14 d=56,36
+p FullAdder_3/EXC_0/m1_n12_72# m2_44_232# FullAdder_3/EXC_0/xor_0/a_18_88# 2 4 -1277 224 s=28,18 d=28,18
+n FullAdder_3/EXC_0/m1_n12_72# FullAdder_3/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -1277 148 s=28,18 d=28,18
+p m1_n1400_116# FullAdder_3/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -1293 224 s=24,16 d=28,18
+p FullAdder_3/m1_0_n40# FullAdder_3/EXC_0/xor_0/a_18_88# FullAdder_3/m1_108_80# 2 4 -1261 224 s=28,18 d=40,28
+n m1_n1400_116# FullAdder_3/m1_108_80# FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 -1293 148 s=24,16 d=28,18
+n FullAdder_3/m1_0_n40# m1_n24_8# FullAdder_3/EXC_0/xor_0/a_n36_12# 2 4 -1261 148 s=28,18 d=76,46
+p FullAdder_3/EXC_0/m1_0_36# FullAdder_3/m1_108_80# FullAdder_3/EXC_0/xor_0/a_n12_88# 2 4 -1306 224 s=88,52 d=24,16
+n FullAdder_3/EXC_0/m1_0_36# FullAdder_3/EXC_0/xor_0/a_n36_12# FullAdder_3/m1_108_80# 2 4 -1306 148 s=88,52 d=24,16
+p m1_n1400_116# m2_44_232# FullAdder_3/EXC_0/m1_n12_72# 2 4 -1349 228 s=48,32 d=56,36
+n m1_n1400_116# m1_n24_8# FullAdder_3/EXC_0/m1_n12_72# 2 4 -1349 144 s=48,32 d=56,36
+p FullAdder_3/m1_0_n40# m2_44_232# FullAdder_3/EXC_0/m1_0_36# 2 4 -1220 228 s=48,32 d=56,36
+n FullAdder_3/m1_0_n40# m1_n24_8# FullAdder_3/EXC_0/m1_0_36# 2 4 -1220 144 s=48,32 d=56,36
+p FullAdder_3/EXC_1/m1_n12_72# m2_44_232# FullAdder_3/EXC_1/xor_0/a_18_88# 2 4 -1109 96 s=28,18 d=28,18
+n FullAdder_3/EXC_1/m1_n12_72# FullAdder_3/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -1109 20 s=28,18 d=28,18
+p m1_n1220_n32# FullAdder_3/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -1125 96 s=24,16 d=28,18
+p FullAdder_3/m1_108_80# FullAdder_3/EXC_1/xor_0/a_18_88# FullAdder_3/m1_276_n52# 2 4 -1093 96 s=28,18 d=40,28
+n m1_n1220_n32# FullAdder_3/m1_276_n52# FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 -1125 20 s=24,16 d=28,18
+n FullAdder_3/m1_108_80# m1_n24_8# FullAdder_3/EXC_1/xor_0/a_n36_12# 2 4 -1093 20 s=28,18 d=76,46
+p FullAdder_3/EXC_1/m1_0_36# FullAdder_3/m1_276_n52# FullAdder_3/EXC_1/xor_0/a_n12_88# 2 4 -1138 96 s=88,52 d=24,16
+n FullAdder_3/EXC_1/m1_0_36# FullAdder_3/EXC_1/xor_0/a_n36_12# FullAdder_3/m1_276_n52# 2 4 -1138 20 s=88,52 d=24,16
+p m1_n1220_n32# m2_44_232# FullAdder_3/EXC_1/m1_n12_72# 2 4 -1181 100 s=48,32 d=56,36
+n m1_n1220_n32# m1_n24_8# FullAdder_3/EXC_1/m1_n12_72# 2 4 -1181 16 s=48,32 d=56,36
+p FullAdder_3/m1_108_80# m2_44_232# FullAdder_3/EXC_1/m1_0_36# 2 4 -1052 100 s=48,32 d=56,36
+n FullAdder_3/m1_108_80# m1_n24_8# FullAdder_3/EXC_1/m1_0_36# 2 4 -1052 16 s=48,32 d=56,36
+p FullAdder_4/or_0/m1_40_44# m2_44_232# m1_n2296_n20# 2 4 -1543 220 s=48,32 d=56,36
+n FullAdder_4/or_0/m1_40_44# m1_n24_8# m1_n2296_n20# 2 4 -1543 136 s=48,32 d=56,36
+p FullAdder_4/m1_240_80# m2_44_232# FullAdder_4/or_0/nor_0/a_14_88# 2 4 -1587 216 s=48,32 d=26,17
+p FullAdder_4/m1_60_n52# FullAdder_4/or_0/nor_0/a_14_88# FullAdder_4/or_0/m1_40_44# 2 4 -1572 216 s=26,17 d=44,30
+n FullAdder_4/m1_240_80# FullAdder_4/or_0/m1_40_44# m1_n24_8# 2 4 -1587 140 s=48,32 d=26,17
+n FullAdder_4/m1_60_n52# m1_n24_8# FullAdder_4/or_0/m1_40_44# 2 4 -1572 140 s=26,17 d=44,30
+p FullAdder_4/and_0/m1_36_28# m2_44_232# FullAdder_4/m1_60_n52# 2 4 -1870 112 s=48,32 d=56,36
+n FullAdder_4/and_0/m1_36_28# m1_n24_8# FullAdder_4/m1_60_n52# 2 4 -1870 28 s=48,32 d=56,36
+p FullAdder_4/m1_0_n40# m2_44_232# FullAdder_4/and_0/m1_36_28# 2 4 -1914 108 s=32,24 d=20,14
+n FullAdder_4/m1_0_n40# m1_n24_8# FullAdder_4/and_0/nand_0/a_14_12# 2 4 -1914 32 s=32,24 d=20,14
+p m1_n1960_112# FullAdder_4/and_0/m1_36_28# m2_44_232# 2 4 -1902 108 s=20,14 d=56,36
+n m1_n1960_112# FullAdder_4/and_0/nand_0/a_14_12# FullAdder_4/and_0/m1_36_28# 2 4 -1902 32 s=20,14 d=56,36
+p FullAdder_4/and_1/m1_36_28# m2_44_232# FullAdder_4/m1_240_80# 2 4 -1690 228 s=48,32 d=56,36
+n FullAdder_4/and_1/m1_36_28# m1_n24_8# FullAdder_4/m1_240_80# 2 4 -1690 144 s=48,32 d=56,36
+p FullAdder_4/m1_108_80# m2_44_232# FullAdder_4/and_1/m1_36_28# 2 4 -1734 224 s=32,24 d=20,14
+n FullAdder_4/m1_108_80# m1_n24_8# FullAdder_4/and_1/nand_0/a_14_12# 2 4 -1734 148 s=32,24 d=20,14
+p m1_n1776_n8# FullAdder_4/and_1/m1_36_28# m2_44_232# 2 4 -1722 224 s=20,14 d=56,36
+n m1_n1776_n8# FullAdder_4/and_1/nand_0/a_14_12# FullAdder_4/and_1/m1_36_28# 2 4 -1722 148 s=20,14 d=56,36
+p FullAdder_4/EXC_0/m1_n12_72# m2_44_232# FullAdder_4/EXC_0/xor_0/a_18_88# 2 4 -1838 224 s=28,18 d=28,18
+n FullAdder_4/EXC_0/m1_n12_72# FullAdder_4/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -1838 148 s=28,18 d=28,18
+p m1_n1960_112# FullAdder_4/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -1854 224 s=24,16 d=28,18
+p FullAdder_4/m1_0_n40# FullAdder_4/EXC_0/xor_0/a_18_88# FullAdder_4/m1_108_80# 2 4 -1822 224 s=28,18 d=40,28
+n m1_n1960_112# FullAdder_4/m1_108_80# FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -1854 148 s=24,16 d=28,18
+n FullAdder_4/m1_0_n40# m1_n24_8# FullAdder_4/EXC_0/xor_0/a_n36_12# 2 4 -1822 148 s=28,18 d=76,46
+p FullAdder_4/EXC_0/m1_0_36# FullAdder_4/m1_108_80# FullAdder_4/EXC_0/xor_0/a_n12_88# 2 4 -1867 224 s=88,52 d=24,16
+n FullAdder_4/EXC_0/m1_0_36# FullAdder_4/EXC_0/xor_0/a_n36_12# FullAdder_4/m1_108_80# 2 4 -1867 148 s=88,52 d=24,16
+p m1_n1960_112# m2_44_232# FullAdder_4/EXC_0/m1_n12_72# 2 4 -1910 228 s=48,32 d=56,36
+n m1_n1960_112# m1_n24_8# FullAdder_4/EXC_0/m1_n12_72# 2 4 -1910 144 s=48,32 d=56,36
+p FullAdder_4/m1_0_n40# m2_44_232# FullAdder_4/EXC_0/m1_0_36# 2 4 -1781 228 s=48,32 d=56,36
+n FullAdder_4/m1_0_n40# m1_n24_8# FullAdder_4/EXC_0/m1_0_36# 2 4 -1781 144 s=48,32 d=56,36
+p FullAdder_4/EXC_1/m1_n12_72# m2_44_232# FullAdder_4/EXC_1/xor_0/a_18_88# 2 4 -1670 96 s=28,18 d=28,18
+n FullAdder_4/EXC_1/m1_n12_72# FullAdder_4/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -1670 20 s=28,18 d=28,18
+p m1_n1776_n8# FullAdder_4/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -1686 96 s=24,16 d=28,18
+p FullAdder_4/m1_108_80# FullAdder_4/EXC_1/xor_0/a_18_88# m2_n1560_76# 2 4 -1654 96 s=28,18 d=40,28
+n m1_n1776_n8# m2_n1560_76# FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -1686 20 s=24,16 d=28,18
+n FullAdder_4/m1_108_80# m1_n24_8# FullAdder_4/EXC_1/xor_0/a_n36_12# 2 4 -1654 20 s=28,18 d=76,46
+p FullAdder_4/EXC_1/m1_0_36# m2_n1560_76# FullAdder_4/EXC_1/xor_0/a_n12_88# 2 4 -1699 96 s=88,52 d=24,16
+n FullAdder_4/EXC_1/m1_0_36# FullAdder_4/EXC_1/xor_0/a_n36_12# m2_n1560_76# 2 4 -1699 20 s=88,52 d=24,16
+p m1_n1776_n8# m2_44_232# FullAdder_4/EXC_1/m1_n12_72# 2 4 -1742 100 s=48,32 d=56,36
+n m1_n1776_n8# m1_n24_8# FullAdder_4/EXC_1/m1_n12_72# 2 4 -1742 16 s=48,32 d=56,36
+p FullAdder_4/m1_108_80# m2_44_232# FullAdder_4/EXC_1/m1_0_36# 2 4 -1613 100 s=48,32 d=56,36
+n FullAdder_4/m1_108_80# m1_n24_8# FullAdder_4/EXC_1/m1_0_36# 2 4 -1613 16 s=48,32 d=56,36
+p FullAdder_5/or_0/m1_40_44# m2_44_232# m1_n2772_n28# 2 4 -2056 220 s=48,32 d=56,36
+n FullAdder_5/or_0/m1_40_44# m1_n24_8# m1_n2772_n28# 2 4 -2056 136 s=48,32 d=56,36
+p FullAdder_5/m1_240_80# m2_44_232# FullAdder_5/or_0/nor_0/a_14_88# 2 4 -2100 216 s=48,32 d=26,17
+p FullAdder_5/m1_60_n52# FullAdder_5/or_0/nor_0/a_14_88# FullAdder_5/or_0/m1_40_44# 2 4 -2085 216 s=26,17 d=44,30
+n FullAdder_5/m1_240_80# FullAdder_5/or_0/m1_40_44# m1_n24_8# 2 4 -2100 140 s=48,32 d=26,17
+n FullAdder_5/m1_60_n52# m1_n24_8# FullAdder_5/or_0/m1_40_44# 2 4 -2085 140 s=26,17 d=44,30
+p FullAdder_5/and_0/m1_36_28# m2_44_232# FullAdder_5/m1_60_n52# 2 4 -2383 112 s=48,32 d=56,36
+n FullAdder_5/and_0/m1_36_28# m1_n24_8# FullAdder_5/m1_60_n52# 2 4 -2383 28 s=48,32 d=56,36
+p FullAdder_5/m1_0_n40# m2_44_232# FullAdder_5/and_0/m1_36_28# 2 4 -2427 108 s=32,24 d=20,14
+n FullAdder_5/m1_0_n40# m1_n24_8# FullAdder_5/and_0/nand_0/a_14_12# 2 4 -2427 32 s=32,24 d=20,14
+p m1_n2468_120# FullAdder_5/and_0/m1_36_28# m2_44_232# 2 4 -2415 108 s=20,14 d=56,36
+n m1_n2468_120# FullAdder_5/and_0/nand_0/a_14_12# FullAdder_5/and_0/m1_36_28# 2 4 -2415 32 s=20,14 d=56,36
+p FullAdder_5/and_1/m1_36_28# m2_44_232# FullAdder_5/m1_240_80# 2 4 -2203 228 s=48,32 d=56,36
+n FullAdder_5/and_1/m1_36_28# m1_n24_8# FullAdder_5/m1_240_80# 2 4 -2203 144 s=48,32 d=56,36
+p FullAdder_5/m1_108_80# m2_44_232# FullAdder_5/and_1/m1_36_28# 2 4 -2247 224 s=32,24 d=20,14
+n FullAdder_5/m1_108_80# m1_n24_8# FullAdder_5/and_1/nand_0/a_14_12# 2 4 -2247 148 s=32,24 d=20,14
+p m1_n2296_n20# FullAdder_5/and_1/m1_36_28# m2_44_232# 2 4 -2235 224 s=20,14 d=56,36
+n m1_n2296_n20# FullAdder_5/and_1/nand_0/a_14_12# FullAdder_5/and_1/m1_36_28# 2 4 -2235 148 s=20,14 d=56,36
+p FullAdder_5/EXC_0/m1_n12_72# m2_44_232# FullAdder_5/EXC_0/xor_0/a_18_88# 2 4 -2351 224 s=28,18 d=28,18
+n FullAdder_5/EXC_0/m1_n12_72# FullAdder_5/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -2351 148 s=28,18 d=28,18
+p m1_n2468_120# FullAdder_5/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -2367 224 s=24,16 d=28,18
+p FullAdder_5/m1_0_n40# FullAdder_5/EXC_0/xor_0/a_18_88# FullAdder_5/m1_108_80# 2 4 -2335 224 s=28,18 d=40,28
+n m1_n2468_120# FullAdder_5/m1_108_80# FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -2367 148 s=24,16 d=28,18
+n FullAdder_5/m1_0_n40# m1_n24_8# FullAdder_5/EXC_0/xor_0/a_n36_12# 2 4 -2335 148 s=28,18 d=76,46
+p FullAdder_5/EXC_0/m1_0_36# FullAdder_5/m1_108_80# FullAdder_5/EXC_0/xor_0/a_n12_88# 2 4 -2380 224 s=88,52 d=24,16
+n FullAdder_5/EXC_0/m1_0_36# FullAdder_5/EXC_0/xor_0/a_n36_12# FullAdder_5/m1_108_80# 2 4 -2380 148 s=88,52 d=24,16
+p m1_n2468_120# m2_44_232# FullAdder_5/EXC_0/m1_n12_72# 2 4 -2423 228 s=48,32 d=56,36
+n m1_n2468_120# m1_n24_8# FullAdder_5/EXC_0/m1_n12_72# 2 4 -2423 144 s=48,32 d=56,36
+p FullAdder_5/m1_0_n40# m2_44_232# FullAdder_5/EXC_0/m1_0_36# 2 4 -2294 228 s=48,32 d=56,36
+n FullAdder_5/m1_0_n40# m1_n24_8# FullAdder_5/EXC_0/m1_0_36# 2 4 -2294 144 s=48,32 d=56,36
+p FullAdder_5/EXC_1/m1_n12_72# m2_44_232# FullAdder_5/EXC_1/xor_0/a_18_88# 2 4 -2183 96 s=28,18 d=28,18
+n FullAdder_5/EXC_1/m1_n12_72# FullAdder_5/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -2183 20 s=28,18 d=28,18
+p m1_n2296_n20# FullAdder_5/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -2199 96 s=24,16 d=28,18
+p FullAdder_5/m1_108_80# FullAdder_5/EXC_1/xor_0/a_18_88# m2_n2072_76# 2 4 -2167 96 s=28,18 d=40,28
+n m1_n2296_n20# m2_n2072_76# FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -2199 20 s=24,16 d=28,18
+n FullAdder_5/m1_108_80# m1_n24_8# FullAdder_5/EXC_1/xor_0/a_n36_12# 2 4 -2167 20 s=28,18 d=76,46
+p FullAdder_5/EXC_1/m1_0_36# m2_n2072_76# FullAdder_5/EXC_1/xor_0/a_n12_88# 2 4 -2212 96 s=88,52 d=24,16
+n FullAdder_5/EXC_1/m1_0_36# FullAdder_5/EXC_1/xor_0/a_n36_12# m2_n2072_76# 2 4 -2212 20 s=88,52 d=24,16
+p m1_n2296_n20# m2_44_232# FullAdder_5/EXC_1/m1_n12_72# 2 4 -2255 100 s=48,32 d=56,36
+n m1_n2296_n20# m1_n24_8# FullAdder_5/EXC_1/m1_n12_72# 2 4 -2255 16 s=48,32 d=56,36
+p FullAdder_5/m1_108_80# m2_44_232# FullAdder_5/EXC_1/m1_0_36# 2 4 -2126 100 s=48,32 d=56,36
+n FullAdder_5/m1_108_80# m1_n24_8# FullAdder_5/EXC_1/m1_0_36# 2 4 -2126 16 s=48,32 d=56,36
+p FullAdder_6/or_0/m1_40_44# m2_44_232# m1_n3252_n36# 2 4 -2545 220 s=48,32 d=56,36
+n FullAdder_6/or_0/m1_40_44# m1_n24_8# m1_n3252_n36# 2 4 -2545 136 s=48,32 d=56,36
+p FullAdder_6/m1_240_80# m2_44_232# FullAdder_6/or_0/nor_0/a_14_88# 2 4 -2589 216 s=48,32 d=26,17
+p FullAdder_6/m1_60_n52# FullAdder_6/or_0/nor_0/a_14_88# FullAdder_6/or_0/m1_40_44# 2 4 -2574 216 s=26,17 d=44,30
+n FullAdder_6/m1_240_80# FullAdder_6/or_0/m1_40_44# m1_n24_8# 2 4 -2589 140 s=48,32 d=26,17
+n FullAdder_6/m1_60_n52# m1_n24_8# FullAdder_6/or_0/m1_40_44# 2 4 -2574 140 s=26,17 d=44,30
+p FullAdder_6/and_0/m1_36_28# m2_44_232# FullAdder_6/m1_60_n52# 2 4 -2872 112 s=48,32 d=56,36
+n FullAdder_6/and_0/m1_36_28# m1_n24_8# FullAdder_6/m1_60_n52# 2 4 -2872 28 s=48,32 d=56,36
+p FullAdder_6/m1_0_n40# m2_44_232# FullAdder_6/and_0/m1_36_28# 2 4 -2916 108 s=32,24 d=20,14
+n FullAdder_6/m1_0_n40# m1_n24_8# FullAdder_6/and_0/nand_0/a_14_12# 2 4 -2916 32 s=32,24 d=20,14
+p m1_n2956_108# FullAdder_6/and_0/m1_36_28# m2_44_232# 2 4 -2904 108 s=20,14 d=56,36
+n m1_n2956_108# FullAdder_6/and_0/nand_0/a_14_12# FullAdder_6/and_0/m1_36_28# 2 4 -2904 32 s=20,14 d=56,36
+p FullAdder_6/and_1/m1_36_28# m2_44_232# FullAdder_6/m1_240_80# 2 4 -2692 228 s=48,32 d=56,36
+n FullAdder_6/and_1/m1_36_28# m1_n24_8# FullAdder_6/m1_240_80# 2 4 -2692 144 s=48,32 d=56,36
+p FullAdder_6/m1_108_80# m2_44_232# FullAdder_6/and_1/m1_36_28# 2 4 -2736 224 s=32,24 d=20,14
+n FullAdder_6/m1_108_80# m1_n24_8# FullAdder_6/and_1/nand_0/a_14_12# 2 4 -2736 148 s=32,24 d=20,14
+p m1_n2772_n28# FullAdder_6/and_1/m1_36_28# m2_44_232# 2 4 -2724 224 s=20,14 d=56,36
+n m1_n2772_n28# FullAdder_6/and_1/nand_0/a_14_12# FullAdder_6/and_1/m1_36_28# 2 4 -2724 148 s=20,14 d=56,36
+p FullAdder_6/EXC_0/m1_n12_72# m2_44_232# FullAdder_6/EXC_0/xor_0/a_18_88# 2 4 -2840 224 s=28,18 d=28,18
+n FullAdder_6/EXC_0/m1_n12_72# FullAdder_6/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -2840 148 s=28,18 d=28,18
+p m1_n2956_108# FullAdder_6/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -2856 224 s=24,16 d=28,18
+p FullAdder_6/m1_0_n40# FullAdder_6/EXC_0/xor_0/a_18_88# FullAdder_6/m1_108_80# 2 4 -2824 224 s=28,18 d=40,28
+n m1_n2956_108# FullAdder_6/m1_108_80# FullAdder_6/EXC_0/xor_0/a_n36_12# 2 4 -2856 148 s=24,16 d=28,18
+n FullAdder_6/m1_0_n40# m1_n24_8# FullAdder_6/EXC_0/xor_0/a_n36_12# 2 4 -2824 148 s=28,18 d=76,46
+p FullAdder_6/EXC_0/m1_0_36# FullAdder_6/m1_108_80# FullAdder_6/EXC_0/xor_0/a_n12_88# 2 4 -2869 224 s=88,52 d=24,16
+n FullAdder_6/EXC_0/m1_0_36# FullAdder_6/EXC_0/xor_0/a_n36_12# FullAdder_6/m1_108_80# 2 4 -2869 148 s=88,52 d=24,16
+p m1_n2956_108# m2_44_232# FullAdder_6/EXC_0/m1_n12_72# 2 4 -2912 228 s=48,32 d=56,36
+n m1_n2956_108# m1_n24_8# FullAdder_6/EXC_0/m1_n12_72# 2 4 -2912 144 s=48,32 d=56,36
+p FullAdder_6/m1_0_n40# m2_44_232# FullAdder_6/EXC_0/m1_0_36# 2 4 -2783 228 s=48,32 d=56,36
+n FullAdder_6/m1_0_n40# m1_n24_8# FullAdder_6/EXC_0/m1_0_36# 2 4 -2783 144 s=48,32 d=56,36
+p FullAdder_6/EXC_1/m1_n12_72# m2_44_232# FullAdder_6/EXC_1/xor_0/a_18_88# 2 4 -2672 96 s=28,18 d=28,18
+n FullAdder_6/EXC_1/m1_n12_72# FullAdder_6/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -2672 20 s=28,18 d=28,18
+p m1_n2772_n28# FullAdder_6/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -2688 96 s=24,16 d=28,18
+p FullAdder_6/m1_108_80# FullAdder_6/EXC_1/xor_0/a_18_88# m2_n2560_76# 2 4 -2656 96 s=28,18 d=40,28
+n m1_n2772_n28# m2_n2560_76# FullAdder_6/EXC_1/xor_0/a_n36_12# 2 4 -2688 20 s=24,16 d=28,18
+n FullAdder_6/m1_108_80# m1_n24_8# FullAdder_6/EXC_1/xor_0/a_n36_12# 2 4 -2656 20 s=28,18 d=76,46
+p FullAdder_6/EXC_1/m1_0_36# m2_n2560_76# FullAdder_6/EXC_1/xor_0/a_n12_88# 2 4 -2701 96 s=88,52 d=24,16
+n FullAdder_6/EXC_1/m1_0_36# FullAdder_6/EXC_1/xor_0/a_n36_12# m2_n2560_76# 2 4 -2701 20 s=88,52 d=24,16
+p m1_n2772_n28# m2_44_232# FullAdder_6/EXC_1/m1_n12_72# 2 4 -2744 100 s=48,32 d=56,36
+n m1_n2772_n28# m1_n24_8# FullAdder_6/EXC_1/m1_n12_72# 2 4 -2744 16 s=48,32 d=56,36
+p FullAdder_6/m1_108_80# m2_44_232# FullAdder_6/EXC_1/m1_0_36# 2 4 -2615 100 s=48,32 d=56,36
+n FullAdder_6/m1_108_80# m1_n24_8# FullAdder_6/EXC_1/m1_0_36# 2 4 -2615 16 s=48,32 d=56,36
+p FullAdder_7/or_0/m1_40_44# m2_44_232# FullAdder_7/m1_391_56# 2 4 -3022 220 s=48,32 d=56,36
+n FullAdder_7/or_0/m1_40_44# m1_n24_8# FullAdder_7/m1_391_56# 2 4 -3022 136 s=48,32 d=56,36
+p FullAdder_7/m1_240_80# m2_44_232# FullAdder_7/or_0/nor_0/a_14_88# 2 4 -3066 216 s=48,32 d=26,17
+p FullAdder_7/m1_60_n52# FullAdder_7/or_0/nor_0/a_14_88# FullAdder_7/or_0/m1_40_44# 2 4 -3051 216 s=26,17 d=44,30
+n FullAdder_7/m1_240_80# FullAdder_7/or_0/m1_40_44# m1_n24_8# 2 4 -3066 140 s=48,32 d=26,17
+n FullAdder_7/m1_60_n52# m1_n24_8# FullAdder_7/or_0/m1_40_44# 2 4 -3051 140 s=26,17 d=44,30
+p FullAdder_7/and_0/m1_36_28# m2_44_232# FullAdder_7/m1_60_n52# 2 4 -3349 112 s=48,32 d=56,36
+n FullAdder_7/and_0/m1_36_28# m1_n24_8# FullAdder_7/m1_60_n52# 2 4 -3349 28 s=48,32 d=56,36
+p FullAdder_7/m1_0_n40# m2_44_232# FullAdder_7/and_0/m1_36_28# 2 4 -3393 108 s=32,24 d=20,14
+n FullAdder_7/m1_0_n40# m1_n24_8# FullAdder_7/and_0/nand_0/a_14_12# 2 4 -3393 32 s=32,24 d=20,14
+p m1_n3436_108# FullAdder_7/and_0/m1_36_28# m2_44_232# 2 4 -3381 108 s=20,14 d=56,36
+n m1_n3436_108# FullAdder_7/and_0/nand_0/a_14_12# FullAdder_7/and_0/m1_36_28# 2 4 -3381 32 s=20,14 d=56,36
+p FullAdder_7/and_1/m1_36_28# m2_44_232# FullAdder_7/m1_240_80# 2 4 -3169 228 s=48,32 d=56,36
+n FullAdder_7/and_1/m1_36_28# m1_n24_8# FullAdder_7/m1_240_80# 2 4 -3169 144 s=48,32 d=56,36
+p FullAdder_7/m1_108_80# m2_44_232# FullAdder_7/and_1/m1_36_28# 2 4 -3213 224 s=32,24 d=20,14
+n FullAdder_7/m1_108_80# m1_n24_8# FullAdder_7/and_1/nand_0/a_14_12# 2 4 -3213 148 s=32,24 d=20,14
+p m1_n3252_n36# FullAdder_7/and_1/m1_36_28# m2_44_232# 2 4 -3201 224 s=20,14 d=56,36
+n m1_n3252_n36# FullAdder_7/and_1/nand_0/a_14_12# FullAdder_7/and_1/m1_36_28# 2 4 -3201 148 s=20,14 d=56,36
+p FullAdder_7/EXC_0/m1_n12_72# m2_44_232# FullAdder_7/EXC_0/xor_0/a_18_88# 2 4 -3317 224 s=28,18 d=28,18
+n FullAdder_7/EXC_0/m1_n12_72# FullAdder_7/EXC_0/xor_0/a_n36_12# m1_n24_8# 2 4 -3317 148 s=28,18 d=28,18
+p m1_n3436_108# FullAdder_7/EXC_0/xor_0/a_n12_88# m2_44_232# 2 4 -3333 224 s=24,16 d=28,18
+p FullAdder_7/m1_0_n40# FullAdder_7/EXC_0/xor_0/a_18_88# FullAdder_7/m1_108_80# 2 4 -3301 224 s=28,18 d=40,28
+n m1_n3436_108# FullAdder_7/m1_108_80# FullAdder_7/EXC_0/xor_0/a_n36_12# 2 4 -3333 148 s=24,16 d=28,18
+n FullAdder_7/m1_0_n40# m1_n24_8# FullAdder_7/EXC_0/xor_0/a_n36_12# 2 4 -3301 148 s=28,18 d=76,46
+p FullAdder_7/EXC_0/m1_0_36# FullAdder_7/m1_108_80# FullAdder_7/EXC_0/xor_0/a_n12_88# 2 4 -3346 224 s=88,52 d=24,16
+n FullAdder_7/EXC_0/m1_0_36# FullAdder_7/EXC_0/xor_0/a_n36_12# FullAdder_7/m1_108_80# 2 4 -3346 148 s=88,52 d=24,16
+p m1_n3436_108# m2_44_232# FullAdder_7/EXC_0/m1_n12_72# 2 4 -3389 228 s=48,32 d=56,36
+n m1_n3436_108# m1_n24_8# FullAdder_7/EXC_0/m1_n12_72# 2 4 -3389 144 s=48,32 d=56,36
+p FullAdder_7/m1_0_n40# m2_44_232# FullAdder_7/EXC_0/m1_0_36# 2 4 -3260 228 s=48,32 d=56,36
+n FullAdder_7/m1_0_n40# m1_n24_8# FullAdder_7/EXC_0/m1_0_36# 2 4 -3260 144 s=48,32 d=56,36
+p FullAdder_7/EXC_1/m1_n12_72# m2_44_232# FullAdder_7/EXC_1/xor_0/a_18_88# 2 4 -3149 96 s=28,18 d=28,18
+n FullAdder_7/EXC_1/m1_n12_72# FullAdder_7/EXC_1/xor_0/a_n36_12# m1_n24_8# 2 4 -3149 20 s=28,18 d=28,18
+p m1_n3252_n36# FullAdder_7/EXC_1/xor_0/a_n12_88# m2_44_232# 2 4 -3165 96 s=24,16 d=28,18
+p FullAdder_7/m1_108_80# FullAdder_7/EXC_1/xor_0/a_18_88# m2_n3040_76# 2 4 -3133 96 s=28,18 d=40,28
+n m1_n3252_n36# m2_n3040_76# FullAdder_7/EXC_1/xor_0/a_n36_12# 2 4 -3165 20 s=24,16 d=28,18
+n FullAdder_7/m1_108_80# m1_n24_8# FullAdder_7/EXC_1/xor_0/a_n36_12# 2 4 -3133 20 s=28,18 d=76,46
+p FullAdder_7/EXC_1/m1_0_36# m2_n3040_76# FullAdder_7/EXC_1/xor_0/a_n12_88# 2 4 -3178 96 s=88,52 d=24,16
+n FullAdder_7/EXC_1/m1_0_36# FullAdder_7/EXC_1/xor_0/a_n36_12# m2_n3040_76# 2 4 -3178 20 s=88,52 d=24,16
+p m1_n3252_n36# m2_44_232# FullAdder_7/EXC_1/m1_n12_72# 2 4 -3221 100 s=48,32 d=56,36
+n m1_n3252_n36# m1_n24_8# FullAdder_7/EXC_1/m1_n12_72# 2 4 -3221 16 s=48,32 d=56,36
+p FullAdder_7/m1_108_80# m2_44_232# FullAdder_7/EXC_1/m1_0_36# 2 4 -3092 100 s=48,32 d=56,36
+n FullAdder_7/m1_108_80# m1_n24_8# FullAdder_7/EXC_1/m1_0_36# 2 4 -3092 16 s=48,32 d=56,36
+C m1_n24_8# m1_n1220_n32# 2.2
+C FullAdder_1/EXC_0/m1_0_36# FullAdder_1/m1_108_80# 2.4
+C FullAdder_3/EXC_0/m1_0_36# FullAdder_3/m1_108_80# 2.4
+C m1_n24_8# m1_n3252_n36# 2.2
+C FullAdder_7/EXC_0/m1_0_36# FullAdder_7/m1_108_80# 2.4
+C FullAdder_6/EXC_1/m1_0_36# m2_n2560_76# 2.4
+C FullAdder_4/EXC_0/m1_0_36# FullAdder_4/m1_108_80# 2.4
+C FullAdder_2/EXC_0/m1_0_36# FullAdder_2/m1_108_80# 2.4
+C m1_n24_8# m2_44_232# 12.2
+C m1_n24_8# m1_n688_n24# 2.2
+C FullAdder_0/EXC_1/m1_0_36# FullAdder_0/m1_276_n52# 2.4
+C FullAdder_6/EXC_0/m1_0_36# FullAdder_6/m1_108_80# 2.4
+C m1_n24_8# m1_n2772_n28# 2.2
+C m2_n3040_76# FullAdder_7/EXC_1/m1_0_36# 2.4
+C FullAdder_3/m1_276_n52# FullAdder_3/EXC_1/m1_0_36# 2.4
+C m2_n2072_76# FullAdder_5/EXC_1/m1_0_36# 2.4
+C m2_n472_76# FullAdder_2/EXC_1/m1_0_36# 2.4
+C FullAdder_0/EXC_0/m1_0_36# FullAdder_0/m1_108_80# 2.4
+C m2_n1560_76# FullAdder_4/EXC_1/m1_0_36# 2.4
+C FullAdder_1/m1_276_n52# FullAdder_1/EXC_1/m1_0_36# 2.4
+C FullAdder_0/m1_60_n52# m2_44_232# 2.2
+C m1_n2296_n20# m1_n24_8# 2.2
+C FullAdder_0/m1_108_80# m2_44_232# 3.2
+C m1_n24_8# m1_n1776_n8# 2.2
+C FullAdder_5/m1_108_80# FullAdder_5/EXC_0/m1_0_36# 2.4
+C m1_n24_8#0 1007.6
+R m1_n24_8# 14697
+= m1_n24_8# m1_n1016_8#
+= m1_n24_8# not_2/a_8_8#
+= m1_n24_8# FullAdder_3/m2_161_8#
+= m1_n24_8# FullAdder_3/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_3/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_3/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_3/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_3/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_3/m1_248_n8#
+= m1_n24_8# FullAdder_3/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_3/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_3/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_3/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_3/m1_116_n120#
+= m1_n24_8# FullAdder_3/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_3/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_3/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_3/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_3/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_3/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_3/EXC_1/not_0/a_8_8#
+= m1_n24_8# m2_n506_8#
+= m1_n24_8# not_1/a_8_8#
+= m1_n24_8# FullAdder_2/m2_161_8#
+= m1_n24_8# FullAdder_2/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_2/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_2/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_2/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_2/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_2/m1_248_n8#
+= m1_n24_8# FullAdder_2/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_2/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_2/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_2/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_2/m1_116_n120#
+= m1_n24_8# FullAdder_2/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_2/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_2/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_2/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_2/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_2/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_2/EXC_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_0/m2_161_8#
+= m1_n24_8# FullAdder_0/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_0/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_0/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_0/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_0/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_0/m1_248_n8#
+= m1_n24_8# FullAdder_0/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_0/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_0/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_0/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_0/m1_116_n120#
+= m1_n24_8# FullAdder_0/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_0/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_0/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_0/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_0/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_0/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_0/EXC_1/not_0/a_8_8#
+= m1_n24_8# not_0/a_8_8#
+= m1_n24_8# FullAdder_1/m2_161_8#
+= m1_n24_8# FullAdder_1/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_1/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_1/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_1/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_1/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_1/m1_248_n8#
+= m1_n24_8# FullAdder_1/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_1/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_1/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_1/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_1/m1_116_n120#
+= m1_n24_8# FullAdder_1/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_1/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_1/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_1/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_1/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_1/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_1/EXC_1/not_0/a_8_8#
+= m1_n24_8# m2_n3073_8#
+= m1_n24_8# not_3/a_8_8#
+= m1_n24_8# m2_n1593_8#
+= m1_n24_8# FullAdder_4/m2_161_8#
+= m1_n24_8# FullAdder_4/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_4/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_4/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_4/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_4/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_4/m1_248_n8#
+= m1_n24_8# FullAdder_4/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_4/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_4/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_4/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_4/m1_116_n120#
+= m1_n24_8# FullAdder_4/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_4/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_4/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_4/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_4/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_4/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_4/EXC_1/not_0/a_8_8#
+= m1_n24_8# not_4/a_8_8#
+= m1_n24_8# m2_n2106_8#
+= m1_n24_8# FullAdder_5/m2_161_8#
+= m1_n24_8# FullAdder_5/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_5/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_5/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_5/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_5/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_5/m1_248_n8#
+= m1_n24_8# FullAdder_5/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_5/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_5/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_5/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_5/m1_116_n120#
+= m1_n24_8# FullAdder_5/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_5/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_5/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_5/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_5/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_5/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_5/EXC_1/not_0/a_8_8#
+= m1_n24_8# not_5/a_8_8#
+= m1_n24_8# m2_n2596_8#
+= m1_n24_8# m2_n3436_20#
+= m1_n24_8# not_7/a_8_8#
+= m1_n24_8# FullAdder_6/m2_161_8#
+= m1_n24_8# FullAdder_6/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_6/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_6/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_6/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_6/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_6/m1_248_n8#
+= m1_n24_8# FullAdder_6/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_6/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_6/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_6/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_6/m1_116_n120#
+= m1_n24_8# FullAdder_6/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_6/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_6/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_6/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_6/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_6/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_6/EXC_1/not_0/a_8_8#
+= m1_n24_8# not_6/a_8_8#
+= m1_n24_8# FullAdder_7/m2_161_8#
+= m1_n24_8# FullAdder_7/EXC_0/m2_0_4#
+= m1_n24_8# FullAdder_7/EXC_0/xor_0/a_18_12#
+= m1_n24_8# FullAdder_7/EXC_0/not_1/a_8_8#
+= m1_n24_8# FullAdder_7/EXC_0/m2_92_4#
+= m1_n24_8# FullAdder_7/EXC_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_7/m1_248_n8#
+= m1_n24_8# FullAdder_7/or_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_7/or_0/nor_0/a_14_12#
+= m1_n24_8# FullAdder_7/and_1/not_0/a_8_8#
+= m1_n24_8# FullAdder_7/and_1/nand_0/a_4_12#
+= m1_n24_8# FullAdder_7/m1_116_n120#
+= m1_n24_8# FullAdder_7/and_0/not_0/a_8_8#
+= m1_n24_8# FullAdder_7/and_0/nand_0/a_4_12#
+= m1_n24_8# FullAdder_7/EXC_1/m2_0_4#
+= m1_n24_8# FullAdder_7/EXC_1/xor_0/a_18_12#
+= m1_n24_8# FullAdder_7/EXC_1/not_1/a_8_8#
+= m1_n24_8# FullAdder_7/EXC_1/m2_92_4#
+= m1_n24_8# FullAdder_7/EXC_1/not_0/a_8_8#
+C FullAdder_7/EXC_1/m1_n12_72#0 43.2
+R FullAdder_7/EXC_1/m1_n12_72# 1448
+= FullAdder_7/EXC_1/m1_n12_72# FullAdder_7/EXC_1/xor_0/a_8_76#
+= FullAdder_7/EXC_1/m1_n12_72# FullAdder_7/EXC_1/not_0/a_22_8#
+C m1_n3252_n36#0 286.5
+R m1_n3252_n36# 3788
+= m1_n3252_n36# FullAdder_6/m1_391_56#
+= m1_n3252_n36# FullAdder_6/or_0/not_0/a_22_8#
+= m1_n3252_n36# FullAdder_7/m1_160_n64#
+= m1_n3252_n36# FullAdder_7/and_1/nand_0/a_24_10#
+= m1_n3252_n36# FullAdder_7/EXC_1/m1_n32_48#
+= m1_n3252_n36# FullAdder_7/EXC_1/xor_0/a_n8_80#
+= m1_n3252_n36# FullAdder_7/EXC_1/not_0/a_8_28#
+C FullAdder_7/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_7/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_7/EXC_1/xor_0/a_18_88# 208
+R FullAdder_7/EXC_1/xor_0/a_n12_88# 179
+C m2_n3040_76#0 33.9
+R m2_n3040_76# 702
+= m2_n3040_76# FullAdder_7/m1_276_n52#
+= m2_n3040_76# FullAdder_7/EXC_1/xor_0/a_n36_88#
+C FullAdder_7/m1_108_80#0 118.6
+R FullAdder_7/m1_108_80# 4221
+= FullAdder_7/m1_108_80# FullAdder_7/EXC_0/xor_0/a_n36_88#
+= FullAdder_7/m1_108_80# FullAdder_7/and_1/nand_0/a_4_80#
+= FullAdder_7/m1_108_80# FullAdder_7/EXC_1/m1_60_40#
+= FullAdder_7/m1_108_80# FullAdder_7/EXC_1/not_1/a_8_28#
+= FullAdder_7/m1_108_80# FullAdder_7/EXC_1/xor_0/a_24_40#
+C FullAdder_7/EXC_1/m1_0_36#0 57.3
+R FullAdder_7/EXC_1/m1_0_36# 1509
+= FullAdder_7/EXC_1/m1_0_36# FullAdder_7/EXC_1/not_1/a_22_8#
+= FullAdder_7/EXC_1/m1_0_36# FullAdder_7/EXC_1/xor_0/a_n28_36#
+C FullAdder_7/EXC_0/m1_n12_72#0 43.2
+R FullAdder_7/EXC_0/m1_n12_72# 1448
+= FullAdder_7/EXC_0/m1_n12_72# FullAdder_7/EXC_0/xor_0/a_8_76#
+= FullAdder_7/EXC_0/m1_n12_72# FullAdder_7/EXC_0/not_0/a_22_8#
+C m1_n3436_108#0 116.4
+R m1_n3436_108# 3778
+= m1_n3436_108# not_7/a_22_8#
+= m1_n3436_108# FullAdder_7/m1_n12_n72#
+= m1_n3436_108# FullAdder_7/and_0/nand_0/a_24_10#
+= m1_n3436_108# FullAdder_7/EXC_0/m1_n32_48#
+= m1_n3436_108# FullAdder_7/EXC_0/xor_0/a_n8_80#
+= m1_n3436_108# FullAdder_7/EXC_0/not_0/a_8_28#
+C FullAdder_7/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_7/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_7/EXC_0/xor_0/a_18_88# 208
+R FullAdder_7/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_7/m1_0_n40#0 94.0
+R FullAdder_7/m1_0_n40# 3522
+= FullAdder_7/m1_0_n40# FullAdder_7/and_0/nand_0/a_4_80#
+= FullAdder_7/m1_0_n40# FullAdder_7/EXC_0/m1_60_40#
+= FullAdder_7/m1_0_n40# FullAdder_7/EXC_0/not_1/a_8_28#
+= FullAdder_7/m1_0_n40# FullAdder_7/EXC_0/xor_0/a_24_40#
+C FullAdder_7/EXC_0/m1_0_36#0 57.3
+R FullAdder_7/EXC_0/m1_0_36# 1509
+= FullAdder_7/EXC_0/m1_0_36# FullAdder_7/EXC_0/not_1/a_22_8#
+= FullAdder_7/EXC_0/m1_0_36# FullAdder_7/EXC_0/xor_0/a_n28_36#
+R FullAdder_7/and_1/nand_0/a_14_12# 67
+C FullAdder_7/m1_240_80#0 43.1
+R FullAdder_7/m1_240_80# 1400
+= FullAdder_7/m1_240_80# FullAdder_7/or_0/nor_0/a_4_72#
+= FullAdder_7/m1_240_80# FullAdder_7/and_1/not_0/a_22_8#
+C FullAdder_7/and_1/m1_36_28#0 43.6
+R FullAdder_7/and_1/m1_36_28# 1484
+= FullAdder_7/and_1/m1_36_28# FullAdder_7/and_1/nand_0/a_14_88#
+= FullAdder_7/and_1/m1_36_28# FullAdder_7/and_1/not_0/a_8_28#
+R FullAdder_7/and_0/nand_0/a_14_12# 67
+C FullAdder_7/m1_60_n52#0 67.4
+R FullAdder_7/m1_60_n52# 1390
+= FullAdder_7/m1_60_n52# FullAdder_7/or_0/nor_0/a_20_56#
+= FullAdder_7/m1_60_n52# FullAdder_7/and_0/not_0/a_22_8#
+C FullAdder_7/and_0/m1_36_28#0 43.6
+R FullAdder_7/and_0/m1_36_28# 1484
+= FullAdder_7/and_0/m1_36_28# FullAdder_7/and_0/nand_0/a_14_88#
+= FullAdder_7/and_0/m1_36_28# FullAdder_7/and_0/not_0/a_8_28#
+R FullAdder_7/or_0/nor_0/a_14_88# 194
+C FullAdder_7/m1_391_56#0 16.5
+R FullAdder_7/m1_391_56# 303
+= FullAdder_7/m1_391_56# FullAdder_7/or_0/not_0/a_22_8#
+C FullAdder_7/or_0/m1_40_44#0 52.3
+R FullAdder_7/or_0/m1_40_44# 1628
+= FullAdder_7/or_0/m1_40_44# FullAdder_7/or_0/nor_0/a_0_12#
+= FullAdder_7/or_0/m1_40_44# FullAdder_7/or_0/not_0/a_8_28#
+C FullAdder_6/EXC_1/m1_n12_72#0 43.2
+R FullAdder_6/EXC_1/m1_n12_72# 1448
+= FullAdder_6/EXC_1/m1_n12_72# FullAdder_6/EXC_1/xor_0/a_8_76#
+= FullAdder_6/EXC_1/m1_n12_72# FullAdder_6/EXC_1/not_0/a_22_8#
+C m1_n2772_n28#0 221.3
+R m1_n2772_n28# 3786
+= m1_n2772_n28# FullAdder_5/m1_391_56#
+= m1_n2772_n28# FullAdder_5/or_0/not_0/a_22_8#
+= m1_n2772_n28# FullAdder_6/m1_160_n64#
+= m1_n2772_n28# FullAdder_6/and_1/nand_0/a_24_10#
+= m1_n2772_n28# FullAdder_6/EXC_1/m1_n32_48#
+= m1_n2772_n28# FullAdder_6/EXC_1/xor_0/a_n8_80#
+= m1_n2772_n28# FullAdder_6/EXC_1/not_0/a_8_28#
+C FullAdder_6/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_6/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_6/EXC_1/xor_0/a_18_88# 208
+R FullAdder_6/EXC_1/xor_0/a_n12_88# 179
+C m2_n2560_76#0 34.1
+R m2_n2560_76# 702
+= m2_n2560_76# FullAdder_6/m1_276_n52#
+= m2_n2560_76# FullAdder_6/EXC_1/xor_0/a_n36_88#
+C FullAdder_6/m1_108_80#0 118.6
+R FullAdder_6/m1_108_80# 4221
+= FullAdder_6/m1_108_80# FullAdder_6/EXC_0/xor_0/a_n36_88#
+= FullAdder_6/m1_108_80# FullAdder_6/and_1/nand_0/a_4_80#
+= FullAdder_6/m1_108_80# FullAdder_6/EXC_1/m1_60_40#
+= FullAdder_6/m1_108_80# FullAdder_6/EXC_1/not_1/a_8_28#
+= FullAdder_6/m1_108_80# FullAdder_6/EXC_1/xor_0/a_24_40#
+C FullAdder_6/EXC_1/m1_0_36#0 57.3
+R FullAdder_6/EXC_1/m1_0_36# 1509
+= FullAdder_6/EXC_1/m1_0_36# FullAdder_6/EXC_1/not_1/a_22_8#
+= FullAdder_6/EXC_1/m1_0_36# FullAdder_6/EXC_1/xor_0/a_n28_36#
+C FullAdder_6/EXC_0/m1_n12_72#0 43.2
+R FullAdder_6/EXC_0/m1_n12_72# 1448
+= FullAdder_6/EXC_0/m1_n12_72# FullAdder_6/EXC_0/xor_0/a_8_76#
+= FullAdder_6/EXC_0/m1_n12_72# FullAdder_6/EXC_0/not_0/a_22_8#
+C m1_n2956_108#0 115.9
+R m1_n2956_108# 3778
+= m1_n2956_108# not_6/a_22_8#
+= m1_n2956_108# FullAdder_6/m1_n12_n72#
+= m1_n2956_108# FullAdder_6/and_0/nand_0/a_24_10#
+= m1_n2956_108# FullAdder_6/EXC_0/m1_n32_48#
+= m1_n2956_108# FullAdder_6/EXC_0/xor_0/a_n8_80#
+= m1_n2956_108# FullAdder_6/EXC_0/not_0/a_8_28#
+C FullAdder_6/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_6/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_6/EXC_0/xor_0/a_18_88# 208
+R FullAdder_6/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_6/m1_0_n40#0 94.0
+R FullAdder_6/m1_0_n40# 3522
+= FullAdder_6/m1_0_n40# FullAdder_6/and_0/nand_0/a_4_80#
+= FullAdder_6/m1_0_n40# FullAdder_6/EXC_0/m1_60_40#
+= FullAdder_6/m1_0_n40# FullAdder_6/EXC_0/not_1/a_8_28#
+= FullAdder_6/m1_0_n40# FullAdder_6/EXC_0/xor_0/a_24_40#
+C FullAdder_6/EXC_0/m1_0_36#0 57.3
+R FullAdder_6/EXC_0/m1_0_36# 1509
+= FullAdder_6/EXC_0/m1_0_36# FullAdder_6/EXC_0/not_1/a_22_8#
+= FullAdder_6/EXC_0/m1_0_36# FullAdder_6/EXC_0/xor_0/a_n28_36#
+R FullAdder_6/and_1/nand_0/a_14_12# 67
+C FullAdder_6/m1_240_80#0 43.1
+R FullAdder_6/m1_240_80# 1400
+= FullAdder_6/m1_240_80# FullAdder_6/or_0/nor_0/a_4_72#
+= FullAdder_6/m1_240_80# FullAdder_6/and_1/not_0/a_22_8#
+C FullAdder_6/and_1/m1_36_28#0 43.6
+R FullAdder_6/and_1/m1_36_28# 1484
+= FullAdder_6/and_1/m1_36_28# FullAdder_6/and_1/nand_0/a_14_88#
+= FullAdder_6/and_1/m1_36_28# FullAdder_6/and_1/not_0/a_8_28#
+R FullAdder_6/and_0/nand_0/a_14_12# 67
+C FullAdder_6/m1_60_n52#0 67.4
+R FullAdder_6/m1_60_n52# 1390
+= FullAdder_6/m1_60_n52# FullAdder_6/or_0/nor_0/a_20_56#
+= FullAdder_6/m1_60_n52# FullAdder_6/and_0/not_0/a_22_8#
+C FullAdder_6/and_0/m1_36_28#0 43.6
+R FullAdder_6/and_0/m1_36_28# 1484
+= FullAdder_6/and_0/m1_36_28# FullAdder_6/and_0/nand_0/a_14_88#
+= FullAdder_6/and_0/m1_36_28# FullAdder_6/and_0/not_0/a_8_28#
+R FullAdder_6/or_0/nor_0/a_14_88# 194
+C FullAdder_6/or_0/m1_40_44#0 52.3
+R FullAdder_6/or_0/m1_40_44# 1628
+= FullAdder_6/or_0/m1_40_44# FullAdder_6/or_0/nor_0/a_0_12#
+= FullAdder_6/or_0/m1_40_44# FullAdder_6/or_0/not_0/a_8_28#
+C FullAdder_5/EXC_1/m1_n12_72#0 43.2
+R FullAdder_5/EXC_1/m1_n12_72# 1448
+= FullAdder_5/EXC_1/m1_n12_72# FullAdder_5/EXC_1/xor_0/a_8_76#
+= FullAdder_5/EXC_1/m1_n12_72# FullAdder_5/EXC_1/not_0/a_22_8#
+C m1_n2296_n20#0 327.5
+R m1_n2296_n20# 3791
+= m1_n2296_n20# FullAdder_4/m1_391_56#
+= m1_n2296_n20# FullAdder_4/or_0/not_0/a_22_8#
+= m1_n2296_n20# FullAdder_5/m1_160_n64#
+= m1_n2296_n20# FullAdder_5/and_1/nand_0/a_24_10#
+= m1_n2296_n20# FullAdder_5/EXC_1/m1_n32_48#
+= m1_n2296_n20# FullAdder_5/EXC_1/xor_0/a_n8_80#
+= m1_n2296_n20# FullAdder_5/EXC_1/not_0/a_8_28#
+C FullAdder_5/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_5/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_5/EXC_1/xor_0/a_18_88# 208
+R FullAdder_5/EXC_1/xor_0/a_n12_88# 179
+C m2_n2072_76#0 34.1
+R m2_n2072_76# 702
+= m2_n2072_76# FullAdder_5/m1_276_n52#
+= m2_n2072_76# FullAdder_5/EXC_1/xor_0/a_n36_88#
+C FullAdder_5/m1_108_80#0 118.6
+R FullAdder_5/m1_108_80# 4221
+= FullAdder_5/m1_108_80# FullAdder_5/EXC_0/xor_0/a_n36_88#
+= FullAdder_5/m1_108_80# FullAdder_5/and_1/nand_0/a_4_80#
+= FullAdder_5/m1_108_80# FullAdder_5/EXC_1/m1_60_40#
+= FullAdder_5/m1_108_80# FullAdder_5/EXC_1/not_1/a_8_28#
+= FullAdder_5/m1_108_80# FullAdder_5/EXC_1/xor_0/a_24_40#
+C FullAdder_5/EXC_1/m1_0_36#0 57.3
+R FullAdder_5/EXC_1/m1_0_36# 1509
+= FullAdder_5/EXC_1/m1_0_36# FullAdder_5/EXC_1/not_1/a_22_8#
+= FullAdder_5/EXC_1/m1_0_36# FullAdder_5/EXC_1/xor_0/a_n28_36#
+C FullAdder_5/EXC_0/m1_n12_72#0 43.2
+R FullAdder_5/EXC_0/m1_n12_72# 1448
+= FullAdder_5/EXC_0/m1_n12_72# FullAdder_5/EXC_0/xor_0/a_8_76#
+= FullAdder_5/EXC_0/m1_n12_72# FullAdder_5/EXC_0/not_0/a_22_8#
+C m1_n2468_120#0 113.9
+R m1_n2468_120# 3777
+= m1_n2468_120# not_5/a_22_8#
+= m1_n2468_120# FullAdder_5/m1_n12_n72#
+= m1_n2468_120# FullAdder_5/and_0/nand_0/a_24_10#
+= m1_n2468_120# FullAdder_5/EXC_0/m1_n32_48#
+= m1_n2468_120# FullAdder_5/EXC_0/xor_0/a_n8_80#
+= m1_n2468_120# FullAdder_5/EXC_0/not_0/a_8_28#
+C FullAdder_5/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_5/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_5/EXC_0/xor_0/a_18_88# 208
+R FullAdder_5/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_5/m1_0_n40#0 94.0
+R FullAdder_5/m1_0_n40# 3522
+= FullAdder_5/m1_0_n40# FullAdder_5/and_0/nand_0/a_4_80#
+= FullAdder_5/m1_0_n40# FullAdder_5/EXC_0/m1_60_40#
+= FullAdder_5/m1_0_n40# FullAdder_5/EXC_0/not_1/a_8_28#
+= FullAdder_5/m1_0_n40# FullAdder_5/EXC_0/xor_0/a_24_40#
+C FullAdder_5/EXC_0/m1_0_36#0 57.3
+R FullAdder_5/EXC_0/m1_0_36# 1509
+= FullAdder_5/EXC_0/m1_0_36# FullAdder_5/EXC_0/not_1/a_22_8#
+= FullAdder_5/EXC_0/m1_0_36# FullAdder_5/EXC_0/xor_0/a_n28_36#
+R FullAdder_5/and_1/nand_0/a_14_12# 67
+C FullAdder_5/m1_240_80#0 43.1
+R FullAdder_5/m1_240_80# 1400
+= FullAdder_5/m1_240_80# FullAdder_5/or_0/nor_0/a_4_72#
+= FullAdder_5/m1_240_80# FullAdder_5/and_1/not_0/a_22_8#
+C FullAdder_5/and_1/m1_36_28#0 43.6
+R FullAdder_5/and_1/m1_36_28# 1484
+= FullAdder_5/and_1/m1_36_28# FullAdder_5/and_1/nand_0/a_14_88#
+= FullAdder_5/and_1/m1_36_28# FullAdder_5/and_1/not_0/a_8_28#
+R FullAdder_5/and_0/nand_0/a_14_12# 67
+C FullAdder_5/m1_60_n52#0 67.4
+R FullAdder_5/m1_60_n52# 1390
+= FullAdder_5/m1_60_n52# FullAdder_5/or_0/nor_0/a_20_56#
+= FullAdder_5/m1_60_n52# FullAdder_5/and_0/not_0/a_22_8#
+C FullAdder_5/and_0/m1_36_28#0 43.6
+R FullAdder_5/and_0/m1_36_28# 1484
+= FullAdder_5/and_0/m1_36_28# FullAdder_5/and_0/nand_0/a_14_88#
+= FullAdder_5/and_0/m1_36_28# FullAdder_5/and_0/not_0/a_8_28#
+R FullAdder_5/or_0/nor_0/a_14_88# 194
+C FullAdder_5/or_0/m1_40_44#0 52.3
+R FullAdder_5/or_0/m1_40_44# 1628
+= FullAdder_5/or_0/m1_40_44# FullAdder_5/or_0/nor_0/a_0_12#
+= FullAdder_5/or_0/m1_40_44# FullAdder_5/or_0/not_0/a_8_28#
+C FullAdder_4/EXC_1/m1_n12_72#0 43.2
+R FullAdder_4/EXC_1/m1_n12_72# 1448
+= FullAdder_4/EXC_1/m1_n12_72# FullAdder_4/EXC_1/xor_0/a_8_76#
+= FullAdder_4/EXC_1/m1_n12_72# FullAdder_4/EXC_1/not_0/a_22_8#
+C m1_n1776_n8#0 214.7
+R m1_n1776_n8# 3786
+= m1_n1776_n8# FullAdder_3/m1_391_56#
+= m1_n1776_n8# FullAdder_3/or_0/not_0/a_22_8#
+= m1_n1776_n8# FullAdder_4/m1_160_n64#
+= m1_n1776_n8# FullAdder_4/and_1/nand_0/a_24_10#
+= m1_n1776_n8# FullAdder_4/EXC_1/m1_n32_48#
+= m1_n1776_n8# FullAdder_4/EXC_1/xor_0/a_n8_80#
+= m1_n1776_n8# FullAdder_4/EXC_1/not_0/a_8_28#
+C FullAdder_4/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_4/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_4/EXC_1/xor_0/a_18_88# 208
+R FullAdder_4/EXC_1/xor_0/a_n12_88# 179
+C m2_n1560_76#0 34.0
+R m2_n1560_76# 702
+= m2_n1560_76# FullAdder_4/m1_276_n52#
+= m2_n1560_76# FullAdder_4/EXC_1/xor_0/a_n36_88#
+C FullAdder_4/m1_108_80#0 118.6
+R FullAdder_4/m1_108_80# 4221
+= FullAdder_4/m1_108_80# FullAdder_4/EXC_0/xor_0/a_n36_88#
+= FullAdder_4/m1_108_80# FullAdder_4/and_1/nand_0/a_4_80#
+= FullAdder_4/m1_108_80# FullAdder_4/EXC_1/m1_60_40#
+= FullAdder_4/m1_108_80# FullAdder_4/EXC_1/not_1/a_8_28#
+= FullAdder_4/m1_108_80# FullAdder_4/EXC_1/xor_0/a_24_40#
+C FullAdder_4/EXC_1/m1_0_36#0 57.3
+R FullAdder_4/EXC_1/m1_0_36# 1509
+= FullAdder_4/EXC_1/m1_0_36# FullAdder_4/EXC_1/not_1/a_22_8#
+= FullAdder_4/EXC_1/m1_0_36# FullAdder_4/EXC_1/xor_0/a_n28_36#
+C FullAdder_4/EXC_0/m1_n12_72#0 43.2
+R FullAdder_4/EXC_0/m1_n12_72# 1448
+= FullAdder_4/EXC_0/m1_n12_72# FullAdder_4/EXC_0/xor_0/a_8_76#
+= FullAdder_4/EXC_0/m1_n12_72# FullAdder_4/EXC_0/not_0/a_22_8#
+C m1_n1960_112#0 112.4
+R m1_n1960_112# 3777
+= m1_n1960_112# not_4/a_22_8#
+= m1_n1960_112# FullAdder_4/m1_n12_n72#
+= m1_n1960_112# FullAdder_4/and_0/nand_0/a_24_10#
+= m1_n1960_112# FullAdder_4/EXC_0/m1_n32_48#
+= m1_n1960_112# FullAdder_4/EXC_0/xor_0/a_n8_80#
+= m1_n1960_112# FullAdder_4/EXC_0/not_0/a_8_28#
+C FullAdder_4/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_4/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_4/EXC_0/xor_0/a_18_88# 208
+R FullAdder_4/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_4/m1_0_n40#0 94.0
+R FullAdder_4/m1_0_n40# 3522
+= FullAdder_4/m1_0_n40# FullAdder_4/and_0/nand_0/a_4_80#
+= FullAdder_4/m1_0_n40# FullAdder_4/EXC_0/m1_60_40#
+= FullAdder_4/m1_0_n40# FullAdder_4/EXC_0/not_1/a_8_28#
+= FullAdder_4/m1_0_n40# FullAdder_4/EXC_0/xor_0/a_24_40#
+C FullAdder_4/EXC_0/m1_0_36#0 57.3
+R FullAdder_4/EXC_0/m1_0_36# 1509
+= FullAdder_4/EXC_0/m1_0_36# FullAdder_4/EXC_0/not_1/a_22_8#
+= FullAdder_4/EXC_0/m1_0_36# FullAdder_4/EXC_0/xor_0/a_n28_36#
+R FullAdder_4/and_1/nand_0/a_14_12# 67
+C FullAdder_4/m1_240_80#0 43.1
+R FullAdder_4/m1_240_80# 1400
+= FullAdder_4/m1_240_80# FullAdder_4/or_0/nor_0/a_4_72#
+= FullAdder_4/m1_240_80# FullAdder_4/and_1/not_0/a_22_8#
+C FullAdder_4/and_1/m1_36_28#0 43.6
+R FullAdder_4/and_1/m1_36_28# 1484
+= FullAdder_4/and_1/m1_36_28# FullAdder_4/and_1/nand_0/a_14_88#
+= FullAdder_4/and_1/m1_36_28# FullAdder_4/and_1/not_0/a_8_28#
+R FullAdder_4/and_0/nand_0/a_14_12# 67
+C FullAdder_4/m1_60_n52#0 67.4
+R FullAdder_4/m1_60_n52# 1390
+= FullAdder_4/m1_60_n52# FullAdder_4/or_0/nor_0/a_20_56#
+= FullAdder_4/m1_60_n52# FullAdder_4/and_0/not_0/a_22_8#
+C FullAdder_4/and_0/m1_36_28#0 43.6
+R FullAdder_4/and_0/m1_36_28# 1484
+= FullAdder_4/and_0/m1_36_28# FullAdder_4/and_0/nand_0/a_14_88#
+= FullAdder_4/and_0/m1_36_28# FullAdder_4/and_0/not_0/a_8_28#
+R FullAdder_4/or_0/nor_0/a_14_88# 194
+C FullAdder_4/or_0/m1_40_44#0 52.3
+R FullAdder_4/or_0/m1_40_44# 1628
+= FullAdder_4/or_0/m1_40_44# FullAdder_4/or_0/nor_0/a_0_12#
+= FullAdder_4/or_0/m1_40_44# FullAdder_4/or_0/not_0/a_8_28#
+C FullAdder_3/EXC_1/m1_n12_72#0 43.2
+R FullAdder_3/EXC_1/m1_n12_72# 1448
+= FullAdder_3/EXC_1/m1_n12_72# FullAdder_3/EXC_1/xor_0/a_8_76#
+= FullAdder_3/EXC_1/m1_n12_72# FullAdder_3/EXC_1/not_0/a_22_8#
+C m1_n1220_n32#0 296.9
+R m1_n1220_n32# 3789
+= m1_n1220_n32# FullAdder_2/m1_391_56#
+= m1_n1220_n32# FullAdder_2/or_0/not_0/a_22_8#
+= m1_n1220_n32# FullAdder_3/m1_160_n64#
+= m1_n1220_n32# FullAdder_3/and_1/nand_0/a_24_10#
+= m1_n1220_n32# FullAdder_3/EXC_1/m1_n32_48#
+= m1_n1220_n32# FullAdder_3/EXC_1/xor_0/a_n8_80#
+= m1_n1220_n32# FullAdder_3/EXC_1/not_0/a_8_28#
+C FullAdder_3/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_3/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_3/EXC_1/xor_0/a_18_88# 208
+R FullAdder_3/EXC_1/xor_0/a_n12_88# 179
+C FullAdder_3/m1_276_n52#0 34.3
+R FullAdder_3/m1_276_n52# 702
+= FullAdder_3/m1_276_n52# FullAdder_3/EXC_1/xor_0/a_n36_88#
+C FullAdder_3/m1_108_80#0 118.6
+R FullAdder_3/m1_108_80# 4221
+= FullAdder_3/m1_108_80# FullAdder_3/EXC_0/xor_0/a_n36_88#
+= FullAdder_3/m1_108_80# FullAdder_3/and_1/nand_0/a_4_80#
+= FullAdder_3/m1_108_80# FullAdder_3/EXC_1/m1_60_40#
+= FullAdder_3/m1_108_80# FullAdder_3/EXC_1/not_1/a_8_28#
+= FullAdder_3/m1_108_80# FullAdder_3/EXC_1/xor_0/a_24_40#
+C FullAdder_3/EXC_1/m1_0_36#0 57.3
+R FullAdder_3/EXC_1/m1_0_36# 1509
+= FullAdder_3/EXC_1/m1_0_36# FullAdder_3/EXC_1/not_1/a_22_8#
+= FullAdder_3/EXC_1/m1_0_36# FullAdder_3/EXC_1/xor_0/a_n28_36#
+C FullAdder_3/EXC_0/m1_n12_72#0 43.2
+R FullAdder_3/EXC_0/m1_n12_72# 1448
+= FullAdder_3/EXC_0/m1_n12_72# FullAdder_3/EXC_0/xor_0/a_8_76#
+= FullAdder_3/EXC_0/m1_n12_72# FullAdder_3/EXC_0/not_0/a_22_8#
+C m1_n1400_116#0 117.2
+R m1_n1400_116# 3778
+= m1_n1400_116# not_3/a_22_8#
+= m1_n1400_116# FullAdder_3/m1_n12_n72#
+= m1_n1400_116# FullAdder_3/and_0/nand_0/a_24_10#
+= m1_n1400_116# FullAdder_3/EXC_0/m1_n32_48#
+= m1_n1400_116# FullAdder_3/EXC_0/xor_0/a_n8_80#
+= m1_n1400_116# FullAdder_3/EXC_0/not_0/a_8_28#
+C FullAdder_3/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_3/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_3/EXC_0/xor_0/a_18_88# 208
+R FullAdder_3/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_3/m1_0_n40#0 94.0
+R FullAdder_3/m1_0_n40# 3522
+= FullAdder_3/m1_0_n40# FullAdder_3/and_0/nand_0/a_4_80#
+= FullAdder_3/m1_0_n40# FullAdder_3/EXC_0/m1_60_40#
+= FullAdder_3/m1_0_n40# FullAdder_3/EXC_0/not_1/a_8_28#
+= FullAdder_3/m1_0_n40# FullAdder_3/EXC_0/xor_0/a_24_40#
+C FullAdder_3/EXC_0/m1_0_36#0 57.3
+R FullAdder_3/EXC_0/m1_0_36# 1509
+= FullAdder_3/EXC_0/m1_0_36# FullAdder_3/EXC_0/not_1/a_22_8#
+= FullAdder_3/EXC_0/m1_0_36# FullAdder_3/EXC_0/xor_0/a_n28_36#
+R FullAdder_3/and_1/nand_0/a_14_12# 67
+C FullAdder_3/m1_240_80#0 43.1
+R FullAdder_3/m1_240_80# 1400
+= FullAdder_3/m1_240_80# FullAdder_3/or_0/nor_0/a_4_72#
+= FullAdder_3/m1_240_80# FullAdder_3/and_1/not_0/a_22_8#
+C FullAdder_3/and_1/m1_36_28#0 43.6
+R FullAdder_3/and_1/m1_36_28# 1484
+= FullAdder_3/and_1/m1_36_28# FullAdder_3/and_1/nand_0/a_14_88#
+= FullAdder_3/and_1/m1_36_28# FullAdder_3/and_1/not_0/a_8_28#
+R FullAdder_3/and_0/nand_0/a_14_12# 67
+C FullAdder_3/m1_60_n52#0 67.4
+R FullAdder_3/m1_60_n52# 1390
+= FullAdder_3/m1_60_n52# FullAdder_3/or_0/nor_0/a_20_56#
+= FullAdder_3/m1_60_n52# FullAdder_3/and_0/not_0/a_22_8#
+C FullAdder_3/and_0/m1_36_28#0 43.6
+R FullAdder_3/and_0/m1_36_28# 1484
+= FullAdder_3/and_0/m1_36_28# FullAdder_3/and_0/nand_0/a_14_88#
+= FullAdder_3/and_0/m1_36_28# FullAdder_3/and_0/not_0/a_8_28#
+R FullAdder_3/or_0/nor_0/a_14_88# 194
+C FullAdder_3/or_0/m1_40_44#0 52.3
+R FullAdder_3/or_0/m1_40_44# 1628
+= FullAdder_3/or_0/m1_40_44# FullAdder_3/or_0/nor_0/a_0_12#
+= FullAdder_3/or_0/m1_40_44# FullAdder_3/or_0/not_0/a_8_28#
+C m2_44_232#0 1031.9
+R m2_44_232# 41561
+= m2_44_232# m2_n3436_164#
+= m2_44_232# not_7/a_8_92#
+= m2_44_232# m2_n3004_228#
+= m2_44_232# m2_n1524_232#
+= m2_44_232# not_3/a_8_92#
+= m2_44_232# not_6/a_8_92#
+= m2_44_232# FullAdder_7/m2_72_n8#
+= m2_44_232# FullAdder_7/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_7/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_7/m2_161_108#
+= m2_44_232# FullAdder_7/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_7/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_7/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_7/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_7/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_7/m1_272_n20#
+= m2_44_232# FullAdder_7/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_7/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_7/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_7/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_7/EXC_1/not_0/a_8_92#
+= m2_44_232# m2_n2528_228#
+= m2_44_232# FullAdder_4/m2_72_n8#
+= m2_44_232# FullAdder_4/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_4/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_4/m2_161_108#
+= m2_44_232# FullAdder_4/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_4/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_4/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_4/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_4/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_4/m1_272_n20#
+= m2_44_232# FullAdder_4/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_4/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_4/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_4/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_4/EXC_1/not_0/a_8_92#
+= m2_44_232# m2_n2040_232#
+= m2_44_232# not_4/a_8_92#
+= m2_44_232# FullAdder_5/m2_72_n8#
+= m2_44_232# FullAdder_5/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_5/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_5/m2_161_108#
+= m2_44_232# FullAdder_5/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_5/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_5/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_5/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_5/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_5/m1_272_n20#
+= m2_44_232# FullAdder_5/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_5/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_5/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_5/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_5/EXC_1/not_0/a_8_92#
+= m2_44_232# not_5/a_8_92#
+= m2_44_232# FullAdder_6/m2_72_n8#
+= m2_44_232# FullAdder_6/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_6/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_6/m2_161_108#
+= m2_44_232# FullAdder_6/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_6/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_6/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_6/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_6/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_6/m1_272_n20#
+= m2_44_232# FullAdder_6/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_6/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_6/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_6/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_6/EXC_1/not_0/a_8_92#
+= m2_44_232# FullAdder_0/m1_160_n64#
+= m2_44_232# FullAdder_0/and_1/nand_0/a_24_10#
+= m2_44_232# FullAdder_0/EXC_1/m1_n32_48#
+= m2_44_232# FullAdder_0/EXC_1/xor_0/a_n8_80#
+= m2_44_232# FullAdder_0/EXC_1/not_0/a_8_28#
+= m2_44_232# m1_292_173#
+= m2_44_232# m2_n964_232#
+= m2_44_232# not_2/a_8_92#
+= m2_44_232# FullAdder_3/m2_72_n8#
+= m2_44_232# FullAdder_3/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_3/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_3/m2_161_108#
+= m2_44_232# FullAdder_3/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_3/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_3/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_3/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_3/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_3/m1_272_n20#
+= m2_44_232# FullAdder_3/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_3/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_3/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_3/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_3/EXC_1/not_0/a_8_92#
+= m2_44_232# FullAdder_0/m2_72_n8#
+= m2_44_232# FullAdder_0/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_0/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_0/m2_161_108#
+= m2_44_232# FullAdder_0/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_0/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_0/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_0/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_0/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_0/m1_272_n20#
+= m2_44_232# FullAdder_0/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_0/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_0/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_0/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_0/EXC_1/not_0/a_8_92#
+= m2_44_232# not_0/a_8_92#
+= m2_44_232# m2_n440_232#
+= m2_44_232# FullAdder_1/m2_72_n8#
+= m2_44_232# FullAdder_1/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_1/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_1/m2_161_108#
+= m2_44_232# FullAdder_1/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_1/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_1/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_1/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_1/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_1/m1_272_n20#
+= m2_44_232# FullAdder_1/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_1/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_1/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_1/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_1/EXC_1/not_0/a_8_92#
+= m2_44_232# not_1/a_8_92#
+= m2_44_232# FullAdder_2/m2_72_n8#
+= m2_44_232# FullAdder_2/or_0/not_0/a_8_92#
+= m2_44_232# FullAdder_2/or_0/nor_0/a_0_88#
+= m2_44_232# FullAdder_2/m2_161_108#
+= m2_44_232# FullAdder_2/and_1/not_0/a_8_92#
+= m2_44_232# FullAdder_2/and_1/nand_0/a_4_88#
+= m2_44_232# FullAdder_2/EXC_0/xor_0/a_2_88#
+= m2_44_232# FullAdder_2/EXC_0/not_1/a_8_92#
+= m2_44_232# FullAdder_2/EXC_0/not_0/a_8_92#
+= m2_44_232# FullAdder_2/m1_272_n20#
+= m2_44_232# FullAdder_2/and_0/not_0/a_8_92#
+= m2_44_232# FullAdder_2/and_0/nand_0/a_4_88#
+= m2_44_232# FullAdder_2/EXC_1/xor_0/a_2_88#
+= m2_44_232# FullAdder_2/EXC_1/not_1/a_8_92#
+= m2_44_232# FullAdder_2/EXC_1/not_0/a_8_92#
+C FullAdder_2/EXC_1/m1_n12_72#0 43.2
+R FullAdder_2/EXC_1/m1_n12_72# 1448
+= FullAdder_2/EXC_1/m1_n12_72# FullAdder_2/EXC_1/xor_0/a_8_76#
+= FullAdder_2/EXC_1/m1_n12_72# FullAdder_2/EXC_1/not_0/a_22_8#
+C m1_n688_n24#0 205.7
+R m1_n688_n24# 3785
+= m1_n688_n24# FullAdder_1/m1_391_56#
+= m1_n688_n24# FullAdder_1/or_0/not_0/a_22_8#
+= m1_n688_n24# FullAdder_2/m1_160_n64#
+= m1_n688_n24# FullAdder_2/and_1/nand_0/a_24_10#
+= m1_n688_n24# FullAdder_2/EXC_1/m1_n32_48#
+= m1_n688_n24# FullAdder_2/EXC_1/xor_0/a_n8_80#
+= m1_n688_n24# FullAdder_2/EXC_1/not_0/a_8_28#
+C FullAdder_2/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_2/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_2/EXC_1/xor_0/a_18_88# 208
+R FullAdder_2/EXC_1/xor_0/a_n12_88# 179
+C m2_n472_76#0 34.1
+R m2_n472_76# 702
+= m2_n472_76# FullAdder_2/m1_276_n52#
+= m2_n472_76# FullAdder_2/EXC_1/xor_0/a_n36_88#
+C FullAdder_2/m1_108_80#0 118.6
+R FullAdder_2/m1_108_80# 4221
+= FullAdder_2/m1_108_80# FullAdder_2/EXC_0/xor_0/a_n36_88#
+= FullAdder_2/m1_108_80# FullAdder_2/and_1/nand_0/a_4_80#
+= FullAdder_2/m1_108_80# FullAdder_2/EXC_1/m1_60_40#
+= FullAdder_2/m1_108_80# FullAdder_2/EXC_1/not_1/a_8_28#
+= FullAdder_2/m1_108_80# FullAdder_2/EXC_1/xor_0/a_24_40#
+C FullAdder_2/EXC_1/m1_0_36#0 57.3
+R FullAdder_2/EXC_1/m1_0_36# 1509
+= FullAdder_2/EXC_1/m1_0_36# FullAdder_2/EXC_1/not_1/a_22_8#
+= FullAdder_2/EXC_1/m1_0_36# FullAdder_2/EXC_1/xor_0/a_n28_36#
+C FullAdder_2/EXC_0/m1_n12_72#0 43.2
+R FullAdder_2/EXC_0/m1_n12_72# 1448
+= FullAdder_2/EXC_0/m1_n12_72# FullAdder_2/EXC_0/xor_0/a_8_76#
+= FullAdder_2/EXC_0/m1_n12_72# FullAdder_2/EXC_0/not_0/a_22_8#
+C m1_n876_116#0 116.9
+R m1_n876_116# 3778
+= m1_n876_116# not_2/a_22_8#
+= m1_n876_116# FullAdder_2/m1_n12_n72#
+= m1_n876_116# FullAdder_2/and_0/nand_0/a_24_10#
+= m1_n876_116# FullAdder_2/EXC_0/m1_n32_48#
+= m1_n876_116# FullAdder_2/EXC_0/xor_0/a_n8_80#
+= m1_n876_116# FullAdder_2/EXC_0/not_0/a_8_28#
+C FullAdder_2/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_2/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_2/EXC_0/xor_0/a_18_88# 208
+R FullAdder_2/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_2/m1_0_n40#0 94.0
+R FullAdder_2/m1_0_n40# 3522
+= FullAdder_2/m1_0_n40# FullAdder_2/and_0/nand_0/a_4_80#
+= FullAdder_2/m1_0_n40# FullAdder_2/EXC_0/m1_60_40#
+= FullAdder_2/m1_0_n40# FullAdder_2/EXC_0/not_1/a_8_28#
+= FullAdder_2/m1_0_n40# FullAdder_2/EXC_0/xor_0/a_24_40#
+C FullAdder_2/EXC_0/m1_0_36#0 57.3
+R FullAdder_2/EXC_0/m1_0_36# 1509
+= FullAdder_2/EXC_0/m1_0_36# FullAdder_2/EXC_0/not_1/a_22_8#
+= FullAdder_2/EXC_0/m1_0_36# FullAdder_2/EXC_0/xor_0/a_n28_36#
+R FullAdder_2/and_1/nand_0/a_14_12# 67
+C FullAdder_2/m1_240_80#0 43.1
+R FullAdder_2/m1_240_80# 1400
+= FullAdder_2/m1_240_80# FullAdder_2/or_0/nor_0/a_4_72#
+= FullAdder_2/m1_240_80# FullAdder_2/and_1/not_0/a_22_8#
+C FullAdder_2/and_1/m1_36_28#0 43.6
+R FullAdder_2/and_1/m1_36_28# 1484
+= FullAdder_2/and_1/m1_36_28# FullAdder_2/and_1/nand_0/a_14_88#
+= FullAdder_2/and_1/m1_36_28# FullAdder_2/and_1/not_0/a_8_28#
+R FullAdder_2/and_0/nand_0/a_14_12# 67
+C FullAdder_2/m1_60_n52#0 67.4
+R FullAdder_2/m1_60_n52# 1390
+= FullAdder_2/m1_60_n52# FullAdder_2/or_0/nor_0/a_20_56#
+= FullAdder_2/m1_60_n52# FullAdder_2/and_0/not_0/a_22_8#
+C FullAdder_2/and_0/m1_36_28#0 43.6
+R FullAdder_2/and_0/m1_36_28# 1484
+= FullAdder_2/and_0/m1_36_28# FullAdder_2/and_0/nand_0/a_14_88#
+= FullAdder_2/and_0/m1_36_28# FullAdder_2/and_0/not_0/a_8_28#
+R FullAdder_2/or_0/nor_0/a_14_88# 194
+C FullAdder_2/or_0/m1_40_44#0 52.3
+R FullAdder_2/or_0/m1_40_44# 1628
+= FullAdder_2/or_0/m1_40_44# FullAdder_2/or_0/nor_0/a_0_12#
+= FullAdder_2/or_0/m1_40_44# FullAdder_2/or_0/not_0/a_8_28#
+C FullAdder_1/EXC_1/m1_n12_72#0 43.2
+R FullAdder_1/EXC_1/m1_n12_72# 1448
+= FullAdder_1/EXC_1/m1_n12_72# FullAdder_1/EXC_1/xor_0/a_8_76#
+= FullAdder_1/EXC_1/m1_n12_72# FullAdder_1/EXC_1/not_0/a_22_8#
+C m1_n200_n12#0 313.9
+R m1_n200_n12# 3790
+= m1_n200_n12# FullAdder_0/m1_391_56#
+= m1_n200_n12# FullAdder_0/or_0/not_0/a_22_8#
+= m1_n200_n12# FullAdder_1/m1_160_n64#
+= m1_n200_n12# FullAdder_1/and_1/nand_0/a_24_10#
+= m1_n200_n12# FullAdder_1/EXC_1/m1_n32_48#
+= m1_n200_n12# FullAdder_1/EXC_1/xor_0/a_n8_80#
+= m1_n200_n12# FullAdder_1/EXC_1/not_0/a_8_28#
+C FullAdder_1/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_1/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_1/EXC_1/xor_0/a_18_88# 208
+R FullAdder_1/EXC_1/xor_0/a_n12_88# 179
+C FullAdder_1/m1_276_n52#0 34.3
+R FullAdder_1/m1_276_n52# 702
+= FullAdder_1/m1_276_n52# FullAdder_1/EXC_1/xor_0/a_n36_88#
+C FullAdder_1/m1_108_80#0 118.6
+R FullAdder_1/m1_108_80# 4221
+= FullAdder_1/m1_108_80# FullAdder_1/EXC_0/xor_0/a_n36_88#
+= FullAdder_1/m1_108_80# FullAdder_1/and_1/nand_0/a_4_80#
+= FullAdder_1/m1_108_80# FullAdder_1/EXC_1/m1_60_40#
+= FullAdder_1/m1_108_80# FullAdder_1/EXC_1/not_1/a_8_28#
+= FullAdder_1/m1_108_80# FullAdder_1/EXC_1/xor_0/a_24_40#
+C FullAdder_1/EXC_1/m1_0_36#0 57.3
+R FullAdder_1/EXC_1/m1_0_36# 1509
+= FullAdder_1/EXC_1/m1_0_36# FullAdder_1/EXC_1/not_1/a_22_8#
+= FullAdder_1/EXC_1/m1_0_36# FullAdder_1/EXC_1/xor_0/a_n28_36#
+C FullAdder_1/EXC_0/m1_n12_72#0 43.2
+R FullAdder_1/EXC_0/m1_n12_72# 1448
+= FullAdder_1/EXC_0/m1_n12_72# FullAdder_1/EXC_0/xor_0/a_8_76#
+= FullAdder_1/EXC_0/m1_n12_72# FullAdder_1/EXC_0/not_0/a_22_8#
+C m1_n388_112#0 116.8
+R m1_n388_112# 3778
+= m1_n388_112# not_1/a_22_8#
+= m1_n388_112# FullAdder_1/m1_n12_n72#
+= m1_n388_112# FullAdder_1/and_0/nand_0/a_24_10#
+= m1_n388_112# FullAdder_1/EXC_0/m1_n32_48#
+= m1_n388_112# FullAdder_1/EXC_0/xor_0/a_n8_80#
+= m1_n388_112# FullAdder_1/EXC_0/not_0/a_8_28#
+C FullAdder_1/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_1/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_1/EXC_0/xor_0/a_18_88# 208
+R FullAdder_1/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_1/m1_0_n40#0 94.0
+R FullAdder_1/m1_0_n40# 3522
+= FullAdder_1/m1_0_n40# FullAdder_1/and_0/nand_0/a_4_80#
+= FullAdder_1/m1_0_n40# FullAdder_1/EXC_0/m1_60_40#
+= FullAdder_1/m1_0_n40# FullAdder_1/EXC_0/not_1/a_8_28#
+= FullAdder_1/m1_0_n40# FullAdder_1/EXC_0/xor_0/a_24_40#
+C FullAdder_1/EXC_0/m1_0_36#0 57.3
+R FullAdder_1/EXC_0/m1_0_36# 1509
+= FullAdder_1/EXC_0/m1_0_36# FullAdder_1/EXC_0/not_1/a_22_8#
+= FullAdder_1/EXC_0/m1_0_36# FullAdder_1/EXC_0/xor_0/a_n28_36#
+R FullAdder_1/and_1/nand_0/a_14_12# 67
+C FullAdder_1/m1_240_80#0 43.1
+R FullAdder_1/m1_240_80# 1400
+= FullAdder_1/m1_240_80# FullAdder_1/or_0/nor_0/a_4_72#
+= FullAdder_1/m1_240_80# FullAdder_1/and_1/not_0/a_22_8#
+C FullAdder_1/and_1/m1_36_28#0 43.6
+R FullAdder_1/and_1/m1_36_28# 1484
+= FullAdder_1/and_1/m1_36_28# FullAdder_1/and_1/nand_0/a_14_88#
+= FullAdder_1/and_1/m1_36_28# FullAdder_1/and_1/not_0/a_8_28#
+R FullAdder_1/and_0/nand_0/a_14_12# 67
+C FullAdder_1/m1_60_n52#0 67.4
+R FullAdder_1/m1_60_n52# 1390
+= FullAdder_1/m1_60_n52# FullAdder_1/or_0/nor_0/a_20_56#
+= FullAdder_1/m1_60_n52# FullAdder_1/and_0/not_0/a_22_8#
+C FullAdder_1/and_0/m1_36_28#0 43.6
+R FullAdder_1/and_0/m1_36_28# 1484
+= FullAdder_1/and_0/m1_36_28# FullAdder_1/and_0/nand_0/a_14_88#
+= FullAdder_1/and_0/m1_36_28# FullAdder_1/and_0/not_0/a_8_28#
+R FullAdder_1/or_0/nor_0/a_14_88# 194
+C FullAdder_1/or_0/m1_40_44#0 52.3
+R FullAdder_1/or_0/m1_40_44# 1628
+= FullAdder_1/or_0/m1_40_44# FullAdder_1/or_0/nor_0/a_0_12#
+= FullAdder_1/or_0/m1_40_44# FullAdder_1/or_0/not_0/a_8_28#
+C FullAdder_0/EXC_1/m1_n12_72#0 43.2
+R FullAdder_0/EXC_1/m1_n12_72# 1448
+= FullAdder_0/EXC_1/m1_n12_72# FullAdder_0/EXC_1/xor_0/a_8_76#
+= FullAdder_0/EXC_1/m1_n12_72# FullAdder_0/EXC_1/not_0/a_22_8#
+C FullAdder_0/EXC_1/xor_0/a_n36_12#0 20.5
+R FullAdder_0/EXC_1/xor_0/a_n36_12# 491
+R FullAdder_0/EXC_1/xor_0/a_18_88# 208
+R FullAdder_0/EXC_1/xor_0/a_n12_88# 179
+C FullAdder_0/m1_276_n52#0 34.3
+R FullAdder_0/m1_276_n52# 702
+= FullAdder_0/m1_276_n52# FullAdder_0/EXC_1/xor_0/a_n36_88#
+C FullAdder_0/m1_108_80#0 118.6
+R FullAdder_0/m1_108_80# 4221
+= FullAdder_0/m1_108_80# FullAdder_0/EXC_0/xor_0/a_n36_88#
+= FullAdder_0/m1_108_80# FullAdder_0/and_1/nand_0/a_4_80#
+= FullAdder_0/m1_108_80# FullAdder_0/EXC_1/m1_60_40#
+= FullAdder_0/m1_108_80# FullAdder_0/EXC_1/not_1/a_8_28#
+= FullAdder_0/m1_108_80# FullAdder_0/EXC_1/xor_0/a_24_40#
+C FullAdder_0/EXC_1/m1_0_36#0 57.3
+R FullAdder_0/EXC_1/m1_0_36# 1509
+= FullAdder_0/EXC_1/m1_0_36# FullAdder_0/EXC_1/not_1/a_22_8#
+= FullAdder_0/EXC_1/m1_0_36# FullAdder_0/EXC_1/xor_0/a_n28_36#
+C FullAdder_0/EXC_0/m1_n12_72#0 43.2
+R FullAdder_0/EXC_0/m1_n12_72# 1448
+= FullAdder_0/EXC_0/m1_n12_72# FullAdder_0/EXC_0/xor_0/a_8_76#
+= FullAdder_0/EXC_0/m1_n12_72# FullAdder_0/EXC_0/not_0/a_22_8#
+C m1_92_112#0 115.9
+R m1_92_112# 3778
+= m1_92_112# not_0/a_22_8#
+= m1_92_112# FullAdder_0/m1_n12_n72#
+= m1_92_112# FullAdder_0/and_0/nand_0/a_24_10#
+= m1_92_112# FullAdder_0/EXC_0/m1_n32_48#
+= m1_92_112# FullAdder_0/EXC_0/xor_0/a_n8_80#
+= m1_92_112# FullAdder_0/EXC_0/not_0/a_8_28#
+C FullAdder_0/EXC_0/xor_0/a_n36_12#0 20.5
+R FullAdder_0/EXC_0/xor_0/a_n36_12# 491
+R FullAdder_0/EXC_0/xor_0/a_18_88# 208
+R FullAdder_0/EXC_0/xor_0/a_n12_88# 179
+C FullAdder_0/m1_0_n40#0 94.0
+R FullAdder_0/m1_0_n40# 3522
+= FullAdder_0/m1_0_n40# FullAdder_0/and_0/nand_0/a_4_80#
+= FullAdder_0/m1_0_n40# FullAdder_0/EXC_0/m1_60_40#
+= FullAdder_0/m1_0_n40# FullAdder_0/EXC_0/not_1/a_8_28#
+= FullAdder_0/m1_0_n40# FullAdder_0/EXC_0/xor_0/a_24_40#
+C FullAdder_0/EXC_0/m1_0_36#0 57.3
+R FullAdder_0/EXC_0/m1_0_36# 1509
+= FullAdder_0/EXC_0/m1_0_36# FullAdder_0/EXC_0/not_1/a_22_8#
+= FullAdder_0/EXC_0/m1_0_36# FullAdder_0/EXC_0/xor_0/a_n28_36#
+R FullAdder_0/and_1/nand_0/a_14_12# 67
+C FullAdder_0/m1_240_80#0 43.1
+R FullAdder_0/m1_240_80# 1400
+= FullAdder_0/m1_240_80# FullAdder_0/or_0/nor_0/a_4_72#
+= FullAdder_0/m1_240_80# FullAdder_0/and_1/not_0/a_22_8#
+C FullAdder_0/and_1/m1_36_28#0 43.6
+R FullAdder_0/and_1/m1_36_28# 1484
+= FullAdder_0/and_1/m1_36_28# FullAdder_0/and_1/nand_0/a_14_88#
+= FullAdder_0/and_1/m1_36_28# FullAdder_0/and_1/not_0/a_8_28#
+R FullAdder_0/and_0/nand_0/a_14_12# 67
+C FullAdder_0/m1_60_n52#0 67.4
+R FullAdder_0/m1_60_n52# 1390
+= FullAdder_0/m1_60_n52# FullAdder_0/or_0/nor_0/a_20_56#
+= FullAdder_0/m1_60_n52# FullAdder_0/and_0/not_0/a_22_8#
+C FullAdder_0/and_0/m1_36_28#0 43.6
+R FullAdder_0/and_0/m1_36_28# 1484
+= FullAdder_0/and_0/m1_36_28# FullAdder_0/and_0/nand_0/a_14_88#
+= FullAdder_0/and_0/m1_36_28# FullAdder_0/and_0/not_0/a_8_28#
+R FullAdder_0/or_0/nor_0/a_14_88# 194
+C FullAdder_0/or_0/m1_40_44#0 52.3
+R FullAdder_0/or_0/m1_40_44# 1628
+= FullAdder_0/or_0/m1_40_44# FullAdder_0/or_0/nor_0/a_0_12#
+= FullAdder_0/or_0/m1_40_44# FullAdder_0/or_0/not_0/a_8_28#
+C not_7/a_8_28#0 25.9
+R not_7/a_8_28# 1240
+C not_6/a_8_28#0 25.9
+R not_6/a_8_28# 1240
+C not_5/a_8_28#0 25.9
+R not_5/a_8_28# 1240
+C not_4/a_8_28#0 25.9
+R not_4/a_8_28# 1240
+C not_3/a_8_28#0 25.9
+R not_3/a_8_28# 1240
+C not_2/a_8_28#0 25.9
+R not_2/a_8_28# 1240
+C not_1/a_8_28#0 25.9
+R not_1/a_8_28# 1240
+C not_0/a_8_28#0 25.9
+R not_0/a_8_28# 1240

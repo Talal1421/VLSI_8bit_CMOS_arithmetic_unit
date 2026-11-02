@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1701878732
+use add8  add8_0
+timestamp 1701767662
+transform 1 0 3412 0 1 36
+box -3413 -36 536 241
+use add8  add8_1
+timestamp 1701767662
+transform 1 0 2914 0 1 -273
+box -3413 -36 536 241
+use add8  add8_2
+timestamp 1701767662
+transform 1 0 2411 0 1 -563
+box -3413 -36 536 241
+use add8  add8_3
+timestamp 1701767662
+transform 1 0 1907 0 1 -853
+box -3413 -36 536 241
+use add8  add8_4
+timestamp 1701767662
+transform 1 0 1475 0 1 -1143
+box -3413 -36 536 241
+use add8  add8_5
+timestamp 1701767662
+transform 1 0 1054 0 1 -1428
+box -3413 -36 536 241
+use add8  add8_6
+timestamp 1701767662
+transform 1 0 660 0 1 -1718
+box -3413 -36 536 241
+use add8  add8_7
+timestamp 1701767662
+transform 1 0 190 0 1 -2018
+box -3413 -36 536 241
+<< end >>
